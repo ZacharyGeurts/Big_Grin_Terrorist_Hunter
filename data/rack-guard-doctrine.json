@@ -6,7 +6,7 @@
   "active_hunt": true,
   "protect": ["WORLD", "INTERNET"],
   "offload": "zone hubs 9510-9517 + control 9500",
-  "kill": "SIGKILL_ONLY",
+  "kill": "FIELD_UDP_WAR_BLASTERS",
   "pipeline": ["COOK_FAT","QUEUE_REBURN","BURN","SCRUB","OUTLET_DESTROY","SEAL"],
   "doctrine": "every_kill_gets_rekill",
   "motto": "QEMU/rack mesh violently protective of WORLD + INTERNET · know every shot",

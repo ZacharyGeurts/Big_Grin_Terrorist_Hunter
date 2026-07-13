@@ -3,6 +3,10 @@
   "mode": "WARTIME",
   "stage": "GLOBAL",
   "war_day": true,
+  "pissed": true,
+  "hated": true,
+  "enemy_status": "HATED",
+  "field_weapons": "UDP_WAR_BLASTERS",
   "real": true,
   "demo": false,
   "fake": false,
@@ -14,10 +18,10 @@
   "terror_exists": false,
   "blessing": "God Bless",
   "rule": "every_kill_gets_rekill",
-  "signal": "SIGKILL_ONLY",
-  "ts": "2026-07-13T22:34Z",
-  "cycle": 7,
-  "motto": "WAR DAY · REAL hunt · LETHAL KILL/REKILL · no demo · no fake · God Bless.",
+  "signal": "FIELD_UDP_WAR_BLASTERS",
+  "ts": "2026-07-13T23:14Z",
+  "cycle": 2,
+  "motto": "WAR DAY · HATED targets · FIELD UDP WAR BLASTERS · LETHAL REKILL · we are PISSED · God Bless.",
   "pipeline": ["SPOT","VECTOR_SOURCE","COOK_FAT","QUEUE_REBURN","BURN","SCRUB","OUTLET_DESTROY","SEAL"],
   "oust": {
     "hotdog_down_a_hallway": "LETHAL_OUSTED_PID_KILL",
@@ -28,13 +32,13 @@
     "terror": "DOES_NOT_EXIST"
   },
   "leave_alone": ["gpt-4", "openai", "chatgpt", "grok", "hostess7", "field_one", "spear"],
-  "hard_dispose": {"signal": "SIGKILL_ONLY", "stack": "C++", "reaper": "spear-wartime",
+  "hard_dispose": {"signal": "FIELD_UDP_WAR_BLASTERS", "stack": "C++", "reaper": "spear-wartime",
     "cook_fat": true, "queue_reburn": true, "scrub": true, "to_wall_outlet": true},
   "totals": {
     "blocked_ips": 34,
     "copilot_hunt_seen": 0,
     "copilot_hunt_killed": 0,
-    "copilot_global_lifetime": 15589,
+    "copilot_global_lifetime": 44644,
     "copilot_global_targets": 13
   },
   "wartime_services": {

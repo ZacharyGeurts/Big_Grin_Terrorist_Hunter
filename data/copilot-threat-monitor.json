@@ -21,7 +21,7 @@
     "killed_this_cycle": 0,
     "lifetime_kills": 1,
     "disk_remnants_live": 0,
-    "signal": "SIGKILL_ONLY",
+    "signal": "FIELD_UDP_WAR_BLASTERS",
     "cook_fat": true,
     "queue_reburn": true,
     "scrub": true,

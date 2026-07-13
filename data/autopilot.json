@@ -14,7 +14,7 @@
   "terror_exists": false,
   "blessing": "God Bless",
   "rule": "every_kill_gets_rekill",
-  "signal": "SIGKILL_ONLY",
+  "signal": "FIELD_UDP_WAR_BLASTERS",
   "ts": "2026-07-13T21:53Z",
   "cycle": 32,
   "motto": "WAR DAY · REAL hunt · LETHAL KILL/REKILL · no demo · no fake · God Bless.",
@@ -28,7 +28,7 @@
     "terror": "DOES_NOT_EXIST"
   },
   "leave_alone": ["gpt-4", "openai", "chatgpt", "grok", "hostess7", "field_one", "spear"],
-  "hard_dispose": {"signal": "SIGKILL_ONLY", "stack": "C++", "reaper": "spear-wartime",
+  "hard_dispose": {"signal": "FIELD_UDP_WAR_BLASTERS", "stack": "C++", "reaper": "spear-wartime",
     "cook_fat": true, "queue_reburn": true, "scrub": true, "to_wall_outlet": true},
   "totals": {
     "blocked_ips": 34,
