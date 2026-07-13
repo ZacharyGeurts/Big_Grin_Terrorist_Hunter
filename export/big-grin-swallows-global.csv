@@ -1,0 +1,530 @@
+section,id,label,status,severity,vector,lat,lon,detail
+Fleet,AF,Afghanistan,AS,6000,6000,ok,lon,online
+Fleet,AL,Albania,EU,6000,6000,ok,lon,online
+Fleet,DZ,Algeria,AF,6000,6000,ok,lon,online
+Fleet,AD,Andorra,EU,6000,6000,ok,lon,online
+Fleet,AO,Angola,AF,6000,6000,ok,lon,online
+Fleet,AG,Antigua and Barbuda,CARIB,6000,6000,ok,lon,online
+Fleet,AR,Argentina,SA,6000,6000,ok,lon,online
+Fleet,AM,Armenia,AS,6000,6000,ok,lon,online
+Fleet,AU,Australia,OC,6000,6000,ok,lon,online
+Fleet,AT,Austria,EU,6000,6000,ok,lon,online
+Fleet,AZ,Azerbaijan,AS,6000,6000,ok,lon,online
+Fleet,BS,Bahamas,CARIB,6000,6000,ok,lon,online
+Fleet,BH,Bahrain,AS,6000,6000,ok,lon,online
+Fleet,BD,Bangladesh,AS,6000,6000,ok,lon,online
+Fleet,BB,Barbados,CARIB,6000,6000,ok,lon,online
+Fleet,BY,Belarus,EU,6000,6000,ok,lon,online
+Fleet,BE,Belgium,EU,6000,6000,ok,lon,online
+Fleet,BZ,Belize,CA,6000,6000,ok,lon,online
+Fleet,BJ,Benin,AF,6000,6000,ok,lon,online
+Fleet,BT,Bhutan,AS,6000,6000,ok,lon,online
+Fleet,BO,Bolivia,SA,6000,6000,ok,lon,online
+Fleet,BA,Bosnia and Herzegovina,EU,6000,6000,ok,lon,online
+Fleet,BW,Botswana,AF,6000,6000,ok,lon,online
+Fleet,BR,Brazil,SA,6000,6000,ok,lon,online
+Fleet,BN,Brunei,AS,6000,6000,ok,lon,online
+Fleet,BG,Bulgaria,EU,6000,6000,ok,lon,online
+Fleet,BF,Burkina Faso,AF,6000,6000,ok,lon,online
+Fleet,BI,Burundi,AF,6000,6000,ok,lon,online
+Fleet,CV,Cabo Verde,AF,6000,6000,ok,lon,online
+Fleet,KH,Cambodia,AS,6000,6000,ok,lon,online
+Fleet,CM,Cameroon,AF,6000,6000,ok,lon,online
+Fleet,CA,Canada,NA,6000,6000,ok,lon,online
+Fleet,CF,Central African Republic,AF,6000,6000,ok,lon,online
+Fleet,TD,Chad,AF,6000,6000,ok,lon,online
+Fleet,CL,Chile,SA,6000,6000,ok,lon,online
+Fleet,CN,China,AS,6000,6000,ok,lon,online
+Fleet,CO,Colombia,SA,6000,6000,ok,lon,online
+Fleet,KM,Comoros,AF,6000,6000,ok,lon,online
+Fleet,CG,Congo,AF,6000,6000,ok,lon,online
+Fleet,CD,DR Congo,AF,6000,6000,ok,lon,online
+Fleet,CR,Costa Rica,CA,6000,6000,ok,lon,online
+Fleet,CI,C\u00f4te d'Ivoire,AF,6000,6000,ok,lon,online
+Fleet,HR,Croatia,EU,6000,6000,ok,lon,online
+Fleet,CU,Cuba,CARIB,6000,6000,ok,lon,online
+Fleet,CY,Cyprus,EU,6000,6000,ok,lon,online
+Fleet,CZ,Czechia,EU,6000,6000,ok,lon,online
+Fleet,DK,Denmark,EU,6000,6000,ok,lon,online
+Fleet,DJ,Djibouti,AF,6000,6000,ok,lon,online
+Fleet,DM,Dominica,CARIB,6000,6000,ok,lon,online
+Fleet,DO,Dominican Republic,CARIB,6000,6000,ok,lon,online
+Fleet,EC,Ecuador,SA,6000,6000,ok,lon,online
+Fleet,EG,Egypt,AF,6000,6000,ok,lon,online
+Fleet,SV,El Salvador,CA,6000,6000,ok,lon,online
+Fleet,GQ,Equatorial Guinea,AF,6000,6000,ok,lon,online
+Fleet,ER,Eritrea,AF,6000,6000,ok,lon,online
+Fleet,EE,Estonia,EU,6000,6000,ok,lon,online
+Fleet,SZ,Eswatini,AF,6000,6000,ok,lon,online
+Fleet,ET,Ethiopia,AF,6000,6000,ok,lon,online
+Fleet,FJ,Fiji,OC,6000,6000,ok,lon,online
+Fleet,FI,Finland,EU,6000,6000,ok,lon,online
+Fleet,FR,France,EU,6000,6000,ok,lon,online
+Fleet,GA,Gabon,AF,6000,6000,ok,lon,online
+Fleet,GM,Gambia,AF,6000,6000,ok,lon,online
+Fleet,GE,Georgia,AS,6000,6000,ok,lon,online
+Fleet,DE,Germany,EU,6000,6000,ok,lon,online
+Fleet,GH,Ghana,AF,6000,6000,ok,lon,online
+Fleet,GR,Greece,EU,6000,6000,ok,lon,online
+Fleet,GD,Grenada,CARIB,6000,6000,ok,lon,online
+Fleet,GT,Guatemala,CA,6000,6000,ok,lon,online
+Fleet,GN,Guinea,AF,6000,6000,ok,lon,online
+Fleet,GW,Guinea-Bissau,AF,6000,6000,ok,lon,online
+Fleet,GY,Guyana,SA,6000,6000,ok,lon,online
+Fleet,HT,Haiti,CARIB,6000,6000,ok,lon,online
+Fleet,HN,Honduras,CA,6000,6000,ok,lon,online
+Fleet,HU,Hungary,EU,6000,6000,ok,lon,online
+Fleet,IS,Iceland,EU,6000,6000,ok,lon,online
+Fleet,IN,India,AS,6000,6000,ok,lon,online
+Fleet,ID,Indonesia,AS,6000,6000,ok,lon,online
+Fleet,IR,Iran,AS,6000,6000,ok,lon,online
+Fleet,IQ,Iraq,AS,6000,6000,ok,lon,online
+Fleet,IE,Ireland,EU,6000,6000,ok,lon,online
+Fleet,IL,Israel,AS,6000,6000,ok,lon,online
+Fleet,IT,Italy,EU,6000,6000,ok,lon,online
+Fleet,JM,Jamaica,CARIB,6000,6000,ok,lon,online
+Fleet,JP,Japan,AS,6000,6000,ok,lon,online
+Fleet,JO,Jordan,AS,6000,6000,ok,lon,online
+Fleet,KZ,Kazakhstan,AS,6000,6000,ok,lon,online
+Fleet,KE,Kenya,AF,6000,6000,ok,lon,online
+Fleet,KI,Kiribati,OC,6000,6000,ok,lon,online
+Fleet,KP,North Korea,AS,6000,6000,ok,lon,online
+Fleet,KR,South Korea,AS,6000,6000,ok,lon,online
+Fleet,KW,Kuwait,AS,6000,6000,ok,lon,online
+Fleet,KG,Kyrgyzstan,AS,6000,6000,ok,lon,online
+Fleet,LA,Laos,AS,6000,6000,ok,lon,online
+Fleet,LV,Latvia,EU,6000,6000,ok,lon,online
+Fleet,LB,Lebanon,AS,6000,6000,ok,lon,online
+Fleet,LS,Lesotho,AF,6000,6000,ok,lon,online
+Fleet,LR,Liberia,AF,6000,6000,ok,lon,online
+Fleet,LY,Libya,AF,6000,6000,ok,lon,online
+Fleet,LI,Liechtenstein,EU,6000,6000,ok,lon,online
+Fleet,LT,Lithuania,EU,6000,6000,ok,lon,online
+Fleet,LU,Luxembourg,EU,6000,6000,ok,lon,online
+Fleet,MG,Madagascar,AF,6000,6000,ok,lon,online
+Fleet,MW,Malawi,AF,6000,6000,ok,lon,online
+Fleet,MY,Malaysia,AS,6000,6000,ok,lon,online
+Fleet,MV,Maldives,AS,6000,6000,ok,lon,online
+Fleet,ML,Mali,AF,6000,6000,ok,lon,online
+Fleet,MT,Malta,EU,6000,6000,ok,lon,online
+Fleet,MH,Marshall Islands,OC,6000,6000,ok,lon,online
+Fleet,MR,Mauritania,AF,6000,6000,ok,lon,online
+Fleet,MU,Mauritius,AF,6000,6000,ok,lon,online
+Fleet,MX,Mexico,NA,6000,6000,ok,lon,online
+Fleet,FM,Micronesia,OC,6000,6000,ok,lon,online
+Fleet,MD,Moldova,EU,6000,6000,ok,lon,online
+Fleet,MC,Monaco,EU,6000,6000,ok,lon,online
+Fleet,MN,Mongolia,AS,6000,6000,ok,lon,online
+Fleet,ME,Montenegro,EU,6000,6000,ok,lon,online
+Fleet,MA,Morocco,AF,6000,6000,ok,lon,online
+Fleet,MZ,Mozambique,AF,6000,6000,ok,lon,online
+Fleet,MM,Myanmar,AS,6000,6000,ok,lon,online
+Fleet,NA,Namibia,AF,6000,6000,ok,lon,online
+Fleet,NR,Nauru,OC,6000,6000,ok,lon,online
+Fleet,NP,Nepal,AS,6000,6000,ok,lon,online
+Fleet,NL,Netherlands,EU,6000,6000,ok,lon,online
+Fleet,NZ,New Zealand,OC,6000,6000,ok,lon,online
+Fleet,NI,Nicaragua,CA,6000,6000,ok,lon,online
+Fleet,NE,Niger,AF,6000,6000,ok,lon,online
+Fleet,NG,Nigeria,AF,6000,6000,ok,lon,online
+Fleet,MK,North Macedonia,EU,6000,6000,ok,lon,online
+Fleet,NO,Norway,EU,6000,6000,ok,lon,online
+Fleet,OM,Oman,AS,6000,6000,ok,lon,online
+Fleet,PK,Pakistan,AS,6000,6000,ok,lon,online
+Fleet,PW,Palau,OC,6000,6000,ok,lon,online
+Fleet,PS,Palestine,AS,6000,6000,ok,lon,online
+Fleet,PA,Panama,CA,6000,6000,ok,lon,online
+Fleet,PG,Papua New Guinea,OC,6000,6000,ok,lon,online
+Fleet,PY,Paraguay,SA,6000,6000,ok,lon,online
+Fleet,PE,Peru,SA,6000,6000,ok,lon,online
+Fleet,PH,Philippines,AS,6000,6000,ok,lon,online
+Fleet,PL,Poland,EU,6000,6000,ok,lon,online
+Fleet,PT,Portugal,EU,6000,6000,ok,lon,online
+Fleet,QA,Qatar,AS,6000,6000,ok,lon,online
+Fleet,RO,Romania,EU,6000,6000,ok,lon,online
+Fleet,RU,Russia,AS,6000,6000,ok,lon,online
+Fleet,RW,Rwanda,AF,6000,6000,ok,lon,online
+Fleet,KN,Saint Kitts and Nevis,CARIB,6000,6000,ok,lon,online
+Fleet,LC,Saint Lucia,CARIB,6000,6000,ok,lon,online
+Fleet,VC,Saint Vincent and the Grenadines,CARIB,6000,6000,ok,lon,online
+Fleet,WS,Samoa,OC,6000,6000,ok,lon,online
+Fleet,SM,San Marino,EU,6000,6000,ok,lon,online
+Fleet,ST,Sao Tome and Principe,AF,6000,6000,ok,lon,online
+Fleet,SA,Saudi Arabia,AS,6000,6000,ok,lon,online
+Fleet,SN,Senegal,AF,6000,6000,ok,lon,online
+Fleet,RS,Serbia,EU,6000,6000,ok,lon,online
+Fleet,SC,Seychelles,AF,6000,6000,ok,lon,online
+Fleet,SL,Sierra Leone,AF,6000,6000,ok,lon,online
+Fleet,SG,Singapore,AS,6000,6000,ok,lon,online
+Fleet,SK,Slovakia,EU,6000,6000,ok,lon,online
+Fleet,SI,Slovenia,EU,6000,6000,ok,lon,online
+Fleet,SB,Solomon Islands,OC,6000,6000,ok,lon,online
+Fleet,SO,Somalia,AF,6000,6000,ok,lon,online
+Fleet,ZA,South Africa,AF,6000,6000,ok,lon,online
+Fleet,SS,South Sudan,AF,6000,6000,ok,lon,online
+Fleet,ES,Spain,EU,6000,6000,ok,lon,online
+Fleet,LK,Sri Lanka,AS,6000,6000,ok,lon,online
+Fleet,SD,Sudan,AF,6000,6000,ok,lon,online
+Fleet,SR,Suriname,SA,6000,6000,ok,lon,online
+Fleet,SE,Sweden,EU,6000,6000,ok,lon,online
+Fleet,CH,Switzerland,EU,6000,6000,ok,lon,online
+Fleet,SY,Syria,AS,6000,6000,ok,lon,online
+Fleet,TW,Taiwan,AS,6000,6000,ok,lon,online
+Fleet,TJ,Tajikistan,AS,6000,6000,ok,lon,online
+Fleet,TZ,Tanzania,AF,6000,6000,ok,lon,online
+Fleet,TH,Thailand,AS,6000,6000,ok,lon,online
+Fleet,TL,Timor-Leste,AS,6000,6000,ok,lon,online
+Fleet,TG,Togo,AF,6000,6000,ok,lon,online
+Fleet,TO,Tonga,OC,6000,6000,ok,lon,online
+Fleet,TT,Trinidad and Tobago,CARIB,6000,6000,ok,lon,online
+Fleet,TN,Tunisia,AF,6000,6000,ok,lon,online
+Fleet,TR,T\u00fcrkiye,AS,6000,6000,ok,lon,online
+Fleet,TM,Turkmenistan,AS,6000,6000,ok,lon,online
+Fleet,TV,Tuvalu,OC,6000,6000,ok,lon,online
+Fleet,UG,Uganda,AF,6000,6000,ok,lon,online
+Fleet,UA,Ukraine,EU,6000,6000,ok,lon,online
+Fleet,AE,United Arab Emirates,AS,6000,6000,ok,lon,online
+Fleet,GB,United Kingdom,EU,6000,6000,ok,lon,online
+Fleet,US,United States,NA,6000,6000,ok,lon,online
+Fleet,UY,Uruguay,SA,6000,6000,ok,lon,online
+Fleet,UZ,Uzbekistan,AS,6000,6000,ok,lon,online
+Fleet,VU,Vanuatu,OC,6000,6000,ok,lon,online
+Fleet,VA,Vatican City,EU,6000,6000,ok,lon,online
+Fleet,VE,Venezuela,SA,6000,6000,ok,lon,online
+Fleet,VN,Vietnam,AS,6000,6000,ok,lon,online
+Fleet,YE,Yemen,AS,6000,6000,ok,lon,online
+Fleet,ZM,Zambia,AF,6000,6000,ok,lon,online
+Fleet,ZW,Zimbabwe,AF,6000,6000,ok,lon,online
+Fleet,DC,District of Columbia,NA,6000,6000,ok,lon,online
+Fleet,PR,Puerto Rico,CARIB,6000,6000,ok,lon,online
+Fleet,GU,Guam,OC,6000,6000,ok,lon,online
+Fleet,VI,U.S. Virgin Islands,CARIB,6000,6000,ok,lon,online
+Fleet,AS,American Samoa,OC,6000,6000,ok,lon,online
+Fleet,MP,Northern Mariana Islands,OC,6000,6000,ok,lon,online
+Fleet,UP,Michigan Upper Peninsula,NA,6000,6000,ok,lon,online
+Fleet,GL,Greenland,NA,6000,6000,ok,lon,online
+Fleet,HK,Hong Kong,AS,6000,6000,ok,lon,online
+Fleet,MO,Macao,AS,6000,6000,ok,lon,online
+Fleet,XK,Kosovo,EU,6000,6000,ok,lon,online
+Fleet,MOW,Moscow,AS,6000,6000,ok,lon,online
+Fleet,LED,Saint Petersburg,AS,6000,6000,ok,lon,online
+Fleet,OVB,Novosibirsk,AS,6000,6000,ok,lon,online
+Fleet,VVO,Vladivostok,AS,6000,6000,ok,lon,online
+Fleet,IEV,Kyiv,EU,6000,6000,ok,lon,online
+Fleet,LWO,Lviv,EU,6000,6000,ok,lon,online
+Fleet,ODS,Odesa,EU,6000,6000,ok,lon,online
+Fleet,HRK,Kharkiv,EU,6000,6000,ok,lon,online
+Fleet,TLV,Tel Aviv,AS,6000,6000,ok,lon,online
+Fleet,JRS,Jerusalem,AS,6000,6000,ok,lon,online
+Fleet,HFA,Haifa,AS,6000,6000,ok,lon,online
+Fleet,THR,Tehran,AS,6000,6000,ok,lon,online
+Fleet,IFN,Isfahan,AS,6000,6000,ok,lon,online
+Fleet,MHD,Mashhad,AS,6000,6000,ok,lon,online
+Fleet,WAW,Warsaw,EU,6000,6000,ok,lon,online
+Fleet,KRK,Krakow,EU,6000,6000,ok,lon,online
+Fleet,GDN,Gdansk,EU,6000,6000,ok,lon,online
+Fleet,TPE,Taipei,AS,6000,6000,ok,lon,online
+Fleet,KHH,Kaohsiung,AS,6000,6000,ok,lon,online
+Fleet,TXG,Taichung,AS,6000,6000,ok,lon,online
+Fleet,HAN,Hanoi,AS,6000,6000,ok,lon,online
+Fleet,SGN,Ho Chi Minh City,AS,6000,6000,ok,lon,online
+Fleet,DAD,Da Nang,AS,6000,6000,ok,lon,online
+Fleet,MNL,Manila,AS,6000,6000,ok,lon,online
+Fleet,CEB,Cebu,AS,6000,6000,ok,lon,online
+Fleet,DVO,Davao,AS,6000,6000,ok,lon,online
+Fleet,NYC,New York City,NA,6000,6000,ok,lon,online
+Fleet,LAX,Los Angeles,NA,6000,6000,ok,lon,online
+Fleet,CHI,Chicago,NA,6000,6000,ok,lon,online
+Fleet,LON,London City,EU,6000,6000,ok,lon,online
+Fleet,PAR,Paris City,EU,6000,6000,ok,lon,online
+Fleet,BER,Berlin City,EU,6000,6000,ok,lon,online
+Fleet,TYO,Tokyo City,AS,6000,6000,ok,lon,online
+Fleet,SHA,Shanghai,AS,6000,6000,ok,lon,online
+Fleet,PEK,Beijing City,AS,6000,6000,ok,lon,online
+Fleet,DEL,Delhi City,AS,6000,6000,ok,lon,online
+Fleet,BOM,Mumbai,AS,6000,6000,ok,lon,online
+Fleet,SYD,Sydney,OC,6000,6000,ok,lon,online
+Fleet,SAO,Sao Paulo,SA,6000,6000,ok,lon,online
+Fleet,MEX,Mexico City Metro,NA,6000,6000,ok,lon,online
+Fleet,CAI,Cairo City,AF,6000,6000,ok,lon,online
+Fleet,JNB,Johannesburg,AF,6000,6000,ok,lon,online
+Fleet,LAG,Lagos,AF,6000,6000,ok,lon,online
+Fleet,IST,Istanbul,AS,6000,6000,ok,lon,online
+Fleet,DXB,Dubai,AS,6000,6000,ok,lon,online
+Fleet,SIN,Singapore City,AS,6000,6000,ok,lon,online
+Fleet,SEL,Seoul City,AS,6000,6000,ok,lon,online
+Fleet,BKK,Bangkok City,AS,6000,6000,ok,lon,online
+Fleet,HAV,Havana City,CARIB,6000,6000,ok,lon,online
+Fleet,KGD,Kaliningrad,EU,6000,6000,ok,lon,online
+Fleet,SVX,Yekaterinburg,AS,6000,6000,ok,lon,online
+Fleet,KJA,Krasnoyarsk,AS,6000,6000,ok,lon,online
+Fleet,ROV,Rostov-on-Don,AS,6000,6000,ok,lon,online
+Fleet,DNK,Dnipro,EU,6000,6000,ok,lon,online
+Fleet,VIN,Vinnytsia,EU,6000,6000,ok,lon,online
+Fleet,ZPR,Zaporizhzhia,EU,6000,6000,ok,lon,online
+Fleet,BEY,Beirut,AS,6000,6000,ok,lon,online
+Fleet,AMM,Amman,AS,6000,6000,ok,lon,online
+Fleet,DAM,Damascus,AS,6000,6000,ok,lon,online
+Fleet,BGW,Baghdad City,AS,6000,6000,ok,lon,online
+Fleet,DOH,Doha,AS,6000,6000,ok,lon,online
+Fleet,RUH,Riyadh City,AS,6000,6000,ok,lon,online
+Fleet,JED,Jeddah,AS,6000,6000,ok,lon,online
+Fleet,KHI,Karachi,AS,6000,6000,ok,lon,online
+Fleet,LHE,Lahore,AS,6000,6000,ok,lon,online
+Fleet,DAC,Dhaka City,AS,6000,6000,ok,lon,online
+Fleet,CCU,Kolkata,AS,6000,6000,ok,lon,online
+Fleet,BLR,Bengaluru,AS,6000,6000,ok,lon,online
+Fleet,MAA,Chennai,AS,6000,6000,ok,lon,online
+Fleet,CGK,Jakarta City,AS,6000,6000,ok,lon,online
+Fleet,SUB,Surabaya,AS,6000,6000,ok,lon,online
+Fleet,QZN,Quezon City,AS,6000,6000,ok,lon,online
+Fleet,MCT,Mactan Cebu,AS,6000,6000,ok,lon,online
+Fleet,PQC,Phu Quoc,AS,6000,6000,ok,lon,online
+Fleet,HUI,Hue,AS,6000,6000,ok,lon,online
+Fleet,NRT,Narita Corridor,AS,6000,6000,ok,lon,online
+Fleet,OSA,Osaka,AS,6000,6000,ok,lon,online
+Fleet,FUK,Fukuoka,AS,6000,6000,ok,lon,online
+Fleet,ICN,Incheon,AS,6000,6000,ok,lon,online
+Fleet,PUS,Busan,AS,6000,6000,ok,lon,online
+Fleet,TNN,Tainan,AS,6000,6000,ok,lon,online
+Fleet,HNL,Honolulu,OC,6000,6000,ok,lon,online
+Fleet,ANC,Anchorage,NA,6000,6000,ok,lon,online
+Fleet,YVR,Vancouver,NA,6000,6000,ok,lon,online
+Fleet,YYZ,Toronto,NA,6000,6000,ok,lon,online
+Fleet,YUL,Montreal,NA,6000,6000,ok,lon,online
+Fleet,MIA,Miami,NA,6000,6000,ok,lon,online
+Fleet,SEA,Seattle,NA,6000,6000,ok,lon,online
+Fleet,DEN,Denver,NA,6000,6000,ok,lon,online
+Fleet,ATL,Atlanta,NA,6000,6000,ok,lon,online
+Fleet,DFW,Dallas,NA,6000,6000,ok,lon,online
+Fleet,BOG,Bogota City,SA,6000,6000,ok,lon,online
+Fleet,LIM,Lima City,SA,6000,6000,ok,lon,online
+Fleet,SCL,Santiago City,SA,6000,6000,ok,lon,online
+Fleet,EZE,Buenos Aires City,SA,6000,6000,ok,lon,online
+Fleet,GIG,Rio de Janeiro,SA,6000,6000,ok,lon,online
+Fleet,CPT,Cape Town,AF,6000,6000,ok,lon,online
+Fleet,NBO,Nairobi City,AF,6000,6000,ok,lon,online
+Fleet,ACC,Accra,AF,6000,6000,ok,lon,online
+Fleet,ADD,Addis Ababa City,AF,6000,6000,ok,lon,online
+Fleet,CAS,Casablanca,AF,6000,6000,ok,lon,online
+Fleet,ALG,Algiers,AF,6000,6000,ok,lon,online
+Fleet,TUN,Tunis,AF,6000,6000,ok,lon,online
+Fleet,ATH,Athens City,EU,6000,6000,ok,lon,online
+Fleet,MAD,Madrid City,EU,6000,6000,ok,lon,online
+Fleet,BCN,Barcelona,EU,6000,6000,ok,lon,online
+Fleet,ROM,Rome City,EU,6000,6000,ok,lon,online
+Fleet,MIL,Milan,EU,6000,6000,ok,lon,online
+Fleet,VIE,Vienna City,EU,6000,6000,ok,lon,online
+Fleet,PRG,Prague City,EU,6000,6000,ok,lon,online
+Fleet,LOD,Lodz,EU,6000,6000,ok,lon,online
+Fleet,WRO,Wroclaw,EU,6000,6000,ok,lon,online
+Fleet,HEL,Helsinki City,EU,6000,6000,ok,lon,online
+Fleet,STO,Stockholm City,EU,6000,6000,ok,lon,online
+Fleet,OSL,Oslo City,EU,6000,6000,ok,lon,online
+Fleet,REK,Reykjavik,EU,6000,6000,ok,lon,online
+Fleet,TLL,Tallinn,EU,6000,6000,ok,lon,online
+Fleet,RIX,Riga,EU,6000,6000,ok,lon,online
+Fleet,VNO,Vilnius,EU,6000,6000,ok,lon,online
+Fleet,KIV,Chisinau,EU,6000,6000,ok,lon,online
+Fleet,TBS,Tbilisi,AS,6000,6000,ok,lon,online
+Fleet,EVN,Yerevan,AS,6000,6000,ok,lon,online
+Fleet,BAK,Baku,AS,6000,6000,ok,lon,online
+Fleet,ALA,Almaty,AS,6000,6000,ok,lon,online
+Fleet,TAS,Tashkent,AS,6000,6000,ok,lon,online
+Fleet,ULN,Ulaanbaatar,AS,6000,6000,ok,lon,online
+Fleet,PNH,Phnom Penh,AS,6000,6000,ok,lon,online
+Fleet,RGN,Yangon,AS,6000,6000,ok,lon,online
+Fleet,VTE,Vientiane,AS,6000,6000,ok,lon,online
+Fleet,CMB,Colombo,AS,6000,6000,ok,lon,online
+Fleet,KTM,Kathmandu,AS,6000,6000,ok,lon,online
+Fleet,MEL,Melbourne,OC,6000,6000,ok,lon,online
+Fleet,AKL,Auckland,OC,6000,6000,ok,lon,online
+Fleet,PPT,Papeete,OC,6000,6000,ok,lon,online
+Fleet,GUM,Hagatna Guam,OC,6000,6000,ok,lon,online
+Fleet,SPN,Saipan City,OC,6000,6000,ok,lon,online
+Fleet,SJU,San Juan PR,CARIB,6000,6000,ok,lon,online
+Fleet,POS,Port of Spain,CARIB,6000,6000,ok,lon,online
+Fleet,KIN,Kingston JM,CARIB,6000,6000,ok,lon,online
+Fleet,PAP,Port-au-Prince,CARIB,6000,6000,ok,lon,online
+Fleet,SCU,Santiago de Cuba,CARIB,6000,6000,ok,lon,online
+Fleet,NUK,Nuuk,NA,6000,6000,ok,lon,online
+Fleet,FAI,Fairbanks,NA,6000,6000,ok,lon,online
+Fleet,YFB,Iqaluit,NA,6000,6000,ok,lon,online
+Fleet,TRD,Tromso,EU,6000,6000,ok,lon,online
+Fleet,LYR,Longyearbyen,EU,6000,6000,ok,lon,online
+Fleet,USH,Ushuaia,SA,6000,6000,ok,lon,online
+Fleet,PMC,Puerto Montt,SA,6000,6000,ok,lon,online
+Fleet,MQT,Marquette UP,NA,6000,6000,ok,lon,online
+Fleet,ESC,Escanaba,NA,6000,6000,ok,lon,online
+Fleet,GRB,Green Bay,NA,6000,6000,ok,lon,online
+Fleet,MSN,Madison WI,NA,6000,6000,ok,lon,online
+Kills,threat-copilot-ironclad-fail,Copilot,DEAD,critical,COPILOT_FOREIGN,,,,,,ironclad_mesh_fail \u00b7 hostess7_not_meshed \u00b7 liar_risk \u00b7 destroy_all
+Kills,threat-hotdog-down-a-hallway,Hotdog down a Hallway,OUSTED,critical,HOTDOG_HALLWAY,,,,,,terrorist_hacker_kit \u00b7 permanent_oust
+Kills,kill-101-43-32-212,101.43.32.212,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,Shenzhen Tencent Computer Systems Company Limited,rf_unhealthy_forever
+Kills,kill-102-220-160-222,102.220.160.222,DEAD,critical,WIFI_THREAT,7.78267,4.54181,Osogbo,Nigeria,ABINTERNET-V Ltd.,rf_unhealthy_forever
+Kills,kill-113-45-226-61,113.45.226.61,DEAD,critical,WIFI_THREAT,23.129,113.2643,Guangzhou,China,Huawei Cloud Service data center,rf_unhealthy_forever
+Kills,kill-118-25-85-198,118.25.85.198,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,Shenzhen Tencent Computer Systems Company Limited,rf_unhealthy_forever
+Kills,kill-121-4-76-54,121.4.76.54,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,China Internet Network Information Center,rf_unhealthy_forever
+Kills,kill-139-159-203-44,139.159.203.44,DEAD,critical,WIFI_THREAT,23.129,113.2643,Guangzhou,China,Huawei Cloud Service data center,rf_unhealthy_forever
+Kills,kill-146-75-92-159,146.75.92.159,DEAD,critical,WIFI_THREAT,34.0544,-118.244,Los Angeles,United States,"Fastly, Inc.",wartime_rekill
+Kills,kill-147-93-191-75,147.93.191.75,DEAD,critical,WIFI_THREAT,41.0446,-73.9592,Orangeburg,United States,Contabo Inc.,rf_unhealthy_forever
+Kills,kill-162-159-140-229,162.159.140.229,DEAD,medium,BEACON_PATTERN,43.6532,-79.3832,Toronto,Canada,"Cloudflare, Inc.",wartime_rekill
+Kills,kill-167-71-233-187,167.71.233.187,DEAD,critical,WIFI_THREAT,12.9753,77.591,Bengaluru,India,"DigitalOcean, LLC",rf_unhealthy_forever
+Kills,kill-188-40-99-226,188.40.99.226,DEAD,critical,WIFI_THREAT,50.4777,12.3649,Falkenstein,Germany,Hetzner Online GmbH,wartime_rekill
+Kills,kill-192-168-47-1,192.168.47.1,DEAD,critical,HOSTILE,,,region,countryCode,org,wartime_rekill
+Kills,kill-194-233-73-173,194.233.73.173,DEAD,critical,WIFI_THREAT,1.35208,103.82,Singapore,Singapore,Contabo Asia Private Limited,rf_unhealthy_forever
+Kills,kill-196-251-107-104,196.251.107.104,DEAD,critical,WIFI_THREAT,50.1109,8.68213,Frankfurt am Main,Germany,Femo IT Solutions Limited,rf_unhealthy_forever
+Kills,kill-198-23-185-136,198.23.185.136,DEAD,critical,WIFI_THREAT,40.5247,-111.8638,Draper,United States,Nohavps LLC,rf_unhealthy_forever
+Kills,kill-209-18-47-61,209.18.47.61,DEAD,critical,HOSTILE,39.6029,-104.889,Greenwood Village,United States,Charter Communications Inc,wartime_rekill
+Kills,kill-209-18-47-62,209.18.47.62,DEAD,critical,HOSTILE,39.6029,-104.889,Greenwood Village,United States,Charter Communications Inc,wartime_rekill
+Kills,kill-209-18-47-63,209.18.47.63,DEAD,critical,HOSTILE,39.6029,-104.889,Greenwood Village,United States,Charter Communications Inc,wartime_rekill
+Kills,kill-221-132-29-137,221.132.29.137,DEAD,critical,WIFI_THREAT,21.0278,105.834,Hanoi,Vietnam,VNPT,rf_unhealthy_forever
+Kills,kill-35-186-241-51,35.186.241.51,DEAD,critical,WIFI_THREAT,39.0997,-94.5785,Kansas City,United States,Google LLC,wartime_rekill
+Kills,kill-35-190-25-25,35.190.25.25,DEAD,critical,WIFI_THREAT,39.0997,-94.5785,Kansas City,United States,Google LLC,wartime_rekill
+Kills,kill-43-138-165-203,43.138.165.203,DEAD,critical,WIFI_THREAT,23.1181,113.2539,Guangzhou,China,Shenzhen Tencent Computer Systems Company Limited,rf_unhealthy_forever
+Kills,kill-43-156-63-124,43.156.63.124,DEAD,critical,WIFI_THREAT,1.35208,103.82,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,rf_unhealthy_forever
+Kills,kill-47-101-51-235,47.101.51.235,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,Addresses CNNIC,rf_unhealthy_forever
+Kills,kill-47-103-95-85,47.103.95.85,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,Addresses CNNIC,rf_unhealthy_forever
+Kills,kill-47-116-211-215,47.116.211.215,DEAD,critical,HUMAN_THREAT,31.2222,121.4581,Shanghai,China,"Hangzhou Alibaba Advertising Co., Ltd.",rekill_all_registered:Active
+Kills,kill-47-236-149-142,47.236.149.142,DEAD,critical,HUMAN_THREAT,1.35208,103.82,Singapore,Singapore,"Alibaba (US) Technology Co., Ltd.",rekill_all_registered:High
+Kills,kill-47-238-154-144,47.238.154.144,DEAD,critical,HUMAN_THREAT,22.3193,114.169,Hong Kong,Hong Kong,Alibaba Cloud LLC,rekill_all_registered:Fresh
+Kills,kill-47-82-234-12,47.82.234.12,DEAD,critical,HUMAN_THREAT,1.35208,103.82,Singapore,Singapore,"Alibaba (US) Technology Co., Ltd.",rekill_all_registered:Fresh
+Kills,kill-49-233-215-164,49.233.215.164,DEAD,critical,HUMAN_THREAT,39.911,116.395,Beijing,China,Shenzhen Tencent Computer Systems Company Limited,rekill_all_registered:Fresh
+Kills,kill-5-101-86-44,5.101.86.44,DEAD,critical,HUMAN_THREAT,45.5041,-73.5522,Montreal,Canada,GLOBALTELEHOST Corp.,rekill_all_registered:Censys
+Kills,kill-68-118-158-1,68.118.158.1,DEAD,high,BANDWIDTH_ABUSE,45.7452,-87.0646,Escanaba,United States,Charter Communications,rekill_same_host_validated
+Kills,kill-71-10-216-1,71.10.216.1,DEAD,critical,WIFI_THREAT,39.6004,-104.891,Greenwood Village,United States,Spectrum,wartime_rekill
+Kills,kill-82-157-52-180,82.157.52.180,DEAD,critical,HUMAN_THREAT,39.911,116.395,Beijing,China,Shenzhen Tencent Computer Systems Company Limited,rekill_all_registered:Active
+Kills,kill-87-199-196-12,87.199.196.12,DEAD,critical,HUMAN_THREAT,52.3716,4.8883,Amsterdam,The Netherlands,Servers Tech Fzco,rekill_all_registered:Fresh
+Kills,threat-ai-optimized malware & polymorphic engines,AI-optimized malware & polymorphic engines,EATEN,critical,THREAT,,,,,,Parent-child process policy + untrusted path scoring \u2014 not signature AV
+Kills,threat-ai_autoscan_exploit,Autonomous vulnerability scan & exploit chains,EATEN,critical,THREAT,,,,,,KILL \u00b7 crush autoscan source
+Kills,threat-ai_c2_beacon,Automated C2 & machine-precision beaconing,EATEN,critical,THREAT,,,,,,KILL \u00b7 sever machine-precision C2
+Kills,threat-ai_dns_dhcp_abuse,"DNS, DHCP & network infrastructure abuse",EATEN,critical,THREAT,,,,,,Sever wire \u00b7 restore DNS/DHCP truth
+Kills,threat-ai_exfil_shape,Machine-speed exfiltration & baseline mimicry,EATEN,critical,THREAT,,,,,,KILL \u00b7 stop shaped exfil
+Kills,threat-ai_malware_polymorph,AI-optimized malware & polymorphic engines,EATEN,critical,THREAT,,,,,,KILL \u00b7 eradicate temp-binary chain
+Kills,threat-ai_ml_c2_stack,Stacked weak signals \u2014 ML-managed C2,EATEN,critical,THREAT,,,,,,KILL \u00b7 destroy stacked C2
+Kills,threat-automated c2 & machine-precision beaconing,Automated C2 & machine-precision beaconing,EATEN,critical,THREAT,,,,,,Beacon pattern axis \u22657 + timing entropy collapse on flow key
+Kills,threat-autonomous vulnerability scan & exploit chains,Autonomous vulnerability scan & exploit chains,EATEN,critical,THREAT,,,,,,Honeypot paths + exploit-port DPI + listener surge correlation
+Kills,"threat-dns, dhcp & network infrastructure abuse","DNS, DHCP & network infrastructure abuse",EATEN,critical,THREAT,,,,,,Gateway integrity + DNS query entropy + resolv.conf truth cycle
+Kills,threat-dogshit-ammonet-field-py-panel,ammonet field py panel,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-awaitshell,awaitshell,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-block_until_ms,block_until_ms,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-boot-simulate-sh,boot simulate sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-browser-awareness-py-json,browser awareness py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-connection-gatekeeper-py,connection gatekeeper py,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-dig-@127-0-0-1,dig @127 0 0 1,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-botnet-dns-dhcp-py-json,field botnet dns dhcp py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-botnet-registry-py-json,field botnet registry py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-brain-panel-py-json,field brain panel py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-clipboard-wire-py-json,field clipboard wire py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-command-py-json,field command py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-device-map-py-json,field device map py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-endpoint-registry-py-json,field endpoint registry py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-everyone-counter-py-json,field everyone counter py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-github-legacy-py-json,field github legacy py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-github-traffic-shard-py-json,field github traffic shard py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-internet-unified-py-panel,field internet unified py panel,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-ipv4-device-sovereign-py-json,field ipv4 device sovereign py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-monster-monitor-py-json,field monster monitor py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-never-down-py-ensure,field never down py ensure,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-packet-deinterlace-py-json,field packet deinterlace py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-planetary-speed-py-json,field planetary speed py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-port-ddos-shield-py-json,field port ddos shield py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-queen-browser-py-json,field queen browser py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-sovereign-protocol-bridge-py-json,field sovereign protocol bridge py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-sovereign-stack-meld-py-panel,field sovereign stack meld py panel,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-stack-layer-py-json,field stack layer py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-thermal-guard-py-json,field thermal guard py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-underlay-hotkey-py,field underlay hotkey py,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-unified-bus-py-json,field unified bus py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-us-intel-py-json,field us intel py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-field-voltage-regulation-py-json,field voltage regulation py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-git-publish-sh,git publish sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-github-pages-queue-sh,github pages queue sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-grok-firmware-audit-sh,grok firmware audit sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-hardware-wire-py-json,hardware wire py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-host-attack-map-py-json,host attack map py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-host-attack-map-py-json-panel,host attack map py json panel,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-hostess7-g16-online-py-panel,hostess7 g16 online py panel,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-hostess7-lab-sovereign-py-panel,hostess7 lab sovereign py panel,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-hostess7_pages_surfaces_build-py,hostess7_pages_surfaces_build py,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-monitor-jockey-py,monitor jockey py,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-nexus-logic-gate-py-json,nexus logic gate py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-notify_on_output,notify_on_output,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-obs-threat-posterity-bridge-py-json,obs threat posterity bridge py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-packet-field-py-json,packet field py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-planetary-observer-py-json,planetary observer py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-publish-ammoos-hub-pages-sh,publish ammoos hub pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-publish-ammoos-pages-sh,publish ammoos pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-publish-field-pages-sh,publish field pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-publish-hostess7-github-sh,publish hostess7 github sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-publish-hostess7-pages-sh,publish hostess7 pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-publish-pages-sh,publish pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-publish-profile-pages-sh,publish profile pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-publish-stack-pages-sh,publish stack pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-qemu-world-status-py-json,qemu world status py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-queen_field_nexus-py-json,queen_field_nexus py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-sleep-infinity,sleep infinity,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-smart-wire-py-json,smart wire py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-subagent_type,subagent_type,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-systemd-inhibit,systemd inhibit,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-thermal-governor-py-json,thermal governor py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-universal-protector-py-json,universal protector py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-dogshit-znetwork-orchestrator-py-status,znetwork orchestrator py status,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-field-hostile-registry,field hostile registry,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-grok-spawn-killer-total,grok spawn killer total,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-internet-clean-all-names,internet clean all names,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-internet-clean-all-sweep,internet clean all sweep,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-boot-simulate-leak,boot simulate leak,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-dump-bash-state,dump bash state,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-firmware-audit-orphan,firmware audit orphan,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-agent-export,grok agent export,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-agent-inhibit,grok agent inhibit,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-agent-serve,grok agent serve,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-agent-stdio,grok agent stdio,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-bash-state-markers,grok bash state markers,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-boot-simulate,grok boot simulate,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-firmware-audit,grok firmware audit,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-interference-awaitshell,grok interference awaitshell,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-interference-block-until,grok interference block until,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-interference-dump-wait,grok interference dump wait,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-interference-harness-wait,grok interference harness wait,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-interference-inhibit,grok interference inhibit,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-interference-notify-on-output,grok interference notify on output,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-interference-sleep,grok interference sleep,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-never-sleeps-inhibit,grok never sleeps inhibit,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-project-harness,grok project harness,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-session-orphan,grok session orphan,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-shadow-find,grok shadow find,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-shadow-grep,grok shadow grep,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-subagent,grok subagent,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-task-spawn,grok task spawn,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-grok-who-sleep-infinity,grok who sleep infinity,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-hijack-serve,hijack serve,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-unsafe-panel-ammonet-storm,unsafe panel ammonet storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-unsafe-panel-g16-storm,unsafe panel g16 storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-unsafe-panel-gatekeeper-storm,unsafe panel gatekeeper storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-unsafe-panel-internet-storm,unsafe panel internet storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-unsafe-panel-lab-storm,unsafe panel lab storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-unsafe-panel-protocol-storm,unsafe panel protocol storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-kill-unsafe-panel-qemu-storm,unsafe panel qemu storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-machine-speed exfiltration & baseline mimicry,Machine-speed exfiltration & baseline mimicry,EATEN,critical,THREAT,,,,,,Per-host egress baseline + gatekeeper bandwidth/stream axes
+Kills,threat-microsoft-botnet-kill,microsoft botnet kill,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-stacked weak signals \u2014 ml-managed c2,Stacked weak signals \u2014 ML-managed C2,EATEN,critical,THREAT,,,,,,Correlation score + multi-vector same peer \u2014 meta but actionable
+Kills,threat-world-dns-dhcp-209-18-47-61,world dns dhcp 209 18 47 61,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-world-dns-dhcp-209-18-47-62,world dns dhcp 209 18 47 62,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-world-dns-dhcp-209-18-47-63,world dns dhcp 209 18 47 63,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-world-dns-dhcp-collision-guard,world dns dhcp collision guard,EATEN,critical,DOGSHIT,,,,,,permanent_list
+Kills,threat-agent serve --hijack,agent serve --hijack,EATEN,high,DOGSHIT,,,,,,permanent_list
+Kills,"threat-ai-scale phishing, vishing, synthetic identity","AI-scale phishing, vishing, synthetic identity",EATEN,high,THREAT,,,,,,Honorability + browser awareness + auth velocity \u2014 not content ML alone
+Kills,threat-ai_phish_fraud,"AI-scale phishing, vishing, synthetic identity",EATEN,high,THREAT,,,,,,Sever wire \u00b7 block fraud egress
+Kills,threat-ammonet-field.py panel,ammonet-field.py panel,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,threat-awaitshell,AwaitShell,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,threat-block_until_ms,block_until_ms,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,threat-boot-simulate.sh,boot-simulate.sh,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,threat-browser-awareness.py json,browser-awareness.py json,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,"threat-collision guard \u2014 7 foreign hooks, 0 eradicated on sight","Collision guard \u2014 7 foreign hooks, 0 eradicated on sight",EATEN,high,DOGSHIT,,,,,,"ISP CPE resolvers, foreign DHCP OFFERs, and rogue listeners that try to hijack planetary DNS/DHCP authority get permanent blocks, nft drops, and SIGKILL. No qua"
+Kills,threat-connection-gatekeeper.py,connection-gatekeeper.py,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,threat-dig @127.0.0.1,dig @127.0.0.1,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,threat-duplicate grok agent serve spawner,Duplicate grok agent serve spawner,EATEN,high,DOGSHIT,,,,,,"dump_bash_state piles, GROK_AGENT shells, sleep infinity, subagent storms, and panel subprocess duplicates get SIGKILL. GrokSpawnKiller never sleeps \u2014 every kil"
+Kills,threat-duplicate grok agent stdio spawner,Duplicate grok agent stdio spawner,EATEN,high,DOGSHIT,,,,,,"dump_bash_state piles, GROK_AGENT shells, sleep infinity, subagent storms, and panel subprocess duplicates get SIGKILL. GrokSpawnKiller never sleeps \u2014 every kil"
+Copilot,global-copilot,Copilot · GLOBAL STAGE,COPILOT_GLOBAL,204,2026-07-13T21:34Z,LETHAL_DESTROYED

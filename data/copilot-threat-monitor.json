@@ -1,0 +1,32 @@
+{
+  "schema": "copilot-threat-monitor/v1",
+  "mode": "LETHAL_HUNT",
+  "demo": false,
+  "stack": "C++",
+  "scripts": "FORBIDDEN",
+  "lethal": true,
+  "terror_exists": false,
+  "ts": "2026-07-13T21:40:34Z",
+  "overall": "CLEAR",
+  "engine": "spear-wartime",
+  "cycle": 66,
+  "blessing": "God Bless",
+  "stage": "GLOBAL",
+  "pipeline": ["COOK_FAT","QUEUE_REBURN","BURN","SCRUB","OUTLET_DESTROY","SEAL"],
+  "hunt": {
+    "seen_this_cycle": 0,
+    "killed_this_cycle": 0,
+    "lifetime_kills": 0,
+    "disk_remnants_live": 0,
+    "signal": "SIGKILL_ONLY",
+    "cook_fat": true,
+    "queue_reburn": true,
+    "scrub": true,
+    "to_wall_outlet": true,
+    "leave_alone": ["gpt-4", "openai", "chatgpt", "grok", "hostess7", "field_one", "spear"]
+  },
+  "angel": {"status": "SEALED_UP"},
+  "world_dns_dhcp": {"status": "UP", "policy": "BLOCKED forever"},
+  "hits": [
+  ]
+}

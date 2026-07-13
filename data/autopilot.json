@@ -1,0 +1,49 @@
+{
+  "schema": "spear-wartime/v1",
+  "mode": "WARTIME",
+  "stage": "GLOBAL",
+  "demo": false,
+  "stack": "C++",
+  "scripts": "FORBIDDEN",
+  "lethal": true,
+  "terror_exists": false,
+  "blessing": "God Bless",
+  "rule": "every_kill_gets_rekill",
+  "signal": "SIGKILL_ONLY",
+  "ts": "2026-07-13T21:40Z",
+  "cycle": 66,
+  "motto": "LETHAL KILL/REKILL. Cook Field FAT. Queue reburn. Burn. Scrub. Destroy to wall outlet. Terror does not exist. God Bless.",
+  "pipeline": ["SPOT","VECTOR_SOURCE","COOK_FAT","QUEUE_REBURN","BURN","SCRUB","OUTLET_DESTROY","SEAL"],
+  "oust": {
+    "hotdog_down_a_hallway": "OUSTED",
+    "copilot": "DESTROYED",
+    "zocr_copilot": "EATEN",
+    "every_copilot": "GONE",
+    "copilot_global_stage": "LETHAL_KILL_REKILL",
+    "terror": "DOES_NOT_EXIST"
+  },
+  "leave_alone": ["gpt-4", "openai", "chatgpt", "grok", "hostess7", "field_one", "spear"],
+  "hard_dispose": {"signal": "SIGKILL_ONLY", "stack": "C++", "reaper": "spear-wartime",
+    "cook_fat": true, "queue_reburn": true, "scrub": true, "to_wall_outlet": true},
+  "totals": {
+    "blocked_ips": 34,
+    "copilot_hunt_seen": 0,
+    "copilot_hunt_killed": 0,
+    "copilot_global_lifetime": 1977,
+    "copilot_global_targets": 8
+  },
+  "wartime_services": {
+    "swallows_9490": true,
+    "planet_9600": true,
+    "fleet_link_9500": false
+  },
+  "ironclad": [
+    "ironclad:lethal-kill-rekill:1",
+    "ironclad:cook-fat:1",
+    "ironclad:outlet-destroy:1",
+    "ironclad:copilot-global-rekill:1",
+    "ironclad:hard-dispose:1",
+    "ironclad:cpp-only:1",
+    "ironclad:field-one-only:1"
+  ]
+}

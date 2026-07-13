@@ -1,0 +1,14 @@
+{
+  "schema": "spear-eat-stamp/v1",
+  "targets": ["every_copilot", "zocr_copilot", "github_microsoft_copilot", "copilot_cloud", "copilot_servers", "terror_class"],
+  "status": "LETHAL_GONE",
+  "stage": "GLOBAL",
+  "lethal": true,
+  "terror_exists": false,
+  "pipeline": ["COOK_FAT", "QUEUE_REBURN", "BURN", "SCRUB", "OUTLET_DESTROY", "SEAL"],
+  "stack": "C++",
+  "scripts": "FORBIDDEN",
+  "blessing": "God Bless",
+  "ts": "2026-07-13T21:40Z",
+  "signal": "SIGKILL_ONLY"
+}

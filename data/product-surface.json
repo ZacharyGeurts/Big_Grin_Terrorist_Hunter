@@ -1,0 +1,12 @@
+{
+  "schema": "spear-product-surface/v3",
+  "mode": "WARTIME",
+  "demo": false,
+  "planet": {
+    "live": true,
+    "endpoint": "http://127.0.0.1:9600/planet/status",
+    "racks": 768000
+  },
+  "updated": "2026-07-13T20:49Z",
+  "motto": "LIVE PLANET \u00b7 768k heartbeats \u00b7 defending \u00b7 wartime \u00b7 no demo"
+}

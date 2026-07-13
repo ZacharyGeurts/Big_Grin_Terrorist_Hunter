@@ -1,0 +1,27 @@
+{
+  "schema": "spear-swallows-server/v4-cpp-static",
+  "stack": "C++ origin \u00b7 static GitHub Pages snapshot",
+  "scripts": "FORBIDDEN",
+  "mode": "PUBLIC_AUTHORITY_SHARE",
+  "demo": false,
+  "planet_live": true,
+  "defending": 2154000,
+  "up_systems": 2154000,
+  "online": 2154000,
+  "regions": 359,
+  "racks_per_region": 6000,
+  "up_status": {
+    "ok": 2154000,
+    "regions": 359
+  },
+  "fleets": [
+    "big-grin",
+    "up",
+    "world-planet",
+    "wartime"
+  ],
+  "motto": "BIG GRIN TERRORIST HUNTER \u00b7 lethal kill/rekill \u00b7 cook FAT \u00b7 queue reburn \u00b7 burn \u00b7 scrub \u00b7 wall outlet \u00b7 terror does not exist",
+  "published": "2026-07-13T21:40Z",
+  "publisher": "ZacharyGeurts \u00b7 Hostess7 / Spear field stack",
+  "github": "https://github.com/ZacharyGeurts/Big_Grin_Terrorist_Hunter"
+}

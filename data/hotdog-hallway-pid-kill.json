@@ -1,0 +1,22 @@
+{
+  "schema": "hotdog-hallway-pid-kill/v1",
+  "ts": "2026-07-13T21:38Z",
+  "status": "LETHAL_PID_KILL",
+  "kit": "hotdog-down-a-hallway",
+  "signal": "SIGKILL_ONLY",
+  "multi_signal": true,
+  "terror_exists": false,
+  "pipeline": [
+    "SPOT",
+    "VECTOR",
+    "COOK_FAT",
+    "QUEUE_REBURN",
+    "BURN",
+    "SCRUB",
+    "OUTLET_DESTROY",
+    "SEAL"
+  ],
+  "note": "All hotdog hallway kit PIDs hunted multi-signal and hard-killed. Queued for reburn forever.",
+  "blessing": "God Bless",
+  "stack": "C++"
+}

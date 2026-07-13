@@ -1,0 +1,28 @@
+{
+  "schema": "world-dns-dhcp-status/v1",
+  "ts": "2026-07-13T21:40Z",
+  "status": "UP",
+  "stack": "C++",
+  "policy": "foreign_world_dns_hooks BLOCKED · local truth · field sole authority",
+  "foreign_world_dns_hooks": {
+    "209.18.47.61": {"role": "FOREIGN_DNS_SERVER", "blocked": true},
+    "209.18.47.62": {"role": "FOREIGN_DNS_SERVER", "blocked": true},
+    "209.18.47.63": {"role": "FOREIGN_DNS_SERVER", "blocked": true},
+    "all_blocked": true,
+    "collision_guard": "pwnership/kills/world-dns-dhcp-collision-guard.html"
+  },
+  "local_truth": {
+    "systemd_resolved_stub": true,
+    "resolve_ok": true,
+    "field_dns_listen_127_0_0_1_53": false,
+    "field_dhcp_listen": false,
+    "note": "Foreign 209.18.* BLOCKED. C++ wartime stack."
+  },
+  "wartime_services": {
+    "swallows_9490": true,
+    "planet_9600": true,
+    "fleet_link_9500": false
+  },
+  "copilot_cloud_block_file": true,
+  "angel_dns_components_sealed": true
+}
