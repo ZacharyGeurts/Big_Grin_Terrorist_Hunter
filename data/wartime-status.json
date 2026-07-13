@@ -15,8 +15,8 @@
   "blessing": "God Bless",
   "rule": "every_kill_gets_rekill",
   "signal": "SIGKILL_ONLY",
-  "ts": "2026-07-13T22:22Z",
-  "cycle": 8,
+  "ts": "2026-07-13T22:31Z",
+  "cycle": 2,
   "motto": "WAR DAY · REAL hunt · LETHAL KILL/REKILL · no demo · no fake · God Bless.",
   "pipeline": ["SPOT","VECTOR_SOURCE","COOK_FAT","QUEUE_REBURN","BURN","SCRUB","OUTLET_DESTROY","SEAL"],
   "oust": {
@@ -34,7 +34,7 @@
     "blocked_ips": 34,
     "copilot_hunt_seen": 0,
     "copilot_hunt_killed": 0,
-    "copilot_global_lifetime": 9557,
+    "copilot_global_lifetime": 14536,
     "copilot_global_targets": 13
   },
   "wartime_services": {

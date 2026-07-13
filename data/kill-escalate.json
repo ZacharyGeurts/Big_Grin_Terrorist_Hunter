@@ -4,12 +4,12 @@
   "war_day": true,
   "real": true,
   "demo": false,
-  "cycle": 6,
-  "dossiers": 265,
-  "dead": 265,
+  "cycle": 2,
+  "dossiers": 43,
+  "dead": 43,
   "alive": 0,
   "rekill_bump": 3,
-  "total_rekill_stamps": 7899,
-  "ts": "2026-07-13T22:28:36Z",
+  "total_rekill_stamps": 11901,
+  "ts": "2026-07-13T22:31:52Z",
   "motto": "More DEAD · rekill for piss · every_kill_gets_rekill · God Bless"
 }
