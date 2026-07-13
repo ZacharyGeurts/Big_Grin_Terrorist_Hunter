@@ -477,7 +477,7 @@
         {n:fmt(s.regions||STATE.regions.length), l:"Fleet areas", cls:"cyan"},
         {n:fmt(zones), l:"Zones hunting (rack offload)", cls:"hot"},
         {n:fmt(m.global_shots||rg.global_shots||0), l:"Rack mesh entropy shots", cls:"hot"},
-        {n:fmt(dead)+"/"+fmt(kills.length), l:"Kills DEAD / total", cls:"hot"},
+        {n:fmt(dead)+" / "+fmt(kills.length), l:"DEAD · of "+fmt(kills.length)+" kill dossiers", cls:"hot"},
         {n:fmt(gps), l:"Enemy GPS pins", cls:"warn"},
         {n:fmt(g.lifetime_rekills||0), l:"Copilot global rekills", cls:"hot"},
         {n:(m.violent_protection||rg.violent_protection)?"VIOLENT":"off", l:"Protect WORLD+INTERNET", cls:(m.violent_protection||rg.violent_protection)?"":"warn"},
@@ -580,18 +580,35 @@
           const g=k.gps||{};
           return matchQ([k.id,k.target,k.vector,k.status,k.reason,k.dossier_text,g.city,g.country,g.isp].join(" "));
         });
-        // GPS first
-        all.sort((a,b)=>((b.gps&&b.gps.lat!=null)?1:0)-((a.gps&&a.gps.lat!=null)?1:0));
+        // GPS first, then DEAD, then rest — full 265 list, not DEAD-only
+        all.sort((a,b)=>{
+          const ga=(a.gps&&a.gps.lat!=null)?1:0, gb=(b.gps&&b.gps.lat!=null)?1:0;
+          if(gb!==ga) return gb-ga;
+          const da=(a.dead||a.status==="DEAD")?1:0, db=(b.dead||b.status==="DEAD")?1:0;
+          return db-da;
+        });
+        const nDead=all.filter(k=>k.dead||k.status==="DEAD").length;
+        const nEaten=all.filter(k=>k.status==="EATEN"||k.eaten).length;
+        const nGps=all.filter(k=>k.gps&&k.gps.lat!=null).length;
         const sl=pageSlice(all); total=sl.total; rows=sl.rows;
-        $("#pane-kills").innerHTML = rows.map(k=>{
+        const head=`<p style="margin:.2rem 0 .55rem;color:var(--muted);font-size:.8rem;line-height:1.4">
+          <b style="color:var(--green)">Full kill dossier list: ${fmt(total)}</b>
+          · <span style="color:var(--red)">DEAD ${fmt(nDead)}</span>
+          · EATEN ${fmt(nEaten)}
+          · GPS pins ${fmt(nGps)}
+          · page shows ${PAGE}/page (use pager below — not capped at DEAD)
+        </p>`;
+        $("#pane-kills").innerHTML = head + (rows.map(k=>{
           const g=k.gps||{}; const loc=[g.city,g.country].filter(Boolean).join(", ");
-          return `<div class="row" data-k="kill"><div class="t">${(k.dead||k.status==="DEAD")?"☠ ":""}${esc(k.target||k.id)}
-            <span class="tag dead">${esc(k.status||"—")}</span>
+          const st=k.status||"—";
+          const tagCls=(k.dead||st==="DEAD")?"dead":(st==="EATEN"?"ok":"crit");
+          return `<div class="row" data-k="kill"><div class="t">${(k.dead||st==="DEAD")?"☠ ":""}${esc(k.target||k.id)}
+            <span class="tag ${tagCls}">${esc(st)}</span>
             ${g.lat!=null?'<span class="tag ok">GPS</span>':''}</div>
             <div class="m">${esc(k.vector||"")} · ${esc(loc||(g.lat!=null?g.lat+", "+g.lon:"no GPS"))}
             · ${esc((k.reason||"").slice(0,140))}
             ${g.isp?" · "+esc(g.isp):""}</div></div>`;
-        }).join("") || "<p class='err'>No kills match.</p>";
+        }).join("") || "<p class='err'>No kills match.</p>");
         $$("#pane-kills .row").forEach((el,i)=>el.onclick=()=>showKill(rows[i]));
       }
 
