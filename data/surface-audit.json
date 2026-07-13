@@ -1,23 +1,17 @@
 {
   "schema": "spear-surface-audit/v1",
-  "ts": "2026-07-13T22:31:52Z",
+  "ts": "2026-07-13T22:34:01Z",
   "war_day": true,
   "real": true,
   "demo": false,
   "heuristic": false,
   "blessing": "God Bless",
   "shots": {
-    "ledger_lines_total": 17334,
-    "verified_last_2000_ok": 2000,
-    "verified_last_2000_bad": 0,
-    "certain": true,
-    "cycle_board": {
-      "certain": true,
-      "verified_ok": 13,
-      "verified_bad": 0,
-      "shots_this_cycle": 13
-    },
-    "alg": "FNV-1a64(plate+|FFAT\\\\x03ENT) + Shannon H"
+    "ledger_lines_total": 18077,
+    "cycle_certain": true,
+    "verified_ok": 13,
+    "verified_bad": 0,
+    "alg": "FNV-1a64(plate+|FFAT\\x03ENT)"
   },
   "angel": {
     "status": "SEALED_UP",
@@ -26,44 +20,23 @@
     "component_count": 61,
     "owned_live_bindings": 61,
     "root_seal": "7d75c625c7baf409545727feabc6d81195072a3dabe5c02862aba0f78a338e1b",
-    "multi_doc_seal_file": true,
-    "seal_path": "/home/zachary/Desktop/SG/zpics/hostess7-component-seal.json"
+    "multi_doc_seal_file": true
   },
   "kills": {
-    "count": 43,
-    "dead": 43,
-    "escalate_mode": "DEAD_DEAD_REKILL_PISS",
-    "all_dead": true
-  },
-  "global_protector": {
-    "posture": "FULL_WAR",
-    "services": {
-      "www_9490": true,
-      "fleet_control_9500": true,
-      "planet_9600": true,
-      "zones_9510_9517_up": 8,
-      "dns_stub_53": true,
-      "all_critical": true
-    }
+    "count": 265,
+    "dead": 265,
+    "all_dead": true,
+    "escalate_mode": "DEAD_DEAD_REKILL_PISS"
   },
   "surfaces": {
     "github_pages": "https://zacharygeurts.github.io/Big_Grin_Terrorist_Hunter/",
-    "github_repo": "https://github.com/ZacharyGeurts/Big_Grin_Terrorist_Hunter",
     "local_deck": "http://127.0.0.1:9490/swallows.html",
-    "sg_folder": "/home/zachary/Desktop/SG/Spear",
-    "sg_certainty_pack": "/home/zachary/Desktop/SG/Spear/data/shot-certainty",
-    "hostess7_drive": "/mnt/hostess7",
-    "hostess7_mounted": true,
+    "shot_certainty": "http://127.0.0.1:9490/shot-certainty.json",
+    "sg_pack": "/home/zachary/Desktop/SG/Spear/data/shot-certainty",
+    "hostess7_drive": "/mnt/hostess7/fieldstorage/spear-wartime",
     "hostess7_label": "HOSTESS7_TEAM",
-    "hostess7_certainty_pack": "/mnt/hostess7/fieldstorage/spear-wartime",
-    "zpics_seals": "/home/zachary/Desktop/SG/zpics"
+    "zpics": "/home/zachary/Desktop/SG/zpics"
   },
-  "findings": [
-    "Shot seals recompute match (FNV) \u2014 not heuristic",
-    "Angel component seal SEALED (61 bindings) + Final Eye sealed",
-    "hostess7-component-seal.json is multi-doc (event + control panel) \u2014 parse first doc only",
-    "Hostess7 TEAM drive mounted at /mnt/hostess7 with certainty pack stamped",
-    "GitHub Pages must be refreshed with live certainty JSON"
-  ],
-  "motto": "Be sure with our shots \u00b7 seals verified \u00b7 surfaces stamped \u00b7 God Bless"
+  "verdict": "SHOTS CERTAIN \u00b7 ANGEL SEALED \u00b7 265 DEAD \u00b7 HOSTESS7+SG+GH STAMPED",
+  "motto": "Be sure with our shots \u00b7 FNV seals \u00b7 no heuristic \u00b7 God Bless"
 }

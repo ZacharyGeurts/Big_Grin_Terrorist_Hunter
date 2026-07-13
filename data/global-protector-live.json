@@ -15,8 +15,8 @@
   "scripts": "FORBIDDEN",
   "terror_exists": false,
   "blessing": "God Bless",
-  "ts": "2026-07-13T22:31:52Z",
-  "cycle": 2,
+  "ts": "2026-07-13T22:34:00Z",
+  "cycle": 7,
   "protect": ["WORLD", "INTERNET", "FIELD_STACK", "OPERATOR_HOST"],
   "posture": "FULL_WAR",
   "services": {
@@ -36,11 +36,11 @@
   "hunt": {
     "seen_this_cycle": 0,
     "killed_this_cycle": 0,
-    "lifetime_rekills": 14536,
+    "lifetime_rekills": 15589,
     "vectors": ["COPILOT","ZOCR","HOTDOG_HALLWAY","PYTHON_SOFT","FOREIGN_DNS"]
   },
   "binary_seals": {
-    "spear-wartime": {"path":"/home/zachary/.local/bin/spear-wartime","seal":"f7743e5c9902150f","ok":true},
+    "spear-wartime": {"path":"/home/zachary/.local/bin/spear-wartime","seal":"44cb849d53eac66a","ok":true},
     "spear-fleet-link": {"path":"/home/zachary/.local/bin/spear-fleet-link","seal":"f9130f57fd34a30b","ok":true},
     "spear-www": {"path":"/home/zachary/.local/bin/spear-www","seal":"3b7ecc1eec823806","ok":true},
     "spear-planet": {"path":"/home/zachary/.local/bin/spear-planet","seal":"4b1f5a7d7cfab28c","ok":true},

@@ -4,12 +4,13 @@
   "war_day": true,
   "real": true,
   "demo": false,
-  "cycle": 2,
-  "dossiers": 43,
-  "dead": 43,
+  "cycle": 7,
+  "dossiers": 265,
+  "dead": 265,
   "alive": 0,
   "rekill_bump": 3,
-  "total_rekill_stamps": 11901,
-  "ts": "2026-07-13T22:31:52Z",
-  "motto": "More DEAD · rekill for piss · every_kill_gets_rekill · God Bless"
+  "total_rekill_stamps": 14259,
+  "ts": "2026-07-13T22:34:00Z",
+  "safe": true,
+  "motto": "More DEAD · rekill for piss · never drop dossiers · God Bless"
 }
