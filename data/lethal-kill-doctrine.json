@@ -1,6 +1,6 @@
 {
   "schema": "lethal-kill-rekill-doctrine/v1",
-  "ts": "2026-07-13T21:40Z",
+  "ts": "2026-07-13T21:44Z",
   "lethal": true,
   "terror_exists": false,
   "rule": "every_kill_gets_rekill",

@@ -20,8 +20,11 @@
     "world-planet",
     "wartime"
   ],
-  "motto": "BIG GRIN TERRORIST HUNTER \u00b7 lethal kill/rekill \u00b7 cook FAT \u00b7 queue reburn \u00b7 burn \u00b7 scrub \u00b7 wall outlet \u00b7 terror does not exist",
-  "published": "2026-07-13T21:40Z",
+  "motto": "ACTIVE HUNT \u00b7 entropy detailer seals every shot \u00b7 cook FAT \u00b7 reburn \u00b7 terror does not exist",
+  "published": "2026-07-13T21:44Z",
   "publisher": "ZacharyGeurts \u00b7 Hostess7 / Spear field stack",
-  "github": "https://github.com/ZacharyGeurts/Big_Grin_Terrorist_Hunter"
+  "github": "https://github.com/ZacharyGeurts/Big_Grin_Terrorist_Hunter",
+  "active_hunt": true,
+  "entropy_detailer": true,
+  "know_shots": true
 }

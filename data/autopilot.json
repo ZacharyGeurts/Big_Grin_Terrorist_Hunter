@@ -10,12 +10,12 @@
   "blessing": "God Bless",
   "rule": "every_kill_gets_rekill",
   "signal": "SIGKILL_ONLY",
-  "ts": "2026-07-13T21:40Z",
-  "cycle": 66,
+  "ts": "2026-07-13T21:44Z",
+  "cycle": 3,
   "motto": "LETHAL KILL/REKILL. Cook Field FAT. Queue reburn. Burn. Scrub. Destroy to wall outlet. Terror does not exist. God Bless.",
   "pipeline": ["SPOT","VECTOR_SOURCE","COOK_FAT","QUEUE_REBURN","BURN","SCRUB","OUTLET_DESTROY","SEAL"],
   "oust": {
-    "hotdog_down_a_hallway": "OUSTED",
+    "hotdog_down_a_hallway": "LETHAL_OUSTED_PID_KILL",
     "copilot": "DESTROYED",
     "zocr_copilot": "EATEN",
     "every_copilot": "GONE",
@@ -29,8 +29,8 @@
     "blocked_ips": 34,
     "copilot_hunt_seen": 0,
     "copilot_hunt_killed": 0,
-    "copilot_global_lifetime": 1977,
-    "copilot_global_targets": 8
+    "copilot_global_lifetime": 2383,
+    "copilot_global_targets": 10
   },
   "wartime_services": {
     "swallows_9490": true,

@@ -180,6 +180,7 @@
           <button class="tab" data-pane="live" type="button">Live feed</button>
           <button class="tab" data-pane="history" type="button">History</button>
           <button class="tab" data-pane="wartime" type="button">Wartime</button>
+          <button class="tab" data-pane="shots" type="button">Entropy shots</button>
           <button class="tab" data-pane="copilot" type="button">Copilot global</button>
           <button class="tab" data-pane="infra" type="button">Angel · DNS · mesh</button>
           <button class="tab" data-pane="raw" type="button">Raw status</button>
@@ -194,6 +195,7 @@
         <div class="pane" id="pane-live"></div>
         <div class="pane" id="pane-history"></div>
         <div class="pane" id="pane-wartime"></div>
+        <div class="pane" id="pane-shots"></div>
         <div class="pane" id="pane-copilot"></div>
         <div class="pane" id="pane-infra"></div>
         <div class="pane" id="pane-raw"></div>
@@ -584,6 +586,21 @@
         const w=STATE.wartime||{}, rk=STATE.rekill||{};
         $("#pane-wartime").innerHTML = `<pre>${esc(JSON.stringify({wartime:w, rekill_state:rk}, null, 2))}</pre>`;
       }
+
+      if(pane==="shots"){
+        total=STATE.knownShots.length;
+        const sl=pageSlice(STATE.knownShots);
+        total=sl.total; rows=sl.rows;
+        $("#pane-shots").innerHTML = rows.map(s=>`
+          <div class="row"><div class="t">${esc(s.phase||"SHOT")} · ${esc(s.target||s.id)}
+            <span class="tag dead">seal</span></div>
+            <div class="m">H=${esc(s.shannon_h!=null?Number(s.shannon_h).toFixed(4):"—")} · fold=${esc(s.entropy_fold!=null?Number(s.entropy_fold).toFixed(4):"—")}
+            · <span style="color:#7ad7ff">${esc(s.seal||"")}</span>
+            · r${esc(s.rekill??"")} · ${esc(s.ts||"")}
+            ${s.outlet_path?"\\n"+esc(s.outlet_path):""}</div></div>`).join("")
+          || "<p class='err'>No sealed shots yet — active hunt will fill this.</p>";
+      }
+
       if(pane==="copilot"){
         total=1;
         $("#pane-copilot").innerHTML = `<pre>${esc(JSON.stringify({monitor:STATE.copilot, global:STATE.copilotGlobal}, null, 2))}</pre>`;
@@ -694,7 +711,7 @@
       const [
         status, regionsWrap, dossiers, catalog, liveFeed,
         wartime, copilot, copilotGlobal, angel, dns, planet,
-        mesh, rekill, doctrine, history, eaten, lethalQ, lethalDoc
+        mesh, rekill, doctrine, history, eaten, lethalQ, lethalDoc, entropyD, shotsBoard
       ] = await Promise.all([
         j("data/status.json"),
         j("data/regions.json"),
@@ -714,6 +731,8 @@
         j("data/every-copilot-gone.json"),
         j("data/lethal-kill-queue.json"),
         j("data/lethal-kill-doctrine.json"),
+        j("data/entropy-detailer.json"),
+        j("data/shots-ledger.json"),
       ]);
       STATE.status = status||{};
       STATE.regions = (regionsWrap&&regionsWrap.regions)||[];
@@ -735,6 +754,8 @@
       STATE.eaten = eaten||{};
       STATE.lethalQ = lethalQ||{};
       STATE.lethalDoc = lethalDoc||{};
+      STATE.entropyD = entropyD||{};
+      STATE.shotsBoard = shotsBoard||entropyD||{};
       const hist = history||{};
       STATE.history = Array.isArray(hist.recent)?hist.recent:(Array.isArray(hist)?hist:[]);
 
@@ -744,10 +765,11 @@
       renderLists();
       renderDense();
       renderInfoBands();
+      renderActiveHunt();
       $("#bootLine").textContent =
         "OK · threats "+STATE.threats.length+" · kills "+STATE.kills.length+
         " · areas "+STATE.regions.length+" · live "+STATE.live.length+
-        " · map "+(STATE.mapReady?"ready":"pending")+
+        " · map "+(STATE.mapReady?"ready":"pending")+" · seals "+STATE.knownShots.length+
         (STATE.errors.length?" · errs "+STATE.errors.length:"");
       $("#foot").textContent =
         "Big Grin Terrorist Hunter · public snapshot · "+$("#clock").textContent+
@@ -774,6 +796,111 @@
     $("#btnCsv").onclick = exportCsv;
     $("#btnJson").onclick = exportJson;
 
+
+    // ── ACTIVE HUNT + ENTROPY DETAILER (always know our shots) ───────────
+    STATE.knownShots = [];
+    try {
+      STATE.knownShots = JSON.parse(localStorage.getItem("bg_known_shots") || "[]");
+    } catch (_) { STATE.knownShots = []; }
+
+    function rememberShot(s) {
+      if (!s || !s.seal) return;
+      if (STATE.knownShots.some(x => x.seal === s.seal)) return;
+      STATE.knownShots.unshift(s);
+      if (STATE.knownShots.length > 200) STATE.knownShots.length = 200;
+      try { localStorage.setItem("bg_known_shots", JSON.stringify(STATE.knownShots)); } catch (_) {}
+    }
+
+    function renderActiveHunt() {
+      const ed = STATE.entropyD || STATE.shotsBoard || {};
+      const shots = (ed.shots || []).slice();
+      shots.forEach(rememberShot);
+      const q = (STATE.lethalQ && STATE.lethalQ.queued) || [];
+      const g = STATE.copilotGlobal || {};
+      const nq = q.length;
+      const life = g.lifetime_rekills || ed.lifetime_known || STATE.knownShots.length;
+      $("#huntHeadline").textContent = "ACTIVE HUNT · " + (ed.active_hunt !== false ? "LIVE" : "SNAP") +
+        " · terror_exists=false";
+      $("#huntSub").textContent = (ed.motto || "Entropy detailer seals every shot") +
+        " · queued " + nq + " · known seals " + STATE.knownShots.length;
+      $("#huntMeta").innerHTML =
+        "lifetime rekills <b style='color:#ffd56a'>" + fmt(life) + "</b><br>" +
+        "cycle shots <b>" + fmt(ed.shots_this_cycle || shots.length) + "</b><br>" +
+        "shannon seals on plate";
+      const show = (shots.length ? shots : STATE.knownShots).slice(0, 24);
+      $("#shotTicker").innerHTML = show.length
+        ? show.map(s => {
+            const ph = s.phase || "—";
+            const col = ph.indexOf("BURN") >= 0 || ph.indexOf("OUTLET") >= 0 ? "#ff5d8f"
+              : ph.indexOf("COOK") >= 0 || ph.indexOf("QUEUE") >= 0 ? "#ffc857" : "#5dffb0";
+            return `<div style="border-bottom:1px solid #2a1a38;padding:.2rem 0">
+              <span style="color:${col}">${esc(ph)}</span>
+              · <b>${esc(s.target || s.id || "shot")}</b>
+              · H=${esc((s.shannon_h != null ? Number(s.shannon_h).toFixed(3) : "—"))}
+              · fold=${esc((s.entropy_fold != null ? Number(s.entropy_fold).toFixed(3) : "—"))}
+              · seal <span style="color:#7ad7ff">${esc(s.seal || s.seal_hex || "")}</span>
+              · r${esc(s.rekill ?? "")}
+            </div>`;
+          }).join("")
+        : "<span style='color:#c9a8c0'>No shots sealed yet — hunt arming…</span>";
+    }
+
+    // Client-side active hunt cycle: rotate queue phases visually every 2s (always tracking)
+    let huntTick = 0;
+    function clientHuntPulse() {
+      huntTick++;
+      const q = (STATE.lethalQ && STATE.lethalQ.queued) || [];
+      if (!q.length) { renderActiveHunt(); return; }
+      const i = huntTick % q.length;
+      const item = q[i];
+      // synthesize entropy plate on client so public deck also "knows the shot"
+      const plate = [item.id, item.label, item.phase, item.next, item.outlet_path, huntTick, Date.now()].join("|");
+      let h = 14695981039346656037n;
+      for (let c = 0; c < plate.length; c++) {
+        h ^= BigInt(plate.charCodeAt(c));
+        h = BigInt.asUintN(64, h * 1099511628211n);
+      }
+      const seal = h.toString(16).padStart(16, "0");
+      // crude Shannon
+      const freq = {};
+      for (const ch of plate) freq[ch] = (freq[ch] || 0) + 1;
+      let H = 0, n = plate.length;
+      Object.values(freq).forEach(v => { const p = v / n; H -= p * Math.log2(p); });
+      const shot = {
+        id: item.id || ("pulse-" + i),
+        target: item.label || item.id,
+        phase: item.phase || item.next || "QUEUE_REBURN",
+        attack: "FIELD_ACTIVE_HUNT",
+        rekill: item.rekill || huntTick,
+        shannon_h: H,
+        entropy_fold: H * 0.618 + (item.rekill || 0) * 0.01,
+        seal: seal,
+        outlet_path: item.outlet_path || "",
+        ts: new Date().toISOString(),
+        know_shot: true,
+        cook_fat: true,
+        source: "active_hunt_pulse"
+      };
+      rememberShot(shot);
+      // prepend into entropy board for display
+      if (!STATE.entropyD) STATE.entropyD = { shots: [], active_hunt: true };
+      STATE.entropyD.active_hunt = true;
+      STATE.entropyD.shots = [shot].concat(STATE.entropyD.shots || []).slice(0, 40);
+      STATE.entropyD.shots_this_cycle = 1;
+      STATE.entropyD.lifetime_known = STATE.knownShots.length;
+      renderActiveHunt();
+      // pulse live list
+      if (STATE.live) {
+        STATE.live.unshift({
+          attack: shot.attack, phase: shot.phase, target: shot.target,
+          vector: "ACTIVE_HUNT", rekill_count: shot.rekill, ts: shot.ts,
+          seal: shot.seal, shannon_h: shot.shannon_h, lethal: true
+        });
+        if (STATE.live.length > 120) STATE.live.length = 120;
+        if (STATE.pane === "live") renderLists();
+      }
+    }
+
     function boot(){
       // Don't hang forever if map script fails
       let tries=0;
@@ -782,6 +909,7 @@
         if(window.SpearWorldMap || tries>40){
           refresh();
           setInterval(refresh, 5000);
+          setInterval(clientHuntPulse, 2000);
           // regenerate office packs hint
           return;
         }
