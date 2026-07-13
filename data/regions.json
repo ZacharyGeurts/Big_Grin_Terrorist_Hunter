@@ -1,12 +1,12 @@
 {
   "schema": "spear-fleet-regions/v1",
-  "stack": "static",
+  "stack": "C++",
   "total_racks": 2154000,
   "region_count": 359,
   "racks_per_region": 6000,
   "lazy": true,
   "map": {
-    "image": "/assets/maps/world-equirectangular.jpg",
+    "image": "assets/maps/world-equirectangular.jpg",
     "projection": "equirectangular",
     "x": "(lon + 180) / 360",
     "y": "(90 - lat) / 180"
@@ -4321,5 +4321,5 @@
       "status": "ok"
     }
   ],
-  "note": "Static snapshot for authority sharing \u00b7 full area rack inventories remain on field C++ stack"
+  "note": "C++ spear-www \u00b7 area dossiers /api/area-dossier?code=XX"
 }

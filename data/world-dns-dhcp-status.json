@@ -1,6 +1,6 @@
 {
   "schema": "world-dns-dhcp-status/v1",
-  "ts": "2026-07-13T21:40Z",
+  "ts": "2026-07-13T21:53Z",
   "status": "UP",
   "stack": "C++",
   "policy": "foreign_world_dns_hooks BLOCKED · local truth · field sole authority",
@@ -21,7 +21,7 @@
   "wartime_services": {
     "swallows_9490": true,
     "planet_9600": true,
-    "fleet_link_9500": false
+    "fleet_link_9500": true
   },
   "copilot_cloud_block_file": true,
   "angel_dns_components_sealed": true

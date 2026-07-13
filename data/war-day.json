@@ -9,8 +9,12 @@
   "kill": "SIGKILL_ONLY",
   "stack": "C++",
   "scripts": "FORBIDDEN",
-  "protect": ["WORLD", "INTERNET"],
+  "protect": [
+    "WORLD",
+    "INTERNET"
+  ],
   "terror_exists": false,
   "blessing": "God Bless",
-  "motto": "WAR DAY · no demo · no fake · real multi-signal hunt · God Bless"
+  "motto": "WAR DAY \u00b7 no demo \u00b7 no fake \u00b7 real multi-signal hunt \u00b7 God Bless",
+  "pages": "https://zacharygeurts.github.io/Big_Grin_Terrorist_Hunter/"
 }

@@ -1,9 +1,23 @@
 {
   "schema": "spear-swallows-server/v4-cpp-static",
-  "stack": "C++ origin \u00b7 static GitHub Pages snapshot",
-  "scripts": "FORBIDDEN",
-  "mode": "PUBLIC_AUTHORITY_SHARE",
+  "mode": "WARTIME",
+  "war_day": true,
+  "real": true,
   "demo": false,
+  "fake": false,
+  "sandbox": false,
+  "stack": "C++",
+  "scripts": "FORBIDDEN",
+  "process_hunt": "REAL_PROC_MULTISIGNAL",
+  "uptime_s": 96,
+  "bind": "127.0.0.1:9490",
+  "fleets": [
+    "big-grin",
+    "up",
+    "world-planet",
+    "wartime"
+  ],
+  "sharded": true,
   "planet_live": true,
   "defending": 2154000,
   "up_systems": 2154000,
@@ -14,17 +28,12 @@
     "ok": 2154000,
     "regions": 359
   },
-  "fleets": [
-    "big-grin",
-    "up",
-    "world-planet",
-    "wartime"
-  ],
-  "motto": "ACTIVE HUNT \u00b7 entropy detailer seals every shot \u00b7 cook FAT \u00b7 reburn \u00b7 terror does not exist",
-  "published": "2026-07-13T21:44Z",
+  "shard_cache": 0,
+  "planet": "http://127.0.0.1:9600/planet/status",
+  "motto": "WAR DAY \u00b7 REAL \u00b7 static authority share of live C++ field stack \u00b7 no demo \u00b7 no fake \u00b7 God Bless",
+  "github_pages": true,
+  "published": "2026-07-13T21:53Z",
   "publisher": "ZacharyGeurts \u00b7 Hostess7 / Spear field stack",
   "github": "https://github.com/ZacharyGeurts/Big_Grin_Terrorist_Hunter",
-  "active_hunt": true,
-  "entropy_detailer": true,
-  "know_shots": true
+  "pages": "https://zacharygeurts.github.io/Big_Grin_Terrorist_Hunter/"
 }

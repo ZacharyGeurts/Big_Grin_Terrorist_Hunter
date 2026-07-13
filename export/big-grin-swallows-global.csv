@@ -527,4 +527,4 @@ Kills,threat-connection-gatekeeper.py,connection-gatekeeper.py,EATEN,high,DOGSHI
 Kills,threat-dig @127.0.0.1,dig @127.0.0.1,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
 Kills,threat-duplicate grok agent serve spawner,Duplicate grok agent serve spawner,EATEN,high,DOGSHIT,,,,,,"dump_bash_state piles, GROK_AGENT shells, sleep infinity, subagent storms, and panel subprocess duplicates get SIGKILL. GrokSpawnKiller never sleeps \u2014 every kil"
 Kills,threat-duplicate grok agent stdio spawner,Duplicate grok agent stdio spawner,EATEN,high,DOGSHIT,,,,,,"dump_bash_state piles, GROK_AGENT shells, sleep infinity, subagent storms, and panel subprocess duplicates get SIGKILL. GrokSpawnKiller never sleeps \u2014 every kil"
-Copilot,global-copilot,Copilot · GLOBAL STAGE,COPILOT_GLOBAL,204,2026-07-13T21:34Z,LETHAL_DESTROYED
+Copilot,global-copilot,Copilot · GLOBAL STAGE,COPILOT_GLOBAL,462,2026-07-13T21:53Z,LETHAL_DESTROYED

@@ -1,12 +1,31 @@
 {
   "schema": "spear-swallows/v1",
-  "title": "Big Grin Swallows + UP Swallows — field antivirus",
+  "title": "Big Grin Swallows + UP Swallows \u2014 field antivirus",
   "updated": "2026-07-13",
-  "motto": "Heuristic eat. Freeze. Quarantine. Hard dispose. No soft TERM theater. C++ and lower only. Real mesh no sandbox.",
+  "motto": "C++ or lower only. No scripts. Global DESTROY\u00b7KILL\u00b7REKILL Copilot. every_kill_gets_rekill. God Bless.",
   "language_stack": {
-    "allow": ["C++", "C", "asm", "lower"],
-    "forbid": ["python", "python3", "soft_script_dispose_path"],
-    "note": "Python is threat as product dispose/runtime model. Wartime hard reaper is spear-hard-dispose (C++)."
+    "allow": [
+      "C++",
+      "C",
+      "asm",
+      "lower"
+    ],
+    "forbid": [
+      "python",
+      "python3",
+      "bash",
+      "sh",
+      "scripts",
+      "soft_script_dispose_path"
+    ],
+    "note": "NO SCRIPTS. Everything we do is C++ or lower. spear-wartime \u00b7 spear-www \u00b7 spear-kill-copilot \u00b7 spear-hard-dispose."
+  },
+  "binaries": {
+    "wartime": "spear-wartime",
+    "www": "spear-www",
+    "kill": "spear-kill-copilot",
+    "dispose": "spear-hard-dispose",
+    "monitor": "spear-wartime"
   },
   "fleets": {
     "big-grin": {
@@ -41,12 +60,26 @@
   "pipeline": [
     "SPOT",
     "VECTOR_SOURCE",
-    "CLEAN_IN",
-    "SWALLOW",
-    "CLEAN_OUT",
+    "COOK_FAT",
+    "QUEUE_REBURN",
+    "BURN",
+    "SCRUB",
+    "OUTLET_DESTROY",
     "SEAL",
     "LOG"
   ],
+  "lethal": {
+    "kills": "LETHAL",
+    "rekills": "LETHAL",
+    "terror_exists": false,
+    "motto": "KILLS and REKILLS are lethal. Cook Field FAT. Queue reburn. Burn. Scrub. Destroy all the way to the wall outlet. We do not let terror exist.",
+    "cook_fat": "Field FAT entropy cook · freeze body",
+    "queue_reburn": "every_kill_gets_rekill · return for burning",
+    "burn": "SIGKILL hard dispose",
+    "scrub": "quarantine wipe · path neutralize",
+    "outlet_destroy": "planet › facility › rack › PDU › wall outlet · total destruction",
+    "seal": "terror does not exist"
+  },
   "neutralize": {
     "forbid": [
       "polite TERM-wait as product model",
@@ -55,14 +88,20 @@
       "sleep as dispose path",
       "shell injection points in reaper",
       "python soft dispose path",
-      "pkill theater without quarantine"
+      "pkill theater without quarantine",
+      "let_terror_persist",
+      "grace for terror"
     ],
     "require": [
       "heuristic score",
       "multi-signal process detect",
       "cgroup freeze when available",
+      "cook Field FAT",
+      "queue reburn",
       "quarantine non-system binary",
       "hard dispose remains SIGKILL only",
+      "scrub remains",
+      "destroy to wall outlet",
       "C++ or lower reaper binary"
     ]
   },
@@ -78,7 +117,8 @@
       "ironclad:copilot-destroy:1",
       "ironclad:zocr-copilot-eat:1",
       "ironclad:hard-dispose:1",
-      "ironclad:field-one-only:1"
+      "ironclad:field-one-only:1",
+      "ironclad:copilot-global-rekill:1"
     ],
     "vector_to_source": true,
     "clean_through": true,
@@ -103,7 +143,12 @@
       "status": "DESTROYED",
       "scope": "github_microsoft_copilot",
       "kill": "pwnership/kills/dogshit-copilot-ironclad-fail.html",
-      "leave": ["gpt-4", "openai", "chatgpt", "grok"]
+      "leave": [
+        "gpt-4",
+        "openai",
+        "chatgpt",
+        "grok"
+      ]
     },
     "zocr_copilot": {
       "status": "EATEN",
@@ -111,7 +156,33 @@
       "kill": "pwnership/kills/dogshit-zocr-copilot.html",
       "interview": "ironclad-zocr-copilot-interview.json",
       "former_leave_alone": "REVOKED",
-      "leave": ["gpt-4", "openai", "chatgpt", "grok", "hostess7", "field_one", "spear"]
+      "leave": [
+        "gpt-4",
+        "openai",
+        "chatgpt",
+        "grok",
+        "hostess7",
+        "field_one",
+        "spear"
+      ]
+    },
+    "every_copilot": {
+      "status": "GONE",
+      "scope": "all_copilot_process_module_server_cloud",
+      "cloud": "NULL_ROUTED",
+      "servers": "WIPED",
+      "reaper": "spear-hard-dispose",
+      "kill": "pwnership/kills/dogshit-zocr-copilot.html",
+      "updated": "2026-07-13T21:07Z"
+    },
+    "copilot_global_stage": {
+      "status": "KILL_REKILL",
+      "stage": "GLOBAL",
+      "rule": "every_kill_gets_rekill",
+      "blessing": "God Bless",
+      "kill": "pwnership/kills/dogshit-copilot-global-stage.html",
+      "ironclad": "ironclad:copilot-global-rekill:1",
+      "updated": "2026-07-13T21:15Z"
     }
   },
   "pid_personal": {
@@ -139,6 +210,6 @@
     "field_one": true,
     "spear": true,
     "zocr_copilot": false,
-    "note": "zocr_copilot REVOKED — EAT. DESTROY GitHub/Microsoft Copilot. GPT-4/OpenAI stay. Hard dispose only."
+    "note": "EVERY copilot GONE. No servers. No cloud. GPT-4/OpenAI stay."
   }
 }

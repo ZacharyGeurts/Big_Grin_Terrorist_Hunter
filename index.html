@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Cache-Control" content="no-store" />
   <title>BIG GRIN SWALLOWS · full deck</title>
-  <link rel="stylesheet" href="assets/spear-world-map.css?v=big2" />
-  <script src="assets/spear-world-map.js?v=big2" defer></script>
+  <base href="./" />
+  <link rel="stylesheet" href="assets/spear-world-map.css?v=gh3" />
+  <script src="assets/spear-world-map.js?v=gh3" defer></script>
   <style>
     :root {
       --bg:#06050a; --panel:#120c18; --panel2:#1a1224; --line:#3a2450;
@@ -108,21 +109,23 @@
 <body>
   <header class="bridge">
     <div>
-      <p class="kicker">BIG GRIN SWALLOWS · unified full deck · C++ stack · live</p>
+      <p class="kicker">BIG GRIN TERRORIST HUNTER · WAR DAY · GitHub Pages · C++ field origin</p>
       <h1>LETHAL kills · cook FAT · queue reburn · burn · scrub · wall outlet · map · dossiers</h1>
       <p class="sub">
-        Kills and rekills are LETHAL. Cook Field FAT · queue reburn · burn · scrub · destroy to the wall outlet. Terror does not exist. Hover pins for full enemy tooltips. Click anything for the detail drawer.
-        Lists paginate so the deck stays smooth. Auto-refresh keeps up with C++ wartime data.
+        Public authority-share of the live field deck. No demo · no fake · multi-signal hunt on the operator host.
+        Hover pins for full enemy tooltips. Click anything for the detail drawer. Exports: Excel / ODS / CSV / JSON.
+        <a href="about.html" style="color:var(--gold)">About / doctrine</a>
+        · <a href="data/war-day.json" style="color:var(--green)">war-day.json</a>
       </p>
       <p class="okline" id="bootLine">booting…</p>
     </div>
     <div class="actions">
       <button class="btn good" id="btnCsv" type="button">⬇ Export CSV</button>
       <button class="btn good" id="btnJson" type="button">⬇ Export JSON</button>
-      <a class="btn primary" href="/export/big-grin-swallows.xlsx">⬇ Excel .xlsx</a>
-      <a class="btn primary" href="/export/big-grin-swallows.ods">⬇ LibreOffice .ods</a>
-      <a class="btn" href="/export/big-grin-swallows-global.csv">CSV file</a>
-      <a class="btn" href="/export/big-grin-swallows-global.json">JSON file</a>
+      <a class="btn primary" href="export/big-grin-swallows.xlsx">⬇ Excel .xlsx</a>
+      <a class="btn primary" href="export/big-grin-swallows.ods">⬇ LibreOffice .ods</a>
+      <a class="btn" href="export/big-grin-swallows-global.csv">CSV file</a>
+      <a class="btn" href="export/big-grin-swallows-global.json">JSON file</a>
       <button class="btn" id="btnRefresh" type="button">↻ Refresh now</button>
     </div>
   </header>
@@ -268,10 +271,53 @@
       map:null, filter:"", pane:"enemies", page:0, mapReady:false, errors:[]
     };
 
+    // GitHub Pages + local static: map live API paths → data/*.json (relative, no leading /)
+    const STATIC_MAP = {
+      "/api/status": "data/status.json",
+      "/api/regions": "data/regions.json",
+      "/api/dossiers": "data/dossiers.json",
+      "/api/planet": "data/planet-live.json",
+      "/threat-catalog.json": "data/threat-catalog.json",
+      "/live-feed.json": "data/live-feed.json",
+      "/autopilot.json": "data/autopilot.json",
+      "/wartime-status.json": "data/wartime-status.json",
+      "/copilot-threat-monitor.json": "data/copilot-threat-monitor.json",
+      "/copilot-global-rekill.json": "data/copilot-global-rekill.json",
+      "/angel-seal-status.json": "data/angel-seal-status.json",
+      "/world-dns-dhcp-status.json": "data/world-dns-dhcp-status.json",
+      "/fleet-mesh-live.json": "data/fleet-mesh-live.json",
+      "/wartime-rekill-state.json": "data/wartime-rekill-state.json",
+      "/doctrine.json": "data/doctrine.json",
+      "/history-recent.json": "data/history-recent.json",
+      "/eaten-set.json": "data/eaten-set.json",
+      "/lethal-kill-queue.json": "data/lethal-kill-queue.json",
+      "/lethal-kill-doctrine.json": "data/lethal-kill-doctrine.json",
+      "/entropy-detailer.json": "data/entropy-detailer.json",
+      "/shots-ledger.json": "data/shots-ledger.json",
+      "/rack-guard-live.json": "data/rack-guard-live.json",
+      "/fleet/status.json": "data/fleet-status.json",
+      "/planet-live.json": "data/planet-live.json",
+      "/war-day.json": "data/war-day.json",
+    };
+    function resolveUrl(url) {
+      if (!url) return url;
+      if (STATIC_MAP[url]) return STATIC_MAP[url];
+      // strip leading slash so project pages base works
+      if (url.startsWith("/api/")) {
+        const rest = url.slice(5).split("?")[0];
+        if (rest.startsWith("dossier")) return "data/dossiers.json";
+        if (rest.startsWith("area-dossier")) return "data/regions.json";
+        if (rest.startsWith("fleet-gps")) return "data/regions.json";
+        return "data/status.json";
+      }
+      if (url.startsWith("/")) return url.replace(/^\//, "");
+      return url;
+    }
     async function j(url) {
+      const path = resolveUrl(url);
       try {
-        const r = await fetch(url + (url.indexOf("?")>=0?"&":"?") + "t=" + Date.now(), {cache:"no-store"});
-        if (!r.ok) throw new Error(url + " " + r.status);
+        const r = await fetch(path + (path.indexOf("?")>=0?"&":"?") + "t=" + Date.now(), {cache:"no-store"});
+        if (!r.ok) throw new Error(path + " " + r.status);
         return await r.json();
       } catch (e) {
         STATE.errors.push(String(e && e.message || e));
@@ -325,8 +371,8 @@
         "zone: "+(r.zone||"—")+" · kind: "+(r.kind||"—"),
         "racks: "+fmt(r.racks)+" · online: "+fmt(r.online||r.racks)+" · status: "+(r.status||"ok"),
         "GPS centroid: "+r.lat+", "+r.lon,
-        "API: /api/area-dossier?code="+r.code,
-        "CSV: /api/fleet-gps.csv?region="+r.code
+        "static region pack · code "+r.code,
+        "export: export/big-grin-swallows-global.csv"
       ].join("\n");
     }
 
@@ -343,8 +389,8 @@
         <p style="margin:.8rem 0 .35rem;color:var(--gold)">Full detail</p>
         <pre>${esc(t.detail||t.dossier_text||threatTip(t))}</pre>
         <p style="margin-top:.8rem">
-          <a href="/api/dossier?id=${encodeURIComponent(t.id)}" target="_blank">API dossier</a>
-          ${t.pwnership_kill?` · <a href="pwnership/kills/${esc(t.pwnership_kill)}.html">Pwnership kill</a>`:""}
+          <a href="data/threat-catalog.json" target="_blank">Threat catalog JSON</a>
+          ${t.pwnership_kill?` · <a href="kills/${esc(t.pwnership_kill)}.html">Kill witness</a>`:""}
         </p>`);
     }
     function showKill(k){
@@ -365,33 +411,30 @@
         <pre>${esc(k.dossier_text||killTip(k))}</pre>
         <p style="margin-top:.8rem">
           ${g.map?`<a href="${esc(g.map)}" target="_blank">OpenStreetMap</a> · `:""}
-          ${/^\d+\.\d+\.\d+\.\d+$/.test(String(k.target||""))?`<a href="/api/dossier?ip=${encodeURIComponent(k.target)}" target="_blank">API dossier</a>`:""}
+          ${/^\d+\.\d+\.\d+\.\d+$/.test(String(k.target||""))?`<a href="data/dossiers.json" target="_blank">Dossiers JSON</a>`:""}
         </p>`);
     }
     async function showFleet(r){
-      openDrawer(r.code+" · "+r.name, "loading area dossier…", "<p style='color:var(--muted)'>Fetching full area…</p>");
-      const d = await j("/api/area-dossier?code="+encodeURIComponent(r.code));
-      if(!d||d.error){
-        $("#dBody").innerHTML = "<pre>"+esc(fleetTip(r)+"\n\n"+JSON.stringify(d||{},null,2))+"</pre>";
-        $("#sideBody").innerHTML = $("#dBody").innerHTML;
-        return;
-      }
-      const inv = (d.rack_inventory||[]).slice(0,40);
+      openDrawer(r.code+" · "+r.name, "fleet area", "<p style='color:var(--muted)'>Loading…</p>");
+      const pack = await j("data/regions.json");
+      const list = (pack && pack.regions) || [];
+      const d = list.find(x => x.code === r.code) || r;
       const html = `
-        <div class="kv"><span>Area</span><span>${esc(d.title||d.name)}</span></div>
-        <div class="kv"><span>Zone</span><span>${esc(d.zone)}</span></div>
-        <div class="kv"><span>Racks</span><span>${fmt(d.racks_total)} · online ${fmt(d.racks_online)}</span></div>
-        <div class="kv"><span>Defending</span><span>${fmt(d.defending)}</span></div>
-        <div class="kv"><span>Live planet</span><span>${d.live?"YES":"no"}</span></div>
-        <p style="margin:.8rem 0 .35rem;color:var(--gold)">Summary</p>
-        <pre>${esc(d.summary||"")}</pre>
-        <p style="margin:.8rem 0 .35rem;color:var(--gold)">Racks (first ${inv.length})</p>
-        <pre>${esc(inv.map(x=>x.id+" | "+(x.role||"")+" | "+x.lat+","+x.lon+" | "+(x.ip||"")+" | "+(x.town||"")).join("\n"))}</pre>
+        <div class="kv"><span>Area</span><span>${esc(d.name||r.name)}</span></div>
+        <div class="kv"><span>Code</span><span>${esc(d.code||r.code)}</span></div>
+        <div class="kv"><span>Zone</span><span>${esc(d.zone||r.zone||"—")}</span></div>
+        <div class="kv"><span>Kind</span><span>${esc(d.kind||"—")}</span></div>
+        <div class="kv"><span>Racks</span><span>${fmt(d.racks||d.racks_total||r.racks)} · online ${fmt(d.online||d.ok||d.racks)}</span></div>
+        <div class="kv"><span>Status</span><span>${esc(d.status||"ok")}</span></div>
+        <div class="kv"><span>GPS</span><span>${d.lat!=null?esc(d.lat+", "+d.lon):"—"}</span></div>
+        <p style="margin:.8rem 0 .35rem;color:var(--gold)">Tooltip</p>
+        <pre>${esc(fleetTip(r))}</pre>
         <p>
-          <a href="/api/area-dossier?code=${encodeURIComponent(r.code)}" target="_blank">Full area JSON</a> ·
-          <a href="/api/fleet-gps.csv?region=${encodeURIComponent(r.code)}">All racks GPS CSV</a>
+          <a href="data/regions.json" target="_blank">Regions JSON</a> ·
+          <a href="data/fleet-mesh-live.json" target="_blank">Mesh live</a> ·
+          <a href="export/big-grin-swallows-global.csv">Global CSV</a>
         </p>`;
-      $("#dSub").textContent = "racks "+fmt(d.racks_total)+" · defending "+fmt(d.defending);
+      $("#dSub").textContent = "racks "+fmt(d.racks||r.racks)+" · zone "+esc(d.zone||r.zone||"—");
       $("#dBody").innerHTML = html;
       $("#sideBody").innerHTML = html;
     }
@@ -496,7 +539,7 @@
       try{
         if(!STATE.map){
           STATE.map = new SpearWorldMap("#worldMap", {
-            mapSrc:"assets/maps/world-equirectangular.jpg",
+            mapSrc:"assets/maps/world-equirectangular.jpg?v=gh3",
             showFleet:true, showThreats:true,
             onSelect:(pt)=>{
               if(!pt) return;
@@ -707,28 +750,28 @@
         mesh, rekill, doctrine, history, eaten, lethalQ, lethalDoc, entropyD, shotsBoard,
         rackGuard, fleetSt
       ] = await Promise.all([
-        j("/api/status"),
-        j("/api/regions"),
-        j("/api/dossiers"),
-        j("/threat-catalog.json"),
-        j("/live-feed.json"),
-        j("/autopilot.json"),
-        j("/copilot-threat-monitor.json"),
-        j("/copilot-global-rekill.json"),
-        j("/angel-seal-status.json"),
-        j("/world-dns-dhcp-status.json"),
-        j("/api/planet"),
-        j("/fleet-mesh-live.json"),
-        j("/wartime-rekill-state.json"),
-        j("/doctrine.json"),
-        j("/history-recent.json"),
-        j("/eaten-set.json"),
-        j("/lethal-kill-queue.json"),
-        j("/lethal-kill-doctrine.json"),
-        j("/entropy-detailer.json"),
-        j("/shots-ledger.json"),
-        j("/rack-guard-live.json"),
-        j("/fleet/status.json"),
+        j("data/status.json"),
+        j("data/regions.json"),
+        j("data/dossiers.json"),
+        j("data/threat-catalog.json"),
+        j("data/live-feed.json"),
+        j("data/autopilot.json"),
+        j("data/copilot-threat-monitor.json"),
+        j("data/copilot-global-rekill.json"),
+        j("data/angel-seal-status.json"),
+        j("data/world-dns-dhcp-status.json"),
+        j("data/planet-live.json"),
+        j("data/fleet-mesh-live.json"),
+        j("data/wartime-rekill-state.json"),
+        j("data/doctrine.json"),
+        j("data/history-recent.json"),
+        j("data/eaten-set.json"),
+        j("data/lethal-kill-queue.json"),
+        j("data/lethal-kill-doctrine.json"),
+        j("data/entropy-detailer.json"),
+        j("data/shots-ledger.json"),
+        j("data/rack-guard-live.json"),
+        j("data/fleet-status.json"),
       ]);
       STATE.status = status||{};
       STATE.regions = (regionsWrap&&regionsWrap.regions)||[];

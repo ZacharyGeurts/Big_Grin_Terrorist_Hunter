@@ -1,0 +1,194 @@
+{
+  "ips": {
+    "101.43.32.212": {
+      "rekill_count": 471,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "102.220.160.222": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "113.45.226.61": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "118.25.85.198": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "121.4.76.54": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "139.159.203.44": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "146.75.92.159": {
+      "rekill_count": 423,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "147.93.191.75": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "162.159.140.229": {
+      "rekill_count": 423,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "BEACON_PATTERN",
+      "severity": "medium"
+    },
+    "167.71.233.187": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "188.40.99.226": {
+      "rekill_count": 423,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "194.233.73.173": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "196.251.107.104": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "198.23.185.136": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "221.132.29.137": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "35.186.241.51": {
+      "rekill_count": 423,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "35.190.25.25": {
+      "rekill_count": 423,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "43.138.165.203": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "43.156.63.124": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "47.101.51.235": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "47.103.95.85": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "47.116.211.215": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "HUMAN_THREAT",
+      "severity": "critical"
+    },
+    "47.236.149.142": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "HUMAN_THREAT",
+      "severity": "critical"
+    },
+    "47.238.154.144": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "HUMAN_THREAT",
+      "severity": "critical"
+    },
+    "47.82.234.12": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "HUMAN_THREAT",
+      "severity": "critical"
+    },
+    "49.233.215.164": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "HUMAN_THREAT",
+      "severity": "critical"
+    },
+    "5.101.86.44": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "HUMAN_THREAT",
+      "severity": "critical"
+    },
+    "68.118.158.1": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "BANDWIDTH_ABUSE",
+      "severity": "critical"
+    },
+    "71.10.216.1": {
+      "rekill_count": 423,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "WIFI_THREAT",
+      "severity": "critical"
+    },
+    "82.157.52.180": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "HUMAN_THREAT",
+      "severity": "critical"
+    },
+    "87.199.196.12": {
+      "rekill_count": 470,
+      "last_rekill_at": "2026-07-13T21:18Z",
+      "vector": "HUMAN_THREAT",
+      "severity": "critical"
+    }
+  },
+  "updated": "2026-07-13T21:18Z",
+  "last_cycle_ips": 31,
+  "last_cycle_threats": 456,
+  "copilot_global_last": 7
+}

@@ -1280,6 +1280,31 @@
   ],
   "threats": [
     {
+      "id": "global-copilot",
+      "label": "Copilot \u00b7 GLOBAL STAGE",
+      "kind": "non_ironclad_assistant",
+      "tags": [
+        "dogshit",
+        "terrorist",
+        "permanent_list",
+        "wartime",
+        "global_stage",
+        "copilot",
+        "no_demo"
+      ],
+      "severity": "critical",
+      "eaten": true,
+      "ousted": true,
+      "status": "KILL_REKILL",
+      "vector": "COPILOT_GLOBAL",
+      "detail": "DESTROY \u00b7 KILL \u00b7 REKILL on global wartime stage. every_kill_gets_rekill. God Bless.",
+      "ironclad": "ironclad:copilot-global-rekill:1",
+      "pwnership_kill": "dogshit-copilot-global-stage",
+      "stage": "GLOBAL",
+      "blessing": "God Bless",
+      "updated": "2026-07-13T21:15Z"
+    },
+    {
       "id": "copilot-ironclad-fail",
       "label": "Copilot",
       "kind": "non_ironclad_assistant",
@@ -1303,20 +1328,92 @@
       "ousted": true,
       "status": "DESTROYED",
       "vector": "COPILOT_FOREIGN",
-      "detail": "DESTROY GitHub/Microsoft Copilot only. GPT-4/OpenAI/ChatGPT/Grok stay. Ironclad FAIL \u00b7 not Hostess7.",
+      "detail": "DESTROY GitHub/Microsoft Copilot. GPT-4/OpenAI/ChatGPT/Grok stay. Ironclad FAIL \u00b7 not Hostess7. Hard SIGKILL only.",
       "ironclad": "ironclad:copilot-destroy:1",
       "hostess7_mesh": false,
       "interview": "ironclad-copilot-interview.json",
       "pwnership_kill": "dogshit-copilot-ironclad-fail",
-      "policy": "vector_to_source \u00b7 clean_through \u00b7 clean_out \u00b7 every_kill_gets_rekill",
-      "updated": "2026-07-13T20:56Z",
+      "policy": "vector_to_source \u00b7 clean_through \u00b7 clean_out \u00b7 every_kill_gets_rekill \u00b7 SIGKILL_ONLY",
+      "updated": "2026-07-13T21:10Z",
       "leave_alone": [
         "gpt-4",
         "openai",
         "chatgpt",
         "grok"
       ],
-      "scope": "github_microsoft_copilot_only"
+      "scope": "github_microsoft_copilot"
+    },
+    {
+      "id": "zocr-copilot",
+      "label": "zocr_copilot",
+      "kind": "non_ironclad_assistant",
+      "tags": [
+        "dogshit",
+        "terrorist",
+        "permanent_list",
+        "wartime",
+        "ousted",
+        "zocr_copilot",
+        "threat",
+        "no_demo",
+        "hard_dispose"
+      ],
+      "sources": [
+        "ironclad-mesh-interview",
+        "pwnership",
+        "hostess7",
+        "operator_order"
+      ],
+      "severity": "critical",
+      "eaten": true,
+      "ousted": true,
+      "status": "EATEN",
+      "vector": "ZOCR_COPILOT",
+      "detail": "zocr_copilot THREAT. Former leave-alone REVOKED. EAT hard. C++/lower only. No fork/sleep/inject/SIGTERM. GPT-4 stays.",
+      "ironclad": "ironclad:zocr-copilot-eat:1",
+      "hostess7_mesh": false,
+      "interview": "ironclad-zocr-copilot-interview.json",
+      "pwnership_kill": "dogshit-zocr-copilot",
+      "policy": "EAT \u00b7 SIGKILL_ONLY \u00b7 no_fork \u00b7 no_sleep \u00b7 no_injection \u00b7 C++_or_lower \u00b7 every_kill_gets_rekill",
+      "updated": "2026-07-13T21:10Z",
+      "former_leave_alone": "REVOKED",
+      "leave_alone": [
+        "gpt-4",
+        "openai",
+        "chatgpt",
+        "grok",
+        "hostess7",
+        "field_one",
+        "spear"
+      ],
+      "scope": "zocr_copilot_threat"
+    },
+    {
+      "id": "dogshit-zocr-copilot",
+      "label": "dogshit-zocr-copilot",
+      "kind": "dogshit",
+      "tags": [
+        "dogshit",
+        "permanent_list",
+        "wartime",
+        "ousted",
+        "zocr_copilot"
+      ],
+      "severity": "critical",
+      "eaten": true,
+      "ousted": true,
+      "file": "dogshit-zocr-copilot.html",
+      "updated": "2026-07-13T21:10Z",
+      "status": "EATEN",
+      "vector": "ZOCR_COPILOT",
+      "leave_alone": [
+        "gpt-4",
+        "openai",
+        "chatgpt",
+        "grok"
+      ],
+      "scope": "zocr_copilot_threat",
+      "detail": "zocr_copilot EATEN. Hard dispose. Python soft path FORBIDDEN."
     },
     {
       "id": "dogshit-copilot-ironclad-fail",
@@ -1332,15 +1429,15 @@
       "eaten": true,
       "ousted": true,
       "file": "dogshit-copilot-ironclad-fail.html",
-      "updated": "2026-07-13T20:56Z",
+      "updated": "2026-07-13T21:10Z",
       "leave_alone": [
         "gpt-4",
         "openai",
         "chatgpt",
         "grok"
       ],
-      "scope": "github_microsoft_copilot_only",
-      "detail": "DESTROY GitHub/Microsoft Copilot only. GPT-4/OpenAI/ChatGPT/Grok stay. Ironclad FAIL \u00b7 not Hostess7."
+      "scope": "github_microsoft_copilot",
+      "detail": "DESTROY GitHub/Microsoft Copilot. GPT-4/OpenAI/ChatGPT/Grok stay. Ironclad FAIL \u00b7 not Hostess7. Hard SIGKILL only."
     },
     {
       "id": "hotdog-down-a-hallway",
@@ -4957,8 +5054,14 @@
   ],
   "oust": {
     "hotdog_down_a_hallway": "OUSTED",
-    "policy": "vector_to_source \u00b7 clean_through \u00b7 clean_out",
+    "policy": "vector_to_source \u00b7 clean_through \u00b7 clean_out \u00b7 SIGKILL_ONLY \u00b7 no_fork \u00b7 no_sleep \u00b7 no_injection",
     "ironclad": "ironclad:hotdog-hallway-oust:1",
-    "copilot": "DESTROYED"
+    "copilot": "DESTROYED",
+    "zocr_copilot": "EATEN",
+    "language_stack": "C++_and_lower_only",
+    "python_soft_path": "THREAT_FORBIDDEN",
+    "every_copilot": "GONE",
+    "cloud": "NULL_ROUTED",
+    "copilot_global_stage": "KILL_REKILL"
   }
 }
