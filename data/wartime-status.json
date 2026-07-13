@@ -2,7 +2,12 @@
   "schema": "spear-wartime/v1",
   "mode": "WARTIME",
   "stage": "GLOBAL",
+  "war_day": true,
+  "real": true,
   "demo": false,
+  "fake": false,
+  "sandbox": false,
+  "process_hunt": "REAL_PROC_MULTISIGNAL",
   "stack": "C++",
   "scripts": "FORBIDDEN",
   "lethal": true,
@@ -10,9 +15,9 @@
   "blessing": "God Bless",
   "rule": "every_kill_gets_rekill",
   "signal": "SIGKILL_ONLY",
-  "ts": "2026-07-13T21:44Z",
-  "cycle": 3,
-  "motto": "LETHAL KILL/REKILL. Cook Field FAT. Queue reburn. Burn. Scrub. Destroy to wall outlet. Terror does not exist. God Bless.",
+  "ts": "2026-07-13T21:52Z",
+  "cycle": 8,
+  "motto": "WAR DAY · REAL hunt · LETHAL KILL/REKILL · no demo · no fake · God Bless.",
   "pipeline": ["SPOT","VECTOR_SOURCE","COOK_FAT","QUEUE_REBURN","BURN","SCRUB","OUTLET_DESTROY","SEAL"],
   "oust": {
     "hotdog_down_a_hallway": "LETHAL_OUSTED_PID_KILL",
@@ -29,13 +34,13 @@
     "blocked_ips": 34,
     "copilot_hunt_seen": 0,
     "copilot_hunt_killed": 0,
-    "copilot_global_lifetime": 2383,
+    "copilot_global_lifetime": 3533,
     "copilot_global_targets": 10
   },
   "wartime_services": {
     "swallows_9490": true,
     "planet_9600": true,
-    "fleet_link_9500": false
+    "fleet_link_9500": true
   },
   "ironclad": [
     "ironclad:lethal-kill-rekill:1",

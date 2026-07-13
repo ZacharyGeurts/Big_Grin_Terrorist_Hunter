@@ -1,0 +1,16 @@
+{
+  "schema": "spear-war-day/v1",
+  "war_day": true,
+  "real": true,
+  "demo": false,
+  "fake": false,
+  "sandbox": false,
+  "process_hunt": "REAL_PROC_MULTISIGNAL",
+  "kill": "SIGKILL_ONLY",
+  "stack": "C++",
+  "scripts": "FORBIDDEN",
+  "protect": ["WORLD", "INTERNET"],
+  "terror_exists": false,
+  "blessing": "God Bless",
+  "motto": "WAR DAY · no demo · no fake · real multi-signal hunt · God Bless"
+}
