@@ -1,0 +1,18 @@
+{
+  "schema": "up-fleet-status/v3",
+  "mode": "REAL",
+  "stack": "C++",
+  "sandbox": false,
+  "online": 640,
+  "total": 640,
+  "ok": 640,
+  "warn": 0,
+  "scan": 0,
+  "bad": 0,
+  "off": 0,
+  "by_region": {"UP": {"online": 320, "ok": 320, "off": 0}, "WI": {"online": 320, "ok": 320, "off": 0}},
+  "links_up": 8,
+  "links_total": 8,
+  "updated": "2026-07-13T21:49Z",
+  "motto": "Real UP+WI mesh · C++ · no scripts"
+}

@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Cache-Control" content="no-store" />
-  <title>Big Grin Terrorist Hunter · ZacharyGeurts</title>
-  <link rel="stylesheet" href="css/spear-world-map.css?v=gh1" />
-  <script src="js/spear-world-map.js?v=gh1" defer></script>
+  <title>BIG GRIN SWALLOWS · full deck</title>
+  <link rel="stylesheet" href="assets/spear-world-map.css?v=big2" />
+  <script src="assets/spear-world-map.js?v=big2" defer></script>
   <style>
     :root {
       --bg:#06050a; --panel:#120c18; --panel2:#1a1224; --line:#3a2450;
@@ -108,7 +108,7 @@
 <body>
   <header class="bridge">
     <div>
-      <p class="kicker">BIG GRIN TERRORIST HUNTER · public authority share · ZacharyGeurts</p>
+      <p class="kicker">BIG GRIN SWALLOWS · unified full deck · C++ stack · live</p>
       <h1>LETHAL kills · cook FAT · queue reburn · burn · scrub · wall outlet · map · dossiers</h1>
       <p class="sub">
         Kills and rekills are LETHAL. Cook Field FAT · queue reburn · burn · scrub · destroy to the wall outlet. Terror does not exist. Hover pins for full enemy tooltips. Click anything for the detail drawer.
@@ -119,27 +119,14 @@
     <div class="actions">
       <button class="btn good" id="btnCsv" type="button">⬇ Export CSV</button>
       <button class="btn good" id="btnJson" type="button">⬇ Export JSON</button>
-      <a class="btn primary" href="export/big-grin-swallows.xlsx">⬇ Excel .xlsx</a>
-      <a class="btn primary" href="export/big-grin-swallows.ods">⬇ LibreOffice .ods</a>
-      <a class="btn" href="export/big-grin-swallows-global.csv">CSV file</a>
-      <a class="btn" href="export/big-grin-swallows-global.json">JSON file</a>
+      <a class="btn primary" href="/export/big-grin-swallows.xlsx">⬇ Excel .xlsx</a>
+      <a class="btn primary" href="/export/big-grin-swallows.ods">⬇ LibreOffice .ods</a>
+      <a class="btn" href="/export/big-grin-swallows-global.csv">CSV file</a>
+      <a class="btn" href="/export/big-grin-swallows-global.json">JSON file</a>
       <button class="btn" id="btnRefresh" type="button">↻ Refresh now</button>
     </div>
   </header>
   <div class="beam"></div>
-
-  <div style="padding:.7rem 1.4rem;background:#0e1a14;border-bottom:1px solid #2a6a4a;font-size:.88rem;line-height:1.45;color:#cfe8d8">
-    <b style="color:#5dffb0">Authority share package</b> —
-    Static GitHub Pages snapshot of the Big Grin field hunter deck (threat catalog, kill dossiers with GPS, lethal kill/rekill doctrine, world fleet centroids).
-    Origin stack is C++ field wartime (SIGKILL multi-signal hunt). This page is a shareable review surface — not a remote kill switch.
-    Publisher: <b>ZacharyGeurts</b> · Repo: <a href="https://github.com/ZacharyGeurts/Big_Grin_Terrorist_Hunter">Big_Grin_Terrorist_Hunter</a> ·
-    <a href="about.html">About for authorities</a> ·
-    <a href="export/big-grin-swallows.xlsx">Excel</a> ·
-    <a href="export/big-grin-swallows.ods">LibreOffice</a> ·
-    <a href="export/big-grin-swallows-global.csv">CSV</a> ·
-    <a href="export/big-grin-swallows-global.json">JSON</a>
-  </div>
-
   <section class="stats" id="stats"></section>
   <div id="lethalPipe" style="padding:.55rem 1.4rem;border-bottom:1px solid var(--line);font-size:.82rem;color:var(--muted);line-height:1.45">
     <b style="color:var(--red)">LETHAL KILL/REKILL</b> ·
@@ -180,7 +167,6 @@
           <button class="tab" data-pane="live" type="button">Live feed</button>
           <button class="tab" data-pane="history" type="button">History</button>
           <button class="tab" data-pane="wartime" type="button">Wartime</button>
-          <button class="tab" data-pane="shots" type="button">Entropy shots</button>
           <button class="tab" data-pane="copilot" type="button">Copilot global</button>
           <button class="tab" data-pane="infra" type="button">Angel · DNS · mesh</button>
           <button class="tab" data-pane="raw" type="button">Raw status</button>
@@ -195,7 +181,6 @@
         <div class="pane" id="pane-live"></div>
         <div class="pane" id="pane-history"></div>
         <div class="pane" id="pane-wartime"></div>
-        <div class="pane" id="pane-shots"></div>
         <div class="pane" id="pane-copilot"></div>
         <div class="pane" id="pane-infra"></div>
         <div class="pane" id="pane-raw"></div>
@@ -358,8 +343,8 @@
         <p style="margin:.8rem 0 .35rem;color:var(--gold)">Full detail</p>
         <pre>${esc(t.detail||t.dossier_text||threatTip(t))}</pre>
         <p style="margin-top:.8rem">
-          <a href="data/threat-catalog.json#${encodeURIComponent(t.id)}" target="_blank">API dossier</a>
-          ${t.pwnership_kill?` · <a href="kills/${esc(t.pwnership_kill)}.html">Pwnership kill</a>`:""}
+          <a href="/api/dossier?id=${encodeURIComponent(t.id)}" target="_blank">API dossier</a>
+          ${t.pwnership_kill?` · <a href="pwnership/kills/${esc(t.pwnership_kill)}.html">Pwnership kill</a>`:""}
         </p>`);
     }
     function showKill(k){
@@ -380,22 +365,35 @@
         <pre>${esc(k.dossier_text||killTip(k))}</pre>
         <p style="margin-top:.8rem">
           ${g.map?`<a href="${esc(g.map)}" target="_blank">OpenStreetMap</a> · `:""}
-          ${/^\d+\.\d+\.\d+\.\d+$/.test(String(k.target||""))?`<a href="data/dossiers.json#${encodeURIComponent(k.target)}" target="_blank">API dossier</a>`:""}
+          ${/^\d+\.\d+\.\d+\.\d+$/.test(String(k.target||""))?`<a href="/api/dossier?ip=${encodeURIComponent(k.target)}" target="_blank">API dossier</a>`:""}
         </p>`);
     }
     async function showFleet(r){
-      const summary = fleetTip(r) + "\n\nPUBLIC SNAPSHOT\nFull per-rack area inventories stay on the field C++ stack.\nThis GitHub Pages build shares centroids + threat GPS + kill dossiers for authority review.";
+      openDrawer(r.code+" · "+r.name, "loading area dossier…", "<p style='color:var(--muted)'>Fetching full area…</p>");
+      const d = await j("/api/area-dossier?code="+encodeURIComponent(r.code));
+      if(!d||d.error){
+        $("#dBody").innerHTML = "<pre>"+esc(fleetTip(r)+"\n\n"+JSON.stringify(d||{},null,2))+"</pre>";
+        $("#sideBody").innerHTML = $("#dBody").innerHTML;
+        return;
+      }
+      const inv = (d.rack_inventory||[]).slice(0,40);
       const html = `
-        <div class="kv"><span>Area</span><span>${esc(r.code)} · ${esc(r.name)}</span></div>
-        <div class="kv"><span>Zone</span><span>${esc(r.zone||"—")}</span></div>
-        <div class="kv"><span>Racks</span><span>${fmt(r.racks)} · online ${fmt(r.online||r.racks)}</span></div>
-        <div class="kv"><span>Status</span><span>${esc(r.status||"ok")}</span></div>
-        <div class="kv"><span>GPS</span><span>${esc(r.lat)}, ${esc(r.lon)}</span></div>
-        <p style="margin:.8rem 0 .35rem;color:var(--gold)">Area brief</p>
-        <pre>${esc(summary)}</pre>
-        <p class="section-label" style="margin-top:1rem">Authority note</p>
-        <p style="color:var(--muted);font-size:.85rem;line-height:1.45">Fleet map pins are country/area centroids with defensive rack counts from the field inventory snapshot. Enemy pins use kill-dossier GPS where available.</p>`;
-      openDrawer(r.code+" · "+r.name, "zone "+(r.zone||"—")+" · racks "+fmt(r.racks), html);
+        <div class="kv"><span>Area</span><span>${esc(d.title||d.name)}</span></div>
+        <div class="kv"><span>Zone</span><span>${esc(d.zone)}</span></div>
+        <div class="kv"><span>Racks</span><span>${fmt(d.racks_total)} · online ${fmt(d.racks_online)}</span></div>
+        <div class="kv"><span>Defending</span><span>${fmt(d.defending)}</span></div>
+        <div class="kv"><span>Live planet</span><span>${d.live?"YES":"no"}</span></div>
+        <p style="margin:.8rem 0 .35rem;color:var(--gold)">Summary</p>
+        <pre>${esc(d.summary||"")}</pre>
+        <p style="margin:.8rem 0 .35rem;color:var(--gold)">Racks (first ${inv.length})</p>
+        <pre>${esc(inv.map(x=>x.id+" | "+(x.role||"")+" | "+x.lat+","+x.lon+" | "+(x.ip||"")+" | "+(x.town||"")).join("\n"))}</pre>
+        <p>
+          <a href="/api/area-dossier?code=${encodeURIComponent(r.code)}" target="_blank">Full area JSON</a> ·
+          <a href="/api/fleet-gps.csv?region=${encodeURIComponent(r.code)}">All racks GPS CSV</a>
+        </p>`;
+      $("#dSub").textContent = "racks "+fmt(d.racks_total)+" · defending "+fmt(d.defending);
+      $("#dBody").innerHTML = html;
+      $("#sideBody").innerHTML = html;
     }
 
     function matchQ(text){
@@ -426,18 +424,20 @@
 
     function renderStats(){
       const s=STATE.status||{}, c=STATE.copilot||{}, g=STATE.copilotGlobal||{};
+      const m=STATE.mesh||{}, rg=STATE.rackGuard||{}, fs=STATE.fleetStatus||{};
       const kills=STATE.kills||[];
       const dead=kills.filter(k=>k.dead||k.status==="DEAD").length;
       const gps=kills.filter(k=>k.gps&&k.gps.lat!=null).length;
+      const zones = (m.zones && Object.keys(m.zones).length) || rg.zones_hunting || 0;
       const items=[
-        {n:fmt(s.defending||s.online||s.up_systems), l:"Planet defending", cls:""},
+        {n:fmt(s.defending||fs.defending||s.online||s.up_systems), l:"Planet defending", cls:""},
         {n:fmt(s.regions||STATE.regions.length), l:"Fleet areas", cls:"cyan"},
-        {n:fmt(STATE.threats.length), l:"Threat catalog", cls:"hot"},
+        {n:fmt(zones), l:"Zones hunting (rack offload)", cls:"hot"},
+        {n:fmt(m.global_shots||rg.global_shots||0), l:"Rack mesh entropy shots", cls:"hot"},
         {n:fmt(dead)+"/"+fmt(kills.length), l:"Kills DEAD / total", cls:"hot"},
         {n:fmt(gps), l:"Enemy GPS pins", cls:"warn"},
-        {n:fmt(STATE.live.length), l:"Live feed events", cls:""},
         {n:fmt(g.lifetime_rekills||0), l:"Copilot global rekills", cls:"hot"},
-        {n:s.planet_live?"LIVE":"off", l:"Planet · "+(s.stack||"C++"), cls:s.planet_live?"":"warn"},
+        {n:(m.violent_protection||rg.violent_protection)?"VIOLENT":"off", l:"Protect WORLD+INTERNET", cls:(m.violent_protection||rg.violent_protection)?"":"warn"},
       ];
       $("#stats").innerHTML = items.map(i=>
         `<div class="stat ${i.cls}"><div class="n">${esc(i.n)}</div><div class="l">${esc(i.l)}</div></div>`
@@ -445,11 +445,13 @@
     }
 
     function renderStrips(){
-      const w=STATE.wartime||{}, a=STATE.angel||{}, d=STATE.dns||{}, m=STATE.mesh||{};
+      const w=STATE.wartime||{}, a=STATE.angel||{}, d=STATE.dns||{}, m=STATE.mesh||{}, rg=STATE.rackGuard||{};
+      const zc = (m.zones && Object.keys(m.zones).length) || rg.zones_hunting || 0;
       $("#strips").innerHTML = `
         <div class="mini"><b>Wartime</b>stage ${esc(w.stage||"—")}<br>scripts ${esc(w.scripts||"—")}<br>${esc(w.blessing||"")}</div>
         <div class="mini"><b>Angel seal</b>${esc(a.status||"—")}<br>${esc(a.commander||"")}<br>components ${fmt(a.component_count)}</div>
         <div class="mini"><b>World DNS/DHCP</b>${esc(d.status||"—")}<br>foreign hooks blocked<br>${esc((d.policy||"").slice(0,80))}</div>
+        <div class="mini"><b>RACK GUARD</b>QEMU/zone mesh offload<br>zones ${fmt(zc)} · shots ${fmt(m.global_shots||rg.global_shots||0)}<br>VIOLENT · WORLD+INTERNET · SIGKILL</div>
         <div class="mini"><b>LETHAL</b>cook FAT · queue reburn<br>burn · scrub · wall outlet<br>terror_exists: false</div>
         <div class="mini"><b>Hunt</b>${esc(STATE.copilot.overall||"—")}<br>engine ${esc(STATE.copilot.engine||"—")}<br>seen ${esc(STATE.copilot.hunt&&STATE.copilot.hunt.seen_this_cycle)}</div>
       `;
@@ -586,21 +588,6 @@
         const w=STATE.wartime||{}, rk=STATE.rekill||{};
         $("#pane-wartime").innerHTML = `<pre>${esc(JSON.stringify({wartime:w, rekill_state:rk}, null, 2))}</pre>`;
       }
-
-      if(pane==="shots"){
-        total=STATE.knownShots.length;
-        const sl=pageSlice(STATE.knownShots);
-        total=sl.total; rows=sl.rows;
-        $("#pane-shots").innerHTML = rows.map(s=>`
-          <div class="row"><div class="t">${esc(s.phase||"SHOT")} · ${esc(s.target||s.id)}
-            <span class="tag dead">seal</span></div>
-            <div class="m">H=${esc(s.shannon_h!=null?Number(s.shannon_h).toFixed(4):"—")} · fold=${esc(s.entropy_fold!=null?Number(s.entropy_fold).toFixed(4):"—")}
-            · <span style="color:#7ad7ff">${esc(s.seal||"")}</span>
-            · r${esc(s.rekill??"")} · ${esc(s.ts||"")}
-            ${s.outlet_path?"\\n"+esc(s.outlet_path):""}</div></div>`).join("")
-          || "<p class='err'>No sealed shots yet — active hunt will fill this.</p>";
-      }
-
       if(pane==="copilot"){
         total=1;
         $("#pane-copilot").innerHTML = `<pre>${esc(JSON.stringify({monitor:STATE.copilot, global:STATE.copilotGlobal}, null, 2))}</pre>`;
@@ -666,7 +653,10 @@
         ironclad:d.ironclad&&{soft_term:d.ironclad.soft_term_theater, scripts:d.ironclad.scripts, stack:d.ironclad.stack},
         oust:d.oust
       }, null, 2);
-      $("#planetBox").textContent = JSON.stringify({planet:STATE.planet, status:STATE.status, mesh:STATE.mesh}, null, 2);
+      $("#planetBox").textContent = JSON.stringify({
+        planet:STATE.planet, status:STATE.status, mesh:STATE.mesh,
+        rack_guard:STATE.rackGuard, fleet_status:STATE.fleetStatus
+      }, null, 2);
       $("#rekillBox").textContent = JSON.stringify(STATE.rekill||{}, null, 2);
     }
 
@@ -675,9 +665,12 @@
         schema:"big-grin-swallows-global-export/v1",
         ts:new Date().toISOString(),
         stack:"C++",
+        violent_protection:true,
+        protect:["WORLD","INTERNET"],
         status:STATE.status, planet:STATE.planet, wartime:STATE.wartime,
         copilot:STATE.copilot, copilot_global:STATE.copilotGlobal,
         angel:STATE.angel, world_dns_dhcp:STATE.dns, mesh:STATE.mesh,
+        rack_guard:STATE.rackGuard, fleet_status:STATE.fleetStatus,
         doctrine:STATE.doctrine, rekill:STATE.rekill,
         regions:STATE.regions, threats:STATE.threats, kills:STATE.kills,
         live_events:STATE.live, history:STATE.history
@@ -711,28 +704,31 @@
       const [
         status, regionsWrap, dossiers, catalog, liveFeed,
         wartime, copilot, copilotGlobal, angel, dns, planet,
-        mesh, rekill, doctrine, history, eaten, lethalQ, lethalDoc, entropyD, shotsBoard
+        mesh, rekill, doctrine, history, eaten, lethalQ, lethalDoc, entropyD, shotsBoard,
+        rackGuard, fleetSt
       ] = await Promise.all([
-        j("data/status.json"),
-        j("data/regions.json"),
-        j("data/dossiers.json"),
-        j("data/threat-catalog.json"),
-        j("data/live-feed.json"),
-        j("data/autopilot.json"),
-        j("data/copilot-threat-monitor.json"),
-        j("data/copilot-global-rekill.json"),
-        j("data/angel-seal-status.json"),
-        j("data/world-dns-dhcp-status.json"),
-        j("data/planet-live.json"),
-        j("data/status.json"),
-        j("data/lethal-kill-queue.json"),
-        j("data/doctrine.json"),
-        j("data/live-feed.json"),
-        j("data/every-copilot-gone.json"),
-        j("data/lethal-kill-queue.json"),
-        j("data/lethal-kill-doctrine.json"),
-        j("data/entropy-detailer.json"),
-        j("data/shots-ledger.json"),
+        j("/api/status"),
+        j("/api/regions"),
+        j("/api/dossiers"),
+        j("/threat-catalog.json"),
+        j("/live-feed.json"),
+        j("/autopilot.json"),
+        j("/copilot-threat-monitor.json"),
+        j("/copilot-global-rekill.json"),
+        j("/angel-seal-status.json"),
+        j("/world-dns-dhcp-status.json"),
+        j("/api/planet"),
+        j("/fleet-mesh-live.json"),
+        j("/wartime-rekill-state.json"),
+        j("/doctrine.json"),
+        j("/history-recent.json"),
+        j("/eaten-set.json"),
+        j("/lethal-kill-queue.json"),
+        j("/lethal-kill-doctrine.json"),
+        j("/entropy-detailer.json"),
+        j("/shots-ledger.json"),
+        j("/rack-guard-live.json"),
+        j("/fleet/status.json"),
       ]);
       STATE.status = status||{};
       STATE.regions = (regionsWrap&&regionsWrap.regions)||[];
@@ -753,9 +749,9 @@
       STATE.doctrine = doctrine||{};
       STATE.eaten = eaten||{};
       STATE.lethalQ = lethalQ||{};
-      STATE.lethalDoc = lethalDoc||{};
-      STATE.entropyD = entropyD||{};
-      STATE.shotsBoard = shotsBoard||entropyD||{};
+      STATE.lethalDoc = lethalDoc||{}; STATE.entropyD=entropyD||{}; STATE.shotsBoard=shotsBoard||entropyD||{};
+      STATE.rackGuard = rackGuard||{};
+      STATE.fleetStatus = fleetSt||{};
       const hist = history||{};
       STATE.history = Array.isArray(hist.recent)?hist.recent:(Array.isArray(hist)?hist:[]);
 
@@ -765,15 +761,17 @@
       renderLists();
       renderDense();
       renderInfoBands();
-      renderActiveHunt();
+      const zg = (STATE.mesh.zones && Object.keys(STATE.mesh.zones).length) || STATE.rackGuard.zones_hunting || 0;
       $("#bootLine").textContent =
         "OK · threats "+STATE.threats.length+" · kills "+STATE.kills.length+
         " · areas "+STATE.regions.length+" · live "+STATE.live.length+
-        " · map "+(STATE.mapReady?"ready":"pending")+" · seals "+STATE.knownShots.length+
+        " · zones hunting "+zg+" · rack shots "+fmt(STATE.mesh.global_shots||STATE.rackGuard.global_shots||0)+
+        " · map "+(STATE.mapReady?"ready":"pending")+
         (STATE.errors.length?" · errs "+STATE.errors.length:"");
       $("#foot").textContent =
-        "Big Grin Terrorist Hunter · public snapshot · "+$("#clock").textContent+
-        " · defending "+fmt(STATE.status.defending)+
+        "BIG GRIN · C++ · violent WORLD+INTERNET · zones "+zg+
+        " · shots "+fmt(STATE.mesh.global_shots||0)+
+        " · defending "+fmt(STATE.status.defending||STATE.fleetStatus.defending)+
         " · God Bless · export /export/big-grin-swallows.xlsx";
     }
 
@@ -796,111 +794,6 @@
     $("#btnCsv").onclick = exportCsv;
     $("#btnJson").onclick = exportJson;
 
-
-    // ── ACTIVE HUNT + ENTROPY DETAILER (always know our shots) ───────────
-    STATE.knownShots = [];
-    try {
-      STATE.knownShots = JSON.parse(localStorage.getItem("bg_known_shots") || "[]");
-    } catch (_) { STATE.knownShots = []; }
-
-    function rememberShot(s) {
-      if (!s || !s.seal) return;
-      if (STATE.knownShots.some(x => x.seal === s.seal)) return;
-      STATE.knownShots.unshift(s);
-      if (STATE.knownShots.length > 200) STATE.knownShots.length = 200;
-      try { localStorage.setItem("bg_known_shots", JSON.stringify(STATE.knownShots)); } catch (_) {}
-    }
-
-    function renderActiveHunt() {
-      const ed = STATE.entropyD || STATE.shotsBoard || {};
-      const shots = (ed.shots || []).slice();
-      shots.forEach(rememberShot);
-      const q = (STATE.lethalQ && STATE.lethalQ.queued) || [];
-      const g = STATE.copilotGlobal || {};
-      const nq = q.length;
-      const life = g.lifetime_rekills || ed.lifetime_known || STATE.knownShots.length;
-      $("#huntHeadline").textContent = "ACTIVE HUNT · " + (ed.active_hunt !== false ? "LIVE" : "SNAP") +
-        " · terror_exists=false";
-      $("#huntSub").textContent = (ed.motto || "Entropy detailer seals every shot") +
-        " · queued " + nq + " · known seals " + STATE.knownShots.length;
-      $("#huntMeta").innerHTML =
-        "lifetime rekills <b style='color:#ffd56a'>" + fmt(life) + "</b><br>" +
-        "cycle shots <b>" + fmt(ed.shots_this_cycle || shots.length) + "</b><br>" +
-        "shannon seals on plate";
-      const show = (shots.length ? shots : STATE.knownShots).slice(0, 24);
-      $("#shotTicker").innerHTML = show.length
-        ? show.map(s => {
-            const ph = s.phase || "—";
-            const col = ph.indexOf("BURN") >= 0 || ph.indexOf("OUTLET") >= 0 ? "#ff5d8f"
-              : ph.indexOf("COOK") >= 0 || ph.indexOf("QUEUE") >= 0 ? "#ffc857" : "#5dffb0";
-            return `<div style="border-bottom:1px solid #2a1a38;padding:.2rem 0">
-              <span style="color:${col}">${esc(ph)}</span>
-              · <b>${esc(s.target || s.id || "shot")}</b>
-              · H=${esc((s.shannon_h != null ? Number(s.shannon_h).toFixed(3) : "—"))}
-              · fold=${esc((s.entropy_fold != null ? Number(s.entropy_fold).toFixed(3) : "—"))}
-              · seal <span style="color:#7ad7ff">${esc(s.seal || s.seal_hex || "")}</span>
-              · r${esc(s.rekill ?? "")}
-            </div>`;
-          }).join("")
-        : "<span style='color:#c9a8c0'>No shots sealed yet — hunt arming…</span>";
-    }
-
-    // Client-side active hunt cycle: rotate queue phases visually every 2s (always tracking)
-    let huntTick = 0;
-    function clientHuntPulse() {
-      huntTick++;
-      const q = (STATE.lethalQ && STATE.lethalQ.queued) || [];
-      if (!q.length) { renderActiveHunt(); return; }
-      const i = huntTick % q.length;
-      const item = q[i];
-      // synthesize entropy plate on client so public deck also "knows the shot"
-      const plate = [item.id, item.label, item.phase, item.next, item.outlet_path, huntTick, Date.now()].join("|");
-      let h = 14695981039346656037n;
-      for (let c = 0; c < plate.length; c++) {
-        h ^= BigInt(plate.charCodeAt(c));
-        h = BigInt.asUintN(64, h * 1099511628211n);
-      }
-      const seal = h.toString(16).padStart(16, "0");
-      // crude Shannon
-      const freq = {};
-      for (const ch of plate) freq[ch] = (freq[ch] || 0) + 1;
-      let H = 0, n = plate.length;
-      Object.values(freq).forEach(v => { const p = v / n; H -= p * Math.log2(p); });
-      const shot = {
-        id: item.id || ("pulse-" + i),
-        target: item.label || item.id,
-        phase: item.phase || item.next || "QUEUE_REBURN",
-        attack: "FIELD_ACTIVE_HUNT",
-        rekill: item.rekill || huntTick,
-        shannon_h: H,
-        entropy_fold: H * 0.618 + (item.rekill || 0) * 0.01,
-        seal: seal,
-        outlet_path: item.outlet_path || "",
-        ts: new Date().toISOString(),
-        know_shot: true,
-        cook_fat: true,
-        source: "active_hunt_pulse"
-      };
-      rememberShot(shot);
-      // prepend into entropy board for display
-      if (!STATE.entropyD) STATE.entropyD = { shots: [], active_hunt: true };
-      STATE.entropyD.active_hunt = true;
-      STATE.entropyD.shots = [shot].concat(STATE.entropyD.shots || []).slice(0, 40);
-      STATE.entropyD.shots_this_cycle = 1;
-      STATE.entropyD.lifetime_known = STATE.knownShots.length;
-      renderActiveHunt();
-      // pulse live list
-      if (STATE.live) {
-        STATE.live.unshift({
-          attack: shot.attack, phase: shot.phase, target: shot.target,
-          vector: "ACTIVE_HUNT", rekill_count: shot.rekill, ts: shot.ts,
-          seal: shot.seal, shannon_h: shot.shannon_h, lethal: true
-        });
-        if (STATE.live.length > 120) STATE.live.length = 120;
-        if (STATE.pane === "live") renderLists();
-      }
-    }
-
     function boot(){
       // Don't hang forever if map script fails
       let tries=0;
@@ -909,7 +802,6 @@
         if(window.SpearWorldMap || tries>40){
           refresh();
           setInterval(refresh, 5000);
-          setInterval(clientHuntPulse, 2000);
           // regenerate office packs hint
           return;
         }

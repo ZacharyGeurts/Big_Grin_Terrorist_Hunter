@@ -62,3 +62,19 @@ python3 -m http.server 8080 --directory .
 Proprietary field package for authority coordination and defensive operations documentation. Contact publisher for formal distribution terms.
 
 **God Bless. Terror does not exist.**
+
+## Rack / QEMU hunt offload (C++)
+
+Zone mesh **violently protective of WORLD + INTERNET**.
+
+| Port | Role |
+|------|------|
+| 9500 | Control / mesh JSON |
+| 9510–9517 | NA CA SA EU AF AS OC CARIB zone hubs |
+
+- Binary: `spear-fleet-link` (alias `spear-rack-guard`)
+- Live: `data/fleet-mesh-live.json`, `data/rack-guard-live.json`
+- Kill path: multi-signal hunt · SIGKILL only · entropy FNV/Shannon seals
+- Scripts: **FORBIDDEN**
+
+

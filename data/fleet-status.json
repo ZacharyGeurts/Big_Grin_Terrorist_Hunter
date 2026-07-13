@@ -1,0 +1,9 @@
+{
+  "schema": "fleet-status/v1",
+  "stack": "C++",
+  "online": 2154000,
+  "ok": 2154000,
+  "regions": 359,
+  "status": "ok",
+  "updated": "2026-07-13T21:49Z"
+}
