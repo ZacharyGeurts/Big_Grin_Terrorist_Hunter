@@ -9,7 +9,7 @@
   "stack": "C++",
   "scripts": "FORBIDDEN",
   "process_hunt": "REAL_PROC_MULTISIGNAL",
-  "uptime_s": 96,
+  "uptime_s": 1853,
   "bind": "127.0.0.1:9490",
   "fleets": [
     "big-grin",
@@ -30,10 +30,8 @@
   },
   "shard_cache": 0,
   "planet": "http://127.0.0.1:9600/planet/status",
-  "motto": "WAR DAY \u00b7 REAL \u00b7 static authority share of live C++ field stack \u00b7 no demo \u00b7 no fake \u00b7 God Bless",
+  "motto": "GLOBAL PROTECTOR \u00b7 WAR DAY \u00b7 real multi-signal hunt \u00b7 no demo \u00b7 God Bless",
   "github_pages": true,
-  "published": "2026-07-13T21:53Z",
-  "publisher": "ZacharyGeurts \u00b7 Hostess7 / Spear field stack",
-  "github": "https://github.com/ZacharyGeurts/Big_Grin_Terrorist_Hunter",
-  "pages": "https://zacharygeurts.github.io/Big_Grin_Terrorist_Hunter/"
+  "global_protector": true,
+  "published": "2026-07-13T22:22Z"
 }

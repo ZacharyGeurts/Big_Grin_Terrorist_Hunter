@@ -488,9 +488,10 @@
     }
 
     function renderStrips(){
-      const w=STATE.wartime||{}, a=STATE.angel||{}, d=STATE.dns||{}, m=STATE.mesh||{}, rg=STATE.rackGuard||{};
+      const w=STATE.wartime||{}, a=STATE.angel||{}, d=STATE.dns||{}, m=STATE.mesh||{}, rg=STATE.rackGuard||{}, gp=STATE.globalProt||{};
       const zc = (m.zones && Object.keys(m.zones).length) || rg.zones_hunting || 0;
       $("#strips").innerHTML = `
+        <div class="mini"><b>GLOBAL PROTECTOR</b>${esc(gp.posture||"WAR")}<br>services ${(gp.services||{}).all_critical?"ALL UP":"DEGRADED"} · zones ${fmt((gp.services||{}).zones_9510_9517_up||0)}<br>WORLD+INTERNET+FIELD+HOST</div>
         <div class="mini"><b>Wartime</b>stage ${esc(w.stage||"—")}<br>scripts ${esc(w.scripts||"—")}<br>${esc(w.blessing||"")}</div>
         <div class="mini"><b>Angel seal</b>${esc(a.status||"—")}<br>${esc(a.commander||"")}<br>components ${fmt(a.component_count)}</div>
         <div class="mini"><b>World DNS/DHCP</b>${esc(d.status||"—")}<br>foreign hooks blocked<br>${esc((d.policy||"").slice(0,80))}</div>
@@ -748,7 +749,7 @@
         status, regionsWrap, dossiers, catalog, liveFeed,
         wartime, copilot, copilotGlobal, angel, dns, planet,
         mesh, rekill, doctrine, history, eaten, lethalQ, lethalDoc, entropyD, shotsBoard,
-        rackGuard, fleetSt
+        rackGuard, fleetSt, globalProt
       ] = await Promise.all([
         j("data/status.json"),
         j("data/regions.json"),
@@ -772,6 +773,7 @@
         j("data/shots-ledger.json"),
         j("data/rack-guard-live.json"),
         j("data/fleet-status.json"),
+        j("data/global-protector-live.json"),
       ]);
       STATE.status = status||{};
       STATE.regions = (regionsWrap&&regionsWrap.regions)||[];
@@ -795,6 +797,7 @@
       STATE.lethalDoc = lethalDoc||{}; STATE.entropyD=entropyD||{}; STATE.shotsBoard=shotsBoard||entropyD||{};
       STATE.rackGuard = rackGuard||{};
       STATE.fleetStatus = fleetSt||{};
+      STATE.globalProt = globalProt||{};
       const hist = history||{};
       STATE.history = Array.isArray(hist.recent)?hist.recent:(Array.isArray(hist)?hist:[]);
 
