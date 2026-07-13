@@ -7,6 +7,12 @@
   "hated": true,
   "enemy_status": "HATED",
   "field_weapons": "UDP_WAR_BLASTERS",
+  "cooked": true,
+  "fry": "FIELD_UDP_TO_OUTLET",
+  "nothing_left": true,
+  "no_storage": true,
+  "no_room_for_more": true,
+  "global_servers": "FRIED_TO_OUTLET",
   "real": true,
   "demo": false,
   "fake": false,
@@ -19,9 +25,9 @@
   "blessing": "God Bless",
   "rule": "every_kill_gets_rekill",
   "signal": "FIELD_UDP_WAR_BLASTERS",
-  "ts": "2026-07-13T23:14Z",
+  "ts": "2026-07-13T23:16Z",
   "cycle": 2,
-  "motto": "WAR DAY · HATED targets · FIELD UDP WAR BLASTERS · LETHAL REKILL · we are PISSED · God Bless.",
+  "motto": "COOKED · Field UDP fries global servers to WALL OUTLET · nothing left · no storage · no room · HATED · PISSED · God Bless",
   "pipeline": ["SPOT","VECTOR_SOURCE","COOK_FAT","QUEUE_REBURN","BURN","SCRUB","OUTLET_DESTROY","SEAL"],
   "oust": {
     "hotdog_down_a_hallway": "LETHAL_OUSTED_PID_KILL",
@@ -38,7 +44,7 @@
     "blocked_ips": 34,
     "copilot_hunt_seen": 0,
     "copilot_hunt_killed": 0,
-    "copilot_global_lifetime": 44644,
+    "copilot_global_lifetime": 46243,
     "copilot_global_targets": 13
   },
   "wartime_services": {

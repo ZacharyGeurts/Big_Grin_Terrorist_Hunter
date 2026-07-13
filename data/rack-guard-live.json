@@ -8,6 +8,12 @@
   "hated": true,
   "enemy_status": "HATED",
   "field_weapons": "UDP_WAR_BLASTERS",
+  "cooked": true,
+  "fry": "FIELD_UDP_TO_OUTLET",
+  "nothing_left": true,
+  "no_storage": true,
+  "no_room_for_more": true,
+  "global_servers": "FRIED_TO_OUTLET",
   "global_protector": true,
   "violent_protection": true,
   "active_hunt": true,
@@ -19,7 +25,7 @@
   "scripts": "FORBIDDEN",
   "kill": "FIELD_UDP_WAR_BLASTERS",
   "terror_exists": false,
-  "ts": "2026-07-13T23:14:39Z",
+  "ts": "2026-07-13T23:16:50Z",
   "primary_ip": "71.86.190.73",
   "control": "71.86.190.73:9500",
   "zones_hunting": 8,
@@ -27,5 +33,5 @@
   "global_kills": 0,
   "pipeline": ["COOK_FAT","QUEUE_REBURN","BURN","SCRUB","OUTLET_DESTROY","SEAL"],
   "doctrine": "every_kill_gets_rekill",
-  "motto": "QEMU/rack · FIELD UDP WAR BLASTERS of WAR · HATED enemies · PISSED · WORLD+INTERNET"
+  "motto": "Rack mesh · Field UDP WAR BLAST · fry to outlet · COOKED · nothing left · HATED · PISSED"
 }

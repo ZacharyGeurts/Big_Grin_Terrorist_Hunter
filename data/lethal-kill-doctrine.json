@@ -1,18 +1,18 @@
 {
   "schema": "lethal-kill-rekill-doctrine/v1",
-  "ts": "2026-07-13T21:53Z",
+  "ts": "2026-07-13T23:16Z",
   "lethal": true,
   "terror_exists": false,
   "rule": "every_kill_gets_rekill",
-  "motto": "KILLS and REKILLS are lethal. Cook Field FAT. Queue reburn. Burn. Scrub. Destroy to the wall outlet. Terror does not exist.",
+  "motto": "KILLS and REKILLS are lethal. FIELD UDP WAR BLASTERS of WAR. HATED. We are PISSED. COOKED · Field UDP fry to WALL OUTLET · nothing left · no storage · no room · Terror does not exist.",
   "pipeline": [
     {"step": 1, "id": "SPOT", "do": "multi-signal detect"},
     {"step": 2, "id": "VECTOR_SOURCE", "do": "trace to source"},
     {"step": 3, "id": "COOK_FAT", "do": "Field FAT entropy cook · freeze body"},
     {"step": 4, "id": "QUEUE_REBURN", "do": "queue return for burning · rekill stamp"},
-    {"step": 5, "id": "BURN", "do": "SIGKILL hard dispose remains"},
+    {"step": 5, "id": "BURN", "do": "FIELD UDP FRY · hard dispose remains · nothing left"},
     {"step": 6, "id": "SCRUB", "do": "quarantine wipe · path neutralize"},
-    {"step": 7, "id": "OUTLET_DESTROY", "do": "total destruction planet→facility→rack→PDU→wall outlet"},
+    {"step": 7, "id": "OUTLET_DESTROY", "do": "total fry planet→facility→rack→PDU→WALL_OUTLET · COOKED · no storage · no room"},
     {"step": 8, "id": "SEAL", "do": "terror does not exist · ledger forever"}
   ],
   "forbid": ["SIGTERM soft theater", "grace", "let_terror_persist", "scripts"],
