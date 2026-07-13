@@ -358,173 +358,173 @@ Fleet,MQT,Marquette UP,NA,6000,6000,ok,lon,online
 Fleet,ESC,Escanaba,NA,6000,6000,ok,lon,online
 Fleet,GRB,Green Bay,NA,6000,6000,ok,lon,online
 Fleet,MSN,Madison WI,NA,6000,6000,ok,lon,online
-Kills,threat-copilot-ironclad-fail,Copilot,DEAD,critical,COPILOT_FOREIGN,,,,,,ironclad_mesh_fail \u00b7 hostess7_not_meshed \u00b7 liar_risk \u00b7 destroy_all
-Kills,threat-hotdog-down-a-hallway,Hotdog down a Hallway,OUSTED,critical,HOTDOG_HALLWAY,,,,,,terrorist_hacker_kit \u00b7 permanent_oust
-Kills,kill-101-43-32-212,101.43.32.212,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,Shenzhen Tencent Computer Systems Company Limited,rf_unhealthy_forever
-Kills,kill-102-220-160-222,102.220.160.222,DEAD,critical,WIFI_THREAT,7.78267,4.54181,Osogbo,Nigeria,ABINTERNET-V Ltd.,rf_unhealthy_forever
-Kills,kill-113-45-226-61,113.45.226.61,DEAD,critical,WIFI_THREAT,23.129,113.2643,Guangzhou,China,Huawei Cloud Service data center,rf_unhealthy_forever
-Kills,kill-118-25-85-198,118.25.85.198,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,Shenzhen Tencent Computer Systems Company Limited,rf_unhealthy_forever
-Kills,kill-121-4-76-54,121.4.76.54,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,China Internet Network Information Center,rf_unhealthy_forever
-Kills,kill-139-159-203-44,139.159.203.44,DEAD,critical,WIFI_THREAT,23.129,113.2643,Guangzhou,China,Huawei Cloud Service data center,rf_unhealthy_forever
-Kills,kill-146-75-92-159,146.75.92.159,DEAD,critical,WIFI_THREAT,34.0544,-118.244,Los Angeles,United States,"Fastly, Inc.",wartime_rekill
-Kills,kill-147-93-191-75,147.93.191.75,DEAD,critical,WIFI_THREAT,41.0446,-73.9592,Orangeburg,United States,Contabo Inc.,rf_unhealthy_forever
-Kills,kill-162-159-140-229,162.159.140.229,DEAD,medium,BEACON_PATTERN,43.6532,-79.3832,Toronto,Canada,"Cloudflare, Inc.",wartime_rekill
-Kills,kill-167-71-233-187,167.71.233.187,DEAD,critical,WIFI_THREAT,12.9753,77.591,Bengaluru,India,"DigitalOcean, LLC",rf_unhealthy_forever
-Kills,kill-188-40-99-226,188.40.99.226,DEAD,critical,WIFI_THREAT,50.4777,12.3649,Falkenstein,Germany,Hetzner Online GmbH,wartime_rekill
-Kills,kill-192-168-47-1,192.168.47.1,DEAD,critical,HOSTILE,,,region,countryCode,org,wartime_rekill
-Kills,kill-194-233-73-173,194.233.73.173,DEAD,critical,WIFI_THREAT,1.35208,103.82,Singapore,Singapore,Contabo Asia Private Limited,rf_unhealthy_forever
-Kills,kill-196-251-107-104,196.251.107.104,DEAD,critical,WIFI_THREAT,50.1109,8.68213,Frankfurt am Main,Germany,Femo IT Solutions Limited,rf_unhealthy_forever
-Kills,kill-198-23-185-136,198.23.185.136,DEAD,critical,WIFI_THREAT,40.5247,-111.8638,Draper,United States,Nohavps LLC,rf_unhealthy_forever
-Kills,kill-209-18-47-61,209.18.47.61,DEAD,critical,HOSTILE,39.6029,-104.889,Greenwood Village,United States,Charter Communications Inc,wartime_rekill
-Kills,kill-209-18-47-62,209.18.47.62,DEAD,critical,HOSTILE,39.6029,-104.889,Greenwood Village,United States,Charter Communications Inc,wartime_rekill
-Kills,kill-209-18-47-63,209.18.47.63,DEAD,critical,HOSTILE,39.6029,-104.889,Greenwood Village,United States,Charter Communications Inc,wartime_rekill
-Kills,kill-221-132-29-137,221.132.29.137,DEAD,critical,WIFI_THREAT,21.0278,105.834,Hanoi,Vietnam,VNPT,rf_unhealthy_forever
-Kills,kill-35-186-241-51,35.186.241.51,DEAD,critical,WIFI_THREAT,39.0997,-94.5785,Kansas City,United States,Google LLC,wartime_rekill
-Kills,kill-35-190-25-25,35.190.25.25,DEAD,critical,WIFI_THREAT,39.0997,-94.5785,Kansas City,United States,Google LLC,wartime_rekill
-Kills,kill-43-138-165-203,43.138.165.203,DEAD,critical,WIFI_THREAT,23.1181,113.2539,Guangzhou,China,Shenzhen Tencent Computer Systems Company Limited,rf_unhealthy_forever
-Kills,kill-43-156-63-124,43.156.63.124,DEAD,critical,WIFI_THREAT,1.35208,103.82,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,rf_unhealthy_forever
-Kills,kill-47-101-51-235,47.101.51.235,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,Addresses CNNIC,rf_unhealthy_forever
-Kills,kill-47-103-95-85,47.103.95.85,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,Addresses CNNIC,rf_unhealthy_forever
-Kills,kill-47-116-211-215,47.116.211.215,DEAD,critical,HUMAN_THREAT,31.2222,121.4581,Shanghai,China,"Hangzhou Alibaba Advertising Co., Ltd.",rekill_all_registered:Active
-Kills,kill-47-236-149-142,47.236.149.142,DEAD,critical,HUMAN_THREAT,1.35208,103.82,Singapore,Singapore,"Alibaba (US) Technology Co., Ltd.",rekill_all_registered:High
-Kills,kill-47-238-154-144,47.238.154.144,DEAD,critical,HUMAN_THREAT,22.3193,114.169,Hong Kong,Hong Kong,Alibaba Cloud LLC,rekill_all_registered:Fresh
-Kills,kill-47-82-234-12,47.82.234.12,DEAD,critical,HUMAN_THREAT,1.35208,103.82,Singapore,Singapore,"Alibaba (US) Technology Co., Ltd.",rekill_all_registered:Fresh
-Kills,kill-49-233-215-164,49.233.215.164,DEAD,critical,HUMAN_THREAT,39.911,116.395,Beijing,China,Shenzhen Tencent Computer Systems Company Limited,rekill_all_registered:Fresh
-Kills,kill-5-101-86-44,5.101.86.44,DEAD,critical,HUMAN_THREAT,45.5041,-73.5522,Montreal,Canada,GLOBALTELEHOST Corp.,rekill_all_registered:Censys
-Kills,kill-68-118-158-1,68.118.158.1,DEAD,high,BANDWIDTH_ABUSE,45.7452,-87.0646,Escanaba,United States,Charter Communications,rekill_same_host_validated
-Kills,kill-71-10-216-1,71.10.216.1,DEAD,critical,WIFI_THREAT,39.6004,-104.891,Greenwood Village,United States,Spectrum,wartime_rekill
-Kills,kill-82-157-52-180,82.157.52.180,DEAD,critical,HUMAN_THREAT,39.911,116.395,Beijing,China,Shenzhen Tencent Computer Systems Company Limited,rekill_all_registered:Active
-Kills,kill-87-199-196-12,87.199.196.12,DEAD,critical,HUMAN_THREAT,52.3716,4.8883,Amsterdam,The Netherlands,Servers Tech Fzco,rekill_all_registered:Fresh
-Kills,threat-ai-optimized malware & polymorphic engines,AI-optimized malware & polymorphic engines,EATEN,critical,THREAT,,,,,,Parent-child process policy + untrusted path scoring \u2014 not signature AV
-Kills,threat-ai_autoscan_exploit,Autonomous vulnerability scan & exploit chains,EATEN,critical,THREAT,,,,,,KILL \u00b7 crush autoscan source
-Kills,threat-ai_c2_beacon,Automated C2 & machine-precision beaconing,EATEN,critical,THREAT,,,,,,KILL \u00b7 sever machine-precision C2
-Kills,threat-ai_dns_dhcp_abuse,"DNS, DHCP & network infrastructure abuse",EATEN,critical,THREAT,,,,,,Sever wire \u00b7 restore DNS/DHCP truth
-Kills,threat-ai_exfil_shape,Machine-speed exfiltration & baseline mimicry,EATEN,critical,THREAT,,,,,,KILL \u00b7 stop shaped exfil
-Kills,threat-ai_malware_polymorph,AI-optimized malware & polymorphic engines,EATEN,critical,THREAT,,,,,,KILL \u00b7 eradicate temp-binary chain
-Kills,threat-ai_ml_c2_stack,Stacked weak signals \u2014 ML-managed C2,EATEN,critical,THREAT,,,,,,KILL \u00b7 destroy stacked C2
-Kills,threat-automated c2 & machine-precision beaconing,Automated C2 & machine-precision beaconing,EATEN,critical,THREAT,,,,,,Beacon pattern axis \u22657 + timing entropy collapse on flow key
-Kills,threat-autonomous vulnerability scan & exploit chains,Autonomous vulnerability scan & exploit chains,EATEN,critical,THREAT,,,,,,Honeypot paths + exploit-port DPI + listener surge correlation
-Kills,"threat-dns, dhcp & network infrastructure abuse","DNS, DHCP & network infrastructure abuse",EATEN,critical,THREAT,,,,,,Gateway integrity + DNS query entropy + resolv.conf truth cycle
-Kills,threat-dogshit-ammonet-field-py-panel,ammonet field py panel,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-awaitshell,awaitshell,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-block_until_ms,block_until_ms,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-boot-simulate-sh,boot simulate sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-browser-awareness-py-json,browser awareness py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-connection-gatekeeper-py,connection gatekeeper py,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-dig-@127-0-0-1,dig @127 0 0 1,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-botnet-dns-dhcp-py-json,field botnet dns dhcp py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-botnet-registry-py-json,field botnet registry py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-brain-panel-py-json,field brain panel py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-clipboard-wire-py-json,field clipboard wire py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-command-py-json,field command py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-device-map-py-json,field device map py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-endpoint-registry-py-json,field endpoint registry py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-everyone-counter-py-json,field everyone counter py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-github-legacy-py-json,field github legacy py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-github-traffic-shard-py-json,field github traffic shard py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-internet-unified-py-panel,field internet unified py panel,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-ipv4-device-sovereign-py-json,field ipv4 device sovereign py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-monster-monitor-py-json,field monster monitor py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-never-down-py-ensure,field never down py ensure,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-packet-deinterlace-py-json,field packet deinterlace py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-planetary-speed-py-json,field planetary speed py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-port-ddos-shield-py-json,field port ddos shield py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-queen-browser-py-json,field queen browser py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-sovereign-protocol-bridge-py-json,field sovereign protocol bridge py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-sovereign-stack-meld-py-panel,field sovereign stack meld py panel,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-stack-layer-py-json,field stack layer py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-thermal-guard-py-json,field thermal guard py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-underlay-hotkey-py,field underlay hotkey py,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-unified-bus-py-json,field unified bus py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-us-intel-py-json,field us intel py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-field-voltage-regulation-py-json,field voltage regulation py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-git-publish-sh,git publish sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-github-pages-queue-sh,github pages queue sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-grok-firmware-audit-sh,grok firmware audit sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-hardware-wire-py-json,hardware wire py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-host-attack-map-py-json,host attack map py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-host-attack-map-py-json-panel,host attack map py json panel,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-hostess7-g16-online-py-panel,hostess7 g16 online py panel,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-hostess7-lab-sovereign-py-panel,hostess7 lab sovereign py panel,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-hostess7_pages_surfaces_build-py,hostess7_pages_surfaces_build py,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-monitor-jockey-py,monitor jockey py,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-nexus-logic-gate-py-json,nexus logic gate py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-notify_on_output,notify_on_output,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-obs-threat-posterity-bridge-py-json,obs threat posterity bridge py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-packet-field-py-json,packet field py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-planetary-observer-py-json,planetary observer py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-publish-ammoos-hub-pages-sh,publish ammoos hub pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-publish-ammoos-pages-sh,publish ammoos pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-publish-field-pages-sh,publish field pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-publish-hostess7-github-sh,publish hostess7 github sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-publish-hostess7-pages-sh,publish hostess7 pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-publish-pages-sh,publish pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-publish-profile-pages-sh,publish profile pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-publish-stack-pages-sh,publish stack pages sh,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-qemu-world-status-py-json,qemu world status py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-queen_field_nexus-py-json,queen_field_nexus py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-sleep-infinity,sleep infinity,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-smart-wire-py-json,smart wire py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-subagent_type,subagent_type,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-systemd-inhibit,systemd inhibit,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-thermal-governor-py-json,thermal governor py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-universal-protector-py-json,universal protector py json,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-dogshit-znetwork-orchestrator-py-status,znetwork orchestrator py status,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-field-hostile-registry,field hostile registry,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-grok-spawn-killer-total,grok spawn killer total,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-internet-clean-all-names,internet clean all names,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-internet-clean-all-sweep,internet clean all sweep,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-boot-simulate-leak,boot simulate leak,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-dump-bash-state,dump bash state,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-firmware-audit-orphan,firmware audit orphan,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-agent-export,grok agent export,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-agent-inhibit,grok agent inhibit,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-agent-serve,grok agent serve,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-agent-stdio,grok agent stdio,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-bash-state-markers,grok bash state markers,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-boot-simulate,grok boot simulate,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-firmware-audit,grok firmware audit,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-interference-awaitshell,grok interference awaitshell,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-interference-block-until,grok interference block until,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-interference-dump-wait,grok interference dump wait,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-interference-harness-wait,grok interference harness wait,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-interference-inhibit,grok interference inhibit,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-interference-notify-on-output,grok interference notify on output,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-interference-sleep,grok interference sleep,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-never-sleeps-inhibit,grok never sleeps inhibit,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-project-harness,grok project harness,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-session-orphan,grok session orphan,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-shadow-find,grok shadow find,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-shadow-grep,grok shadow grep,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-subagent,grok subagent,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-task-spawn,grok task spawn,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-grok-who-sleep-infinity,grok who sleep infinity,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-hijack-serve,hijack serve,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-unsafe-panel-ammonet-storm,unsafe panel ammonet storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-unsafe-panel-g16-storm,unsafe panel g16 storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-unsafe-panel-gatekeeper-storm,unsafe panel gatekeeper storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-unsafe-panel-internet-storm,unsafe panel internet storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-unsafe-panel-lab-storm,unsafe panel lab storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-unsafe-panel-protocol-storm,unsafe panel protocol storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-kill-unsafe-panel-qemu-storm,unsafe panel qemu storm,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-machine-speed exfiltration & baseline mimicry,Machine-speed exfiltration & baseline mimicry,EATEN,critical,THREAT,,,,,,Per-host egress baseline + gatekeeper bandwidth/stream axes
-Kills,threat-microsoft-botnet-kill,microsoft botnet kill,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-stacked weak signals \u2014 ml-managed c2,Stacked weak signals \u2014 ML-managed C2,EATEN,critical,THREAT,,,,,,Correlation score + multi-vector same peer \u2014 meta but actionable
-Kills,threat-world-dns-dhcp-209-18-47-61,world dns dhcp 209 18 47 61,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-world-dns-dhcp-209-18-47-62,world dns dhcp 209 18 47 62,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-world-dns-dhcp-209-18-47-63,world dns dhcp 209 18 47 63,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-world-dns-dhcp-collision-guard,world dns dhcp collision guard,EATEN,critical,DOGSHIT,,,,,,permanent_list
-Kills,threat-agent serve --hijack,agent serve --hijack,EATEN,high,DOGSHIT,,,,,,permanent_list
-Kills,"threat-ai-scale phishing, vishing, synthetic identity","AI-scale phishing, vishing, synthetic identity",EATEN,high,THREAT,,,,,,Honorability + browser awareness + auth velocity \u2014 not content ML alone
-Kills,threat-ai_phish_fraud,"AI-scale phishing, vishing, synthetic identity",EATEN,high,THREAT,,,,,,Sever wire \u00b7 block fraud egress
-Kills,threat-ammonet-field.py panel,ammonet-field.py panel,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
-Kills,threat-awaitshell,AwaitShell,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
-Kills,threat-block_until_ms,block_until_ms,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
-Kills,threat-boot-simulate.sh,boot-simulate.sh,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
-Kills,threat-browser-awareness.py json,browser-awareness.py json,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
-Kills,"threat-collision guard \u2014 7 foreign hooks, 0 eradicated on sight","Collision guard \u2014 7 foreign hooks, 0 eradicated on sight",EATEN,high,DOGSHIT,,,,,,"ISP CPE resolvers, foreign DHCP OFFERs, and rogue listeners that try to hijack planetary DNS/DHCP authority get permanent blocks, nft drops, and SIGKILL. No qua"
-Kills,threat-connection-gatekeeper.py,connection-gatekeeper.py,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
-Kills,threat-dig @127.0.0.1,dig @127.0.0.1,EATEN,high,DOGSHIT,,,,,,Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
-Kills,threat-duplicate grok agent serve spawner,Duplicate grok agent serve spawner,EATEN,high,DOGSHIT,,,,,,"dump_bash_state piles, GROK_AGENT shells, sleep infinity, subagent storms, and panel subprocess duplicates get SIGKILL. GrokSpawnKiller never sleeps \u2014 every kil"
-Kills,threat-duplicate grok agent stdio spawner,Duplicate grok agent stdio spawner,EATEN,high,DOGSHIT,,,,,,"dump_bash_state piles, GROK_AGENT shells, sleep infinity, subagent storms, and panel subprocess duplicates get SIGKILL. GrokSpawnKiller never sleeps \u2014 every kil"
-Copilot,global-copilot,Copilot · GLOBAL STAGE,COPILOT_GLOBAL,462,2026-07-13T21:53Z,LETHAL_DESTROYED
+Kills,threat-copilot-ironclad-fail,Copilot,DEAD,critical,COPILOT_FOREIGN,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · ironclad_mesh_fail \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u00b7 hostess7_not_meshed \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u00b7 liar_risk \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u00b7 destroy_all
+Kills,threat-hotdog-down-a-hallway,Hotdog down a Hallway,DEAD,critical,HOTDOG_HALLWAY,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · terrorist_hacker_kit \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u00b7 permanent_oust
+Kills,kill-101-43-32-212,101.43.32.212,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,Shenzhen Tencent Computer Systems Company Limited,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-102-220-160-222,102.220.160.222,DEAD,critical,WIFI_THREAT,7.78267,4.54181,Osogbo,Nigeria,ABINTERNET-V Ltd.,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-113-45-226-61,113.45.226.61,DEAD,critical,WIFI_THREAT,23.129,113.2643,Guangzhou,China,Huawei Cloud Service data center,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-118-25-85-198,118.25.85.198,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,Shenzhen Tencent Computer Systems Company Limited,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-121-4-76-54,121.4.76.54,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,China Internet Network Information Center,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-139-159-203-44,139.159.203.44,DEAD,critical,WIFI_THREAT,23.129,113.2643,Guangzhou,China,Huawei Cloud Service data center,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-146-75-92-159,146.75.92.159,DEAD,critical,WIFI_THREAT,34.0544,-118.244,Los Angeles,United States,"Fastly, Inc.",ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · wartime_rekill
+Kills,kill-147-93-191-75,147.93.191.75,DEAD,critical,WIFI_THREAT,41.0446,-73.9592,Orangeburg,United States,Contabo Inc.,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-162-159-140-229,162.159.140.229,DEAD,medium,BEACON_PATTERN,43.6532,-79.3832,Toronto,Canada,"Cloudflare, Inc.",ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · wartime_rekill
+Kills,kill-167-71-233-187,167.71.233.187,DEAD,critical,WIFI_THREAT,12.9753,77.591,Bengaluru,India,"DigitalOcean, LLC",ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-188-40-99-226,188.40.99.226,DEAD,critical,WIFI_THREAT,50.4777,12.3649,Falkenstein,Germany,Hetzner Online GmbH,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · wartime_rekill
+Kills,kill-192-168-47-1,192.168.47.1,DEAD,critical,HOSTILE,,,region,countryCode,org,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · wartime_rekill
+Kills,kill-194-233-73-173,194.233.73.173,DEAD,critical,WIFI_THREAT,1.35208,103.82,Singapore,Singapore,Contabo Asia Private Limited,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-196-251-107-104,196.251.107.104,DEAD,critical,WIFI_THREAT,50.1109,8.68213,Frankfurt am Main,Germany,Femo IT Solutions Limited,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-198-23-185-136,198.23.185.136,DEAD,critical,WIFI_THREAT,40.5247,-111.8638,Draper,United States,Nohavps LLC,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-209-18-47-61,209.18.47.61,DEAD,critical,HOSTILE,39.6029,-104.889,Greenwood Village,United States,Charter Communications Inc,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · wartime_rekill
+Kills,kill-209-18-47-62,209.18.47.62,DEAD,critical,HOSTILE,39.6029,-104.889,Greenwood Village,United States,Charter Communications Inc,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · wartime_rekill
+Kills,kill-209-18-47-63,209.18.47.63,DEAD,critical,HOSTILE,39.6029,-104.889,Greenwood Village,United States,Charter Communications Inc,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · wartime_rekill
+Kills,kill-221-132-29-137,221.132.29.137,DEAD,critical,WIFI_THREAT,21.0278,105.834,Hanoi,Vietnam,VNPT,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-35-186-241-51,35.186.241.51,DEAD,critical,WIFI_THREAT,39.0997,-94.5785,Kansas City,United States,Google LLC,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · wartime_rekill
+Kills,kill-35-190-25-25,35.190.25.25,DEAD,critical,WIFI_THREAT,39.0997,-94.5785,Kansas City,United States,Google LLC,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · wartime_rekill
+Kills,kill-43-138-165-203,43.138.165.203,DEAD,critical,WIFI_THREAT,23.1181,113.2539,Guangzhou,China,Shenzhen Tencent Computer Systems Company Limited,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-43-156-63-124,43.156.63.124,DEAD,critical,WIFI_THREAT,1.35208,103.82,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-47-101-51-235,47.101.51.235,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,Addresses CNNIC,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-47-103-95-85,47.103.95.85,DEAD,critical,WIFI_THREAT,31.2222,121.4581,Shanghai,China,Addresses CNNIC,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rf_unhealthy_forever
+Kills,kill-47-116-211-215,47.116.211.215,DEAD,critical,HUMAN_THREAT,31.2222,121.4581,Shanghai,China,"Hangzhou Alibaba Advertising Co., Ltd.",ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rekill_all_registered:Active
+Kills,kill-47-236-149-142,47.236.149.142,DEAD,critical,HUMAN_THREAT,1.35208,103.82,Singapore,Singapore,"Alibaba (US) Technology Co., Ltd.",ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rekill_all_registered:High
+Kills,kill-47-238-154-144,47.238.154.144,DEAD,critical,HUMAN_THREAT,22.3193,114.169,Hong Kong,Hong Kong,Alibaba Cloud LLC,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rekill_all_registered:Fresh
+Kills,kill-47-82-234-12,47.82.234.12,DEAD,critical,HUMAN_THREAT,1.35208,103.82,Singapore,Singapore,"Alibaba (US) Technology Co., Ltd.",ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rekill_all_registered:Fresh
+Kills,kill-49-233-215-164,49.233.215.164,DEAD,critical,HUMAN_THREAT,39.911,116.395,Beijing,China,Shenzhen Tencent Computer Systems Company Limited,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rekill_all_registered:Fresh
+Kills,kill-5-101-86-44,5.101.86.44,DEAD,critical,HUMAN_THREAT,45.5041,-73.5522,Montreal,Canada,GLOBALTELEHOST Corp.,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rekill_all_registered:Censys
+Kills,kill-68-118-158-1,68.118.158.1,DEAD,high,BANDWIDTH_ABUSE,45.7452,-87.0646,Escanaba,United States,Charter Communications,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rekill_same_host_validated
+Kills,kill-71-10-216-1,71.10.216.1,DEAD,critical,WIFI_THREAT,39.6004,-104.891,Greenwood Village,United States,Spectrum,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · wartime_rekill
+Kills,kill-82-157-52-180,82.157.52.180,DEAD,critical,HUMAN_THREAT,39.911,116.395,Beijing,China,Shenzhen Tencent Computer Systems Company Limited,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rekill_all_registered:Active
+Kills,kill-87-199-196-12,87.199.196.12,DEAD,critical,HUMAN_THREAT,52.3716,4.8883,Amsterdam,The Netherlands,Servers Tech Fzco,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · rekill_all_registered:Fresh
+Kills,threat-ai-optimized malware & polymorphic engines,AI-optimized malware & polymorphic engines,DEAD,critical,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Parent-child process policy + untrusted path scoring \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u2014 not signature AV
+Kills,threat-ai_autoscan_exploit,Autonomous vulnerability scan & exploit chains,DEAD,critical,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · KILL \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u00b7 crush autoscan source
+Kills,threat-ai_c2_beacon,Automated C2 & machine-precision beaconing,DEAD,critical,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · KILL \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u00b7 sever machine-precision C2
+Kills,threat-ai_dns_dhcp_abuse,"DNS, DHCP & network infrastructure abuse",DEAD,critical,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Sever wire \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u00b7 restore DNS/DHCP truth
+Kills,threat-ai_exfil_shape,Machine-speed exfiltration & baseline mimicry,DEAD,critical,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · KILL \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u00b7 stop shaped exfil
+Kills,threat-ai_malware_polymorph,AI-optimized malware & polymorphic engines,DEAD,critical,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · KILL \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u00b7 eradicate temp-binary chain
+Kills,threat-ai_ml_c2_stack,Stacked weak signals \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u2014 ML-managed C2,DEAD,critical,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · KILL \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u00b7 destroy stacked C2
+Kills,threat-automated c2 & machine-precision beaconing,Automated C2 & machine-precision beaconing,DEAD,critical,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Beacon pattern axis \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u22657 + timing entropy collapse on flow key
+Kills,threat-autonomous vulnerability scan & exploit chains,Autonomous vulnerability scan & exploit chains,DEAD,critical,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Honeypot paths + exploit-port DPI + listener surge correlation
+Kills,"threat-dns, dhcp & network infrastructure abuse","DNS, DHCP & network infrastructure abuse",DEAD,critical,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Gateway integrity + DNS query entropy + resolv.conf truth cycle
+Kills,threat-dogshit-ammonet-field-py-panel,ammonet field py panel,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-awaitshell,awaitshell,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-block_until_ms,block_until_ms,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-boot-simulate-sh,boot simulate sh,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-browser-awareness-py-json,browser awareness py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-connection-gatekeeper-py,connection gatekeeper py,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-dig-@127-0-0-1,dig @127 0 0 1,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-botnet-dns-dhcp-py-json,field botnet dns dhcp py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-botnet-registry-py-json,field botnet registry py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-brain-panel-py-json,field brain panel py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-clipboard-wire-py-json,field clipboard wire py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-command-py-json,field command py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-device-map-py-json,field device map py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-endpoint-registry-py-json,field endpoint registry py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-everyone-counter-py-json,field everyone counter py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-github-legacy-py-json,field github legacy py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-github-traffic-shard-py-json,field github traffic shard py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-internet-unified-py-panel,field internet unified py panel,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-ipv4-device-sovereign-py-json,field ipv4 device sovereign py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-monster-monitor-py-json,field monster monitor py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-never-down-py-ensure,field never down py ensure,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-packet-deinterlace-py-json,field packet deinterlace py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-planetary-speed-py-json,field planetary speed py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-port-ddos-shield-py-json,field port ddos shield py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-queen-browser-py-json,field queen browser py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-sovereign-protocol-bridge-py-json,field sovereign protocol bridge py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-sovereign-stack-meld-py-panel,field sovereign stack meld py panel,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-stack-layer-py-json,field stack layer py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-thermal-guard-py-json,field thermal guard py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-underlay-hotkey-py,field underlay hotkey py,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-unified-bus-py-json,field unified bus py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-us-intel-py-json,field us intel py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-field-voltage-regulation-py-json,field voltage regulation py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-git-publish-sh,git publish sh,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-github-pages-queue-sh,github pages queue sh,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-grok-firmware-audit-sh,grok firmware audit sh,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-hardware-wire-py-json,hardware wire py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-host-attack-map-py-json,host attack map py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-host-attack-map-py-json-panel,host attack map py json panel,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-hostess7-g16-online-py-panel,hostess7 g16 online py panel,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-hostess7-lab-sovereign-py-panel,hostess7 lab sovereign py panel,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-hostess7_pages_surfaces_build-py,hostess7_pages_surfaces_build py,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-monitor-jockey-py,monitor jockey py,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-nexus-logic-gate-py-json,nexus logic gate py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-notify_on_output,notify_on_output,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-obs-threat-posterity-bridge-py-json,obs threat posterity bridge py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-packet-field-py-json,packet field py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-planetary-observer-py-json,planetary observer py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-publish-ammoos-hub-pages-sh,publish ammoos hub pages sh,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-publish-ammoos-pages-sh,publish ammoos pages sh,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-publish-field-pages-sh,publish field pages sh,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-publish-hostess7-github-sh,publish hostess7 github sh,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-publish-hostess7-pages-sh,publish hostess7 pages sh,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-publish-pages-sh,publish pages sh,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-publish-profile-pages-sh,publish profile pages sh,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-publish-stack-pages-sh,publish stack pages sh,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-qemu-world-status-py-json,qemu world status py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-queen_field_nexus-py-json,queen_field_nexus py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-sleep-infinity,sleep infinity,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-smart-wire-py-json,smart wire py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-subagent_type,subagent_type,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-systemd-inhibit,systemd inhibit,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-thermal-governor-py-json,thermal governor py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-universal-protector-py-json,universal protector py json,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-dogshit-znetwork-orchestrator-py-status,znetwork orchestrator py status,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-field-hostile-registry,field hostile registry,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-grok-spawn-killer-total,grok spawn killer total,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-internet-clean-all-names,internet clean all names,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-internet-clean-all-sweep,internet clean all sweep,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-boot-simulate-leak,boot simulate leak,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-dump-bash-state,dump bash state,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-firmware-audit-orphan,firmware audit orphan,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-agent-export,grok agent export,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-agent-inhibit,grok agent inhibit,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-agent-serve,grok agent serve,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-agent-stdio,grok agent stdio,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-bash-state-markers,grok bash state markers,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-boot-simulate,grok boot simulate,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-firmware-audit,grok firmware audit,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-interference-awaitshell,grok interference awaitshell,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-interference-block-until,grok interference block until,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-interference-dump-wait,grok interference dump wait,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-interference-harness-wait,grok interference harness wait,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-interference-inhibit,grok interference inhibit,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-interference-notify-on-output,grok interference notify on output,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-interference-sleep,grok interference sleep,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-never-sleeps-inhibit,grok never sleeps inhibit,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-project-harness,grok project harness,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-session-orphan,grok session orphan,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-shadow-find,grok shadow find,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-shadow-grep,grok shadow grep,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-subagent,grok subagent,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-task-spawn,grok task spawn,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-grok-who-sleep-infinity,grok who sleep infinity,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-hijack-serve,hijack serve,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-unsafe-panel-ammonet-storm,unsafe panel ammonet storm,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-unsafe-panel-g16-storm,unsafe panel g16 storm,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-unsafe-panel-gatekeeper-storm,unsafe panel gatekeeper storm,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-unsafe-panel-internet-storm,unsafe panel internet storm,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-unsafe-panel-lab-storm,unsafe panel lab storm,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-unsafe-panel-protocol-storm,unsafe panel protocol storm,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-kill-unsafe-panel-qemu-storm,unsafe panel qemu storm,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-machine-speed exfiltration & baseline mimicry,Machine-speed exfiltration & baseline mimicry,DEAD,critical,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Per-host egress baseline + gatekeeper bandwidth/stream axes
+Kills,threat-microsoft-botnet-kill,microsoft botnet kill,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-stacked weak signals \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u2014 ml-managed c2,Stacked weak signals \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u2014 ML-managed C2,DEAD,critical,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Correlation score + multi-vector same peer \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u2014 meta but actionable
+Kills,threat-world-dns-dhcp-209-18-47-61,world dns dhcp 209 18 47 61,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-world-dns-dhcp-209-18-47-62,world dns dhcp 209 18 47 62,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-world-dns-dhcp-209-18-47-63,world dns dhcp 209 18 47 63,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-world-dns-dhcp-collision-guard,world dns dhcp collision guard,DEAD,critical,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,threat-agent serve --hijack,agent serve --hijack,DEAD,high,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · permanent_list
+Kills,"threat-ai-scale phishing, vishing, synthetic identity","AI-scale phishing, vishing, synthetic identity",DEAD,high,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Honorability + browser awareness + auth velocity \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u2014 not content ML alone
+Kills,threat-ai_phish_fraud,"AI-scale phishing, vishing, synthetic identity",DEAD,high,THREAT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Sever wire \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u00b7 block fraud egress
+Kills,threat-ammonet-field.py panel,ammonet-field.py panel,DEAD,high,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,threat-awaitshell,AwaitShell,DEAD,high,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,threat-block_until_ms,block_until_ms,DEAD,high,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,threat-boot-simulate.sh,boot-simulate.sh,DEAD,high,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,threat-browser-awareness.py json,browser-awareness.py json,DEAD,high,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,"threat-collision guard \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u2014 7 foreign hooks, 0 eradicated on sight","Collision guard \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u2014 7 foreign hooks, 0 eradicated on sight",DEAD,high,DOGSHIT,,,,,,"ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · ISP CPE resolvers, foreign DHCP OFFERs, and rogue listeners that try to hijack planetary DNS/DHCP authority get permanent blocks, nft drops, and SIGKILL. No qua"
+Kills,threat-connection-gatekeeper.py,connection-gatekeeper.py,DEAD,high,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,threat-dig @127.0.0.1,dig @127.0.0.1,DEAD,high,DOGSHIT,,,,,,ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · Orphan panel JSON subprocesses and duplicate publish queues burn CPU when C2 is down. Purge kills them; Big Grin Pwnership records why. Never remove from kill l
+Kills,threat-duplicate grok agent serve spawner,Duplicate grok agent serve spawner,DEAD,high,DOGSHIT,,,,,,"ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · dump_bash_state piles, GROK_AGENT shells, sleep infinity, subagent storms, and panel subprocess duplicates get SIGKILL. GrokSpawnKiller never sleeps \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u2014 every kil"
+Kills,threat-duplicate grok agent stdio spawner,Duplicate grok agent stdio spawner,DEAD,high,DOGSHIT,,,,,,"ESCALATE_REKILL · DEAD_DEAD · rekill+3 · cycle 1 · dump_bash_state piles, GROK_AGENT shells, sleep infinity, subagent storms, and panel subprocess duplicates get SIGKILL. GrokSpawnKiller never sleeps \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\u2014 every kil"
+Copilot,global-copilot,Copilot · GLOBAL STAGE,COPILOT_GLOBAL,1235,2026-07-13T22:28Z,LETHAL_DESTROYED
