@@ -138,21 +138,17 @@
       <p class="kicker">BIG GRIN TERRORIST HUNTER · WAR DAY · GitHub Pages · C++ field origin</p>
       <h1>LETHAL kills · cook FAT · queue reburn · burn · scrub · wall outlet · map · dossiers</h1>
       <p class="sub">
-        Public authority-share of the live field deck. No demo · no fake · multi-signal hunt on the operator host.
-        Hover pins for full enemy tooltips. Click anything for the detail drawer. Exports: Excel / ODS / CSV / JSON.
-        <a href="about.html" style="color:var(--gold)">About / doctrine</a>
-        · <a href="data/war-day.json" style="color:var(--green)">war-day.json</a>
+        Live field deck · C++ origin · multi-signal hunt · <b id="dossierCountLine">dossiers —</b>.
+        Hover pins · click for drawer. Controls: <b>export only</b>.
+        <a href="about.html" style="color:var(--gold)">About</a>
       </p>
       <p class="okline" id="bootLine">booting…</p>
     </div>
-    <div class="actions">
-      <button class="btn good" id="btnCsv" type="button">⬇ Export CSV</button>
-      <button class="btn good" id="btnJson" type="button">⬇ Export JSON</button>
-      <a class="btn primary" href="export/big-grin-swallows.xlsx">⬇ Excel .xlsx</a>
-      <a class="btn primary" href="export/big-grin-swallows.ods">⬇ LibreOffice .ods</a>
-      <a class="btn" href="export/big-grin-swallows-global.csv">CSV file</a>
-      <a class="btn" href="export/big-grin-swallows-global.json">JSON file</a>
-      <button class="btn" id="btnRefresh" type="button">↻ Refresh now</button>
+    <div class="actions" id="exportBar" aria-label="Exports only">
+      <button class="btn good" id="btnCsv" type="button" title="Download live CSV of all kill dossiers">⬇ CSV</button>
+      <button class="btn good" id="btnJson" type="button" title="Download live JSON pack">⬇ JSON</button>
+      <a class="btn primary" id="btnXlsx" href="export/big-grin-swallows.xlsx">⬇ Excel</a>
+      <a class="btn primary" id="btnOds" href="export/big-grin-swallows.ods">⬇ ODS</a>
     </div>
   </header>
   <div class="beam"></div>
@@ -301,7 +297,8 @@
     const STATIC_MAP = {
       "/api/status": "data/status.json",
       "/api/regions": "data/regions.json",
-      "/api/dossiers": "data/dossiers.json",
+      "/api/dossiers": "data/kill-dossiers.json",
+      "/api/kill-dossiers": "data/kill-dossiers.json",
       "/api/planet": "data/planet-live.json",
       "/threat-catalog.json": "data/threat-catalog.json",
       "/live-feed.json": "data/live-feed.json",
@@ -769,19 +766,27 @@
       a.download=name; a.click();
       setTimeout(()=>URL.revokeObjectURL(a.href),2500);
     }
-    function exportJson(){ download("big-grin-swallows-global.json","application/json", JSON.stringify(globalExportObject(),null,2)); }
+    function exportJson(){
+      const o=globalExportObject();
+      o.dossier_meta=STATE.dossierMeta||{};
+      o.count=(STATE.dossierMeta&&STATE.dossierMeta.count)||(STATE.kills||[]).length;
+      o.dead=(STATE.dossierMeta&&STATE.dossierMeta.dead)||0;
+      download("big-grin-kill-dossiers-"+o.count+".json","application/json", JSON.stringify(o,null,2));
+    }
     function exportCsv(){
-      const lines=["section,id,label,status,severity,vector,lat,lon,detail"];
+      // clean kill-dossier export — full live list (265)
+      const lines=["id,target,status,dead,rekill_count,severity,vector,lat,lon,city,country,isp,phase,reason"];
       const ce=v=>{const s=String(v??""); return /[",\n]/.test(s)?`"${s.replace(/"/g,'""')}"`:s;};
-      for(const t of STATE.threats||[])
-        lines.push(["threat",t.id,t.label,t.status||(t.eaten?"EATEN":""),t.severity,t.vector,"","",(t.detail||"").slice(0,400)].map(ce).join(","));
       for(const k of STATE.kills||[]){
         const g=k.gps||{};
-        lines.push(["kill",k.id,k.target,k.status,k.severity,k.vector,g.lat,g.lon,(k.dossier_text||k.reason||"").slice(0,400)].map(ce).join(","));
+        lines.push([
+          k.id,k.target,k.status,k.dead?"1":"0",k.rekill_count||0,k.severity,k.vector,
+          g.lat,g.lon,g.city,g.country,g.isp,k.phase,
+          (k.reason||k.dossier_text||"").toString().slice(0,500)
+        ].map(ce).join(","));
       }
-      for(const r of STATE.regions||[])
-        lines.push(["fleet",r.code,r.name,r.status,"",r.zone,r.lat,r.lon,"racks="+r.racks].map(ce).join(","));
-      download("big-grin-swallows-global.csv","text/csv", lines.join("\n"));
+      const n=(STATE.kills||[]).length;
+      download("big-grin-kill-dossiers-"+n+".csv","text/csv;charset=utf-8", lines.join("\n"));
     }
 
     async function refresh(){
@@ -789,17 +794,18 @@
       $("#clock").textContent = new Date().toISOString().slice(0,19)+"Z";
       $("#bootLine").textContent = "refreshing data…";
       const [
-        status, regionsWrap, dossiers, catalog, liveFeed,
+        status, regionsWrap, killPack, dossiersAlt, catalog, liveFeed,
         wartime, copilot, copilotGlobal, angel, dns, planet,
         mesh, rekill, doctrine, history, eaten, lethalQ, lethalDoc, entropyD, shotsBoard,
-        rackGuard, fleetSt, globalProt
+        rackGuard, fleetSt, globalProt, pagesPub
       ] = await Promise.all([
         j("data/status.json"),
         j("data/regions.json"),
+        j("data/kill-dossiers.json"),
         j("data/dossiers.json"),
         j("data/threat-catalog.json"),
         j("data/live-feed.json"),
-        j("data/autopilot.json"),
+        j("data/wartime-status.json"),
         j("data/copilot-threat-monitor.json"),
         j("data/copilot-global-rekill.json"),
         j("data/angel-seal-status.json"),
@@ -817,11 +823,24 @@
         j("data/rack-guard-live.json"),
         j("data/fleet-status.json"),
         j("data/global-protector-live.json"),
+        j("data/pages-publish.json"),
       ]);
-      STATE.status = status||{};
-      STATE.regions = (regionsWrap&&regionsWrap.regions)||[];
-      STATE.kills = (dossiers&&(dossiers.kills||dossiers.dossiers))||[];
+      STATE.status = status||wartime||{};
+      STATE.regions = (regionsWrap&&(regionsWrap.regions||regionsWrap.areas))||[];
+      // prefer live kill-dossiers pack (count 265 · DEAD rekill)
+      const pack = (killPack&&Array.isArray(killPack.kills)&&killPack.kills.length)
+        ? killPack
+        : (dossiersAlt&&Array.isArray(dossiersAlt.kills)?dossiersAlt:killPack)||{};
+      STATE.kills = pack.kills||[];
+      STATE.dossierMeta = {
+        count: pack.count!=null?pack.count:STATE.kills.length,
+        dead: pack.dead!=null?pack.dead:STATE.kills.filter(k=>k.dead||k.status==="DEAD").length,
+        updated: pack.updated||"",
+        rekill_stamps: pack.total_rekill_stamps||0,
+        escalate_mode: pack.escalate_mode||""
+      };
       STATE.threats = (catalog&&catalog.threats)||[];
+      STATE.pagesPub = pagesPub||{};
       let ev = (liveFeed&&liveFeed.events)||[];
       if(!Array.isArray(ev)) ev=[];
       if(liveFeed&&liveFeed.latest&&!ev.length) ev=[liveFeed.latest];
@@ -850,18 +869,30 @@
       renderLists();
       renderDense();
       renderInfoBands();
+      // bust cache on static office packs so export links stay fresh after C++ publish
+      const bust = "?t=" + Date.now();
+      const x = $("#btnXlsx"), o = $("#btnOds");
+      if (x) x.href = "export/big-grin-swallows.xlsx" + bust;
+      if (o) o.href = "export/big-grin-swallows.ods" + bust;
+      const dm = STATE.dossierMeta||{};
+      const dline = $("#dossierCountLine");
+      if (dline) dline.textContent =
+        "DEAD "+fmt(dm.dead)+" / "+fmt(dm.count||STATE.kills.length)+" dossiers"+
+        (dm.updated?(" · "+dm.updated):"")+
+        (dm.rekill_stamps?(" · rekill×"+fmt(dm.rekill_stamps)):"");
       const zg = (STATE.mesh.zones && Object.keys(STATE.mesh.zones).length) || STATE.rackGuard.zones_hunting || 0;
       $("#bootLine").textContent =
-        "OK · threats "+STATE.threats.length+" · kills "+STATE.kills.length+
-        " · areas "+STATE.regions.length+" · live "+STATE.live.length+
-        " · zones hunting "+zg+" · rack shots "+fmt(STATE.mesh.global_shots||STATE.rackGuard.global_shots||0)+
+        "LIVE · DEAD "+fmt(dm.dead)+"/"+fmt(dm.count||STATE.kills.length)+
+        " · threats "+STATE.threats.length+
+        " · areas "+STATE.regions.length+
+        " · zones "+zg+
         " · map "+(STATE.mapReady?"ready":"pending")+
+        " · export CSV·JSON·Excel·ODS only"+
         (STATE.errors.length?" · errs "+STATE.errors.length:"");
       $("#foot").textContent =
-        "BIG GRIN · C++ · violent WORLD+INTERNET · zones "+zg+
-        " · shots "+fmt(STATE.mesh.global_shots||0)+
-        " · defending "+fmt(STATE.status.defending||STATE.fleetStatus.defending)+
-        " · God Bless · export export/big-grin-swallows.xlsx";
+        "BIG GRIN · C++ · DEAD "+fmt(dm.dead)+"/"+fmt(dm.count||STATE.kills.length)+
+        " · rekill "+fmt(dm.rekill_stamps||0)+
+        " · zones "+zg+" · God Bless · clean export only";
     }
 
     // tabs
@@ -879,7 +910,6 @@
     });
     $("#q").addEventListener("input", e=>{ STATE.filter=e.target.value; STATE.page=0; renderLists(); });
     $("#dClose").onclick = closeDrawer;
-    $("#btnRefresh").onclick = ()=>refresh();
     $("#btnCsv").onclick = exportCsv;
     $("#btnJson").onclick = exportJson;
 
@@ -890,8 +920,8 @@
         tries++;
         if(window.SpearWorldMap || tries>40){
           refresh();
-          setInterval(refresh, 5000);
-          // regenerate office packs hint
+          // live poll — dossiers/count from C++-published data/*.json
+          setInterval(refresh, 4000);
           return;
         }
         $("#bootLine").textContent = "waiting for map module… "+tries;

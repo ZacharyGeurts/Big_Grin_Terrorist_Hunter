@@ -1,0 +1,10 @@
+{
+  "schema": "big-grin-pages-publish/v1",
+  "ts": "2026-07-14T00:16Z",
+  "stack": "C++",
+  "dossiers": 265,
+  "dead": 265,
+  "exports": ["csv","json","xlsx","ods"],
+  "controls": "export_only",
+  "motto": "265 live · DEAD rekill · clean export · God Bless"
+}

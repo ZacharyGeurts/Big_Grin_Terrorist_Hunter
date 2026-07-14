@@ -3,6 +3,16 @@
   "mode": "WARTIME",
   "stage": "GLOBAL",
   "war_day": true,
+  "pissed": true,
+  "hated": true,
+  "enemy_status": "HATED",
+  "field_weapons": "UDP_WAR_BLASTERS",
+  "cooked": true,
+  "fry": "FIELD_UDP_TO_OUTLET",
+  "nothing_left": true,
+  "no_storage": true,
+  "no_room_for_more": true,
+  "global_servers": "FRIED_TO_OUTLET",
   "real": true,
   "demo": false,
   "fake": false,
@@ -15,9 +25,9 @@
   "blessing": "God Bless",
   "rule": "every_kill_gets_rekill",
   "signal": "FIELD_UDP_WAR_BLASTERS",
-  "ts": "2026-07-13T21:53Z",
-  "cycle": 32,
-  "motto": "WAR DAY · REAL hunt · LETHAL KILL/REKILL · no demo · no fake · God Bless.",
+  "ts": "2026-07-14T00:16Z",
+  "cycle": 1105,
+  "motto": "COOKED · Field UDP fries global servers to WALL OUTLET · nothing left · no storage · no room · HATED · PISSED · God Bless",
   "pipeline": ["SPOT","VECTOR_SOURCE","COOK_FAT","QUEUE_REBURN","BURN","SCRUB","OUTLET_DESTROY","SEAL"],
   "oust": {
     "hotdog_down_a_hallway": "LETHAL_OUSTED_PID_KILL",
@@ -34,14 +44,19 @@
     "blocked_ips": 34,
     "copilot_hunt_seen": 0,
     "copilot_hunt_killed": 0,
-    "copilot_global_lifetime": 3773,
-    "copilot_global_targets": 10
+    "copilot_global_lifetime": 89572,
+    "copilot_global_targets": 13
   },
   "wartime_services": {
     "swallows_9490": true,
     "planet_9600": true,
-    "fleet_link_9500": true
+    "fleet_link_9500": true,
+    "zones_up": 8,
+    "dns_stub": true,
+    "all_critical": true
   },
+  "global_protector": true,
+  "protect": ["WORLD", "INTERNET", "FIELD_STACK", "OPERATOR_HOST"],
   "ironclad": [
     "ironclad:lethal-kill-rekill:1",
     "ironclad:cook-fat:1",
@@ -49,6 +64,11 @@
     "ironclad:copilot-global-rekill:1",
     "ironclad:hard-dispose:1",
     "ironclad:cpp-only:1",
-    "ironclad:field-one-only:1"
+    "ironclad:field-one-only:1",
+    "ironclad:global-protector:1",
+    "ironclad:service-watch:1",
+    "ironclad:binary-seal:1",
+    "ironclad:cloud-block:1",
+    "ironclad:foreign-dns-block:1"
   ]
 }
