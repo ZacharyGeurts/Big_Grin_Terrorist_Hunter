@@ -1,0 +1,30 @@
+{
+  "schema": "target-grids/v1",
+  "title": "Grids on 'em · known GPS + network",
+  "cell_deg": 10,
+  "cycle": 6,
+  "pins_gridded": 35,
+  "grid_count": 15,
+  "fathom": false,
+  "know_shot": true,
+  "stack": "C++",
+  "ts": "2026-07-14T00:49:05Z",
+  "motto": "Grids on known enemies only · shots sealed · God Bless",
+  "grids": [
+    {"id":"G:N30E120","ilat":30,"ilon":120,"lat":31.222200,"lon":121.458100,"count":6,"dead":0,"city":"Shanghai","country":"China","target":"","seal":"3ad45e996af37297","shannon_h":4.609700,"know_shot":true},
+    {"id":"G:N00E000","ilat":0,"ilon":0,"lat":3.891335,"lon":2.270905,"count":2,"dead":0,"city":"Osogbo","country":"Nigeria","target":"","seal":"687acf7aecc249fd","shannon_h":4.359465,"know_shot":true},
+    {"id":"G:N20E110","ilat":20,"ilon":110,"lat":22.923850,"lon":113.487875,"count":4,"dead":0,"city":"Guangzhou","country":"China","target":"","seal":"f551f995da7ee647","shannon_h":4.538191,"know_shot":true},
+    {"id":"G:N30W120","ilat":30,"ilon":-120,"lat":34.054400,"lon":-118.244000,"count":1,"dead":0,"city":"Los Angeles","country":"United States","target":"","seal":"a4fe98892a74700a","shannon_h":4.635688,"know_shot":true},
+    {"id":"G:N40W080","ilat":40,"ilon":-80,"lat":43.400633,"lon":-75.631533,"count":3,"dead":0,"city":"Orangeburg","country":"United States","target":"","seal":"b5c354c4428372c2","shannon_h":4.601674,"know_shot":true},
+    {"id":"G:N10E070","ilat":10,"ilon":70,"lat":12.975300,"lon":77.591000,"count":1,"dead":0,"city":"Bengaluru","country":"India","target":"","seal":"66cdf207c8cc3348","shannon_h":4.511622,"know_shot":true},
+    {"id":"G:N50E010","ilat":50,"ilon":10,"lat":50.477700,"lon":12.364900,"count":1,"dead":0,"city":"Falkenstein","country":"Germany","target":"","seal":"5856379d9ed41142","shannon_h":4.511622,"know_shot":true},
+    {"id":"G:N00E100","ilat":0,"ilon":100,"lat":1.352080,"lon":103.820000,"count":4,"dead":0,"city":"Singapore","country":"Singapore","target":"","seal":"61fdac5f541cbd92","shannon_h":4.443126,"know_shot":true},
+    {"id":"G:N50E000","ilat":50,"ilon":0,"lat":51.241250,"lon":6.785215,"count":2,"dead":0,"city":"Frankfurt am Main","country":"Germany","target":"","seal":"c0820ac0efff0726","shannon_h":4.443126,"know_shot":true},
+    {"id":"G:N40W120","ilat":40,"ilon":-120,"lat":40.524700,"lon":-111.863800,"count":1,"dead":0,"city":"Draper","country":"United States","target":"","seal":"640f3c70b1e617ef","shannon_h":4.590317,"know_shot":true},
+    {"id":"G:N30W110","ilat":30,"ilon":-110,"lat":39.602275,"lon":-104.889500,"count":4,"dead":0,"city":"Greenwood Village","country":"United States","target":"","seal":"fb9df99b58472dbe","shannon_h":4.624594,"know_shot":true},
+    {"id":"G:N20E100","ilat":20,"ilon":100,"lat":21.027800,"lon":105.834000,"count":1,"dead":0,"city":"Hanoi","country":"Vietnam","target":"","seal":"c514c2386c6fbff1","shannon_h":4.496579,"know_shot":true},
+    {"id":"G:N30W100","ilat":30,"ilon":-100,"lat":39.099700,"lon":-94.578500,"count":2,"dead":0,"city":"Kansas City","country":"United States","target":"","seal":"a8e64f7d21eb4ea7","shannon_h":4.590970,"know_shot":true},
+    {"id":"G:N30E110","ilat":30,"ilon":110,"lat":39.911000,"lon":116.395000,"count":2,"dead":0,"city":"Beijing","country":"China","target":"","seal":"5cf7bc4fad4af9d6","shannon_h":4.583563,"know_shot":true},
+    {"id":"G:N40W090","ilat":40,"ilon":-90,"lat":45.745200,"lon":-87.064600,"count":1,"dead":0,"city":"Escanaba","country":"United States","target":"","seal":"8871b10b0e1905b3","shannon_h":4.552654,"know_shot":true}
+  ]
+}
