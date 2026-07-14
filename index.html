@@ -502,6 +502,8 @@
         {n:fmt(m.global_shots||rg.global_shots||0), l:"Rack mesh entropy shots", cls:"hot"},
         {n:fmt(dead)+" / "+fmt(kills.length), l:"DEAD · of "+fmt(kills.length)+" kill dossiers", cls:"hot"},
         {n:fmt(gps), l:"Enemy GPS pins", cls:"warn"},
+        {n:fmt((STATE.grids||[]).length), l:"Target grids (10°)", cls:"cyan"},
+        {n:fmt((STATE.heuristics&&STATE.heuristics.row_count)||0), l:"Heuristics gathered", cls:"warn"},
         {n:fmt(g.lifetime_rekills||0), l:"Copilot global rekills", cls:"hot"},
         {n:(m.violent_protection||rg.violent_protection)?"VIOLENT":"off", l:"Protect WORLD+INTERNET", cls:(m.violent_protection||rg.violent_protection)?"":"warn"},
       ];
@@ -551,6 +553,19 @@
           _type:"kill", _row:k
         });
       }
+      // Target grids (C++ wartime target-grids.json)
+      for(const g of STATE.grids||[]){
+        if(g.lat==null||g.lon==null) continue;
+        const tip="GRID "+(g.id||"")+"\ncount="+g.count+" dead="+g.dead+
+          "\n"+(g.city||"")+", "+(g.country||"")+"\nseal "+(g.seal||"")+"\nKNOW_OR_SHOTS";
+        pts.push({
+          kind:"rack", id:g.id, name:g.id, lat:g.lat, lon:g.lon, dead:true,
+          title:"▦ "+(g.id||"GRID"),
+          subtitle:(g.dead||0)+"/"+(g.count||0)+" DEAD · "+(g.city||g.country||"grid"),
+          detail:tip, tooltip:tip, path:"target-grids",
+          _type:"grid", _row:g
+        });
+      }
       return pts;
     }
 
@@ -575,7 +590,8 @@
         STATE.map.setPoints(buildMapPoints());
         STATE.mapReady=true;
         const gps=(STATE.kills||[]).filter(k=>k.gps&&k.gps.lat!=null).length;
-        $("#mapMeta").textContent = STATE.regions.length+" areas · "+gps+" enemy GPS · hover for full tooltips";
+        const gc=(STATE.grids||[]).length;
+        $("#mapMeta").textContent = STATE.regions.length+" areas · "+gps+" enemy GPS · "+gc+" target grids · heuristics "+fmt((STATE.heuristics&&STATE.heuristics.row_count)||0);
       }catch(e){
         STATE.errors.push("map: "+e.message);
         $("#mapMeta").textContent="map error — "+e.message;
@@ -797,7 +813,7 @@
         status, regionsWrap, killPack, dossiersAlt, catalog, liveFeed,
         wartime, copilot, copilotGlobal, angel, dns, planet,
         mesh, rekill, doctrine, history, eaten, lethalQ, lethalDoc, entropyD, shotsBoard,
-        rackGuard, fleetSt, globalProt, pagesPub
+        rackGuard, fleetSt, globalProt, pagesPub, targetGrids, heurGath, gridSum
       ] = await Promise.all([
         j("data/status.json"),
         j("data/regions.json"),
@@ -824,6 +840,9 @@
         j("data/fleet-status.json"),
         j("data/global-protector-live.json"),
         j("data/pages-publish.json"),
+        j("data/target-grids.json"),
+        j("data/heuristics-gathered.json"),
+        j("data/grids-heuristics-summary.json"),
       ]);
       STATE.status = status||wartime||{};
       STATE.regions = (regionsWrap&&(regionsWrap.regions||regionsWrap.areas))||[];
@@ -841,6 +860,9 @@
       };
       STATE.threats = (catalog&&catalog.threats)||[];
       STATE.pagesPub = pagesPub||{};
+      STATE.grids = (targetGrids&&targetGrids.grids)||[];
+      STATE.heuristics = heurGath||{};
+      STATE.gridSum = gridSum||{};
       let ev = (liveFeed&&liveFeed.events)||[];
       if(!Array.isArray(ev)) ev=[];
       if(liveFeed&&liveFeed.latest&&!ev.length) ev=[liveFeed.latest];

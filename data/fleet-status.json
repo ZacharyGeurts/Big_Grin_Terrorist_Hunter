@@ -5,7 +5,7 @@
   "stack": "C++",
   "violent_protection": true,
   "active_hunt": true,
-  "updated": "2026-07-14T00:16Z",
+  "updated": "2026-07-14T00:48Z",
   "total": 2154000,
   "online": 2154000,
   "defending": 2154000,
@@ -14,7 +14,7 @@
   "racks_per_region": 6000,
   "control": "71.86.190.73:9500",
   "primary_ip": "71.86.190.73",
-  "global_shots": 11056,
+  "global_shots": 16912,
   "global_kills": 0,
   "motto": "Every zone · Field UDP fry · COOKED · nothing left · know every shot"
 }

@@ -25,8 +25,8 @@
   "scripts": "FORBIDDEN",
   "terror_exists": false,
   "blessing": "God Bless",
-  "ts": "2026-07-14T00:16:54Z",
-  "cycle": 1105,
+  "ts": "2026-07-14T00:48:48Z",
+  "cycle": 1,
   "protect": ["WORLD", "INTERNET", "FIELD_STACK", "OPERATOR_HOST"],
   "posture": "FULL_WAR",
   "services": {
@@ -38,7 +38,7 @@
     "all_critical": true
   },
   "defense": {
-    "blocked_ips": 34,
+    "blocked_ips": 35,
     "foreign_dns_hooks": ["209.18.47.61","209.18.47.62","209.18.47.63"],
     "cloud_block_hosts": true,
     "leave_alone": ["gpt-4","openai","chatgpt","grok","hostess7","field_one","spear"]
@@ -46,17 +46,17 @@
   "hunt": {
     "seen_this_cycle": 0,
     "killed_this_cycle": 0,
-    "lifetime_rekills": 89572,
+    "lifetime_rekills": 112699,
     "vectors": ["COPILOT","ZOCR","HOTDOG_HALLWAY","PYTHON_SOFT","FOREIGN_DNS"]
   },
   "binary_seals": {
-    "spear-wartime": {"path":"/home/zachary/.local/bin/spear-wartime","seal":"937cd1f095a10c47","ok":true},
+    "spear-wartime": {"path":"/home/zachary/.local/bin/spear-wartime","seal":"bcb8b40030d16dc8","ok":true},
     "spear-fleet-link": {"path":"/home/zachary/.local/bin/spear-fleet-link","seal":"bbe27cc879dbfc2b","ok":true},
     "spear-www": {"path":"/home/zachary/.local/bin/spear-www","seal":"3b7ecc1eec823806","ok":true},
     "spear-planet": {"path":"/home/zachary/.local/bin/spear-planet","seal":"4b1f5a7d7cfab28c","ok":true},
     "spear-kill-copilot": {"path":"/home/zachary/.local/bin/spear-kill-copilot","seal":"56ab7a19acf04743","ok":true},
     "spear-hard-dispose": {"path":"/home/zachary/.local/bin/spear-hard-dispose","seal":"eeb3abffe19c8fe2","ok":true},
-    "spear-export": {"path":"/home/zachary/.local/bin/spear-export","seal":"79fda02b04328b30","ok":true},
+    "spear-export": {"path":"/home/zachary/.local/bin/spear-export","seal":"5c91a09fa0f3db17","ok":true},
     "spear-rack-guard": {"path":"/home/zachary/.local/bin/spear-rack-guard","seal":"bddb301c18cf6b13","ok":true}
   },
   "pipeline": ["SPOT","VECTOR_SOURCE","COOK_FAT","QUEUE_REBURN","BURN","SCRUB","OUTLET_DESTROY","SEAL"],

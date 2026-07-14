@@ -25,21 +25,21 @@
   "protect": ["WORLD", "INTERNET", "FIELD_STACK", "OPERATOR_HOST"],
   "kill": "FIELD_UDP_WAR_BLASTERS",
   "terror_exists": false,
-  "updated": "2026-07-14T00:16Z",
+  "updated": "2026-07-14T00:48Z",
   "primary_ip": "71.86.190.73",
   "control": "71.86.190.73:9500",
-  "global_shots": 11048,
+  "global_shots": 16912,
   "global_kills": 0,
-  "uptime_s": 3606,
+  "uptime_s": 5521,
   "motto": "Zone mesh · Field UDP fry global servers · WALL OUTLET · COOKED · nothing left · no storage · no room",
   "zones": {
-    "AF": {"port":9514,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":1381,"kills":0,"shots":1381,"violent":true,"hunting":true,"last_seal":"e8c171378a0990c9","endpoint":"71.86.190.73:9514","protect":"WORLD_INTERNET"},
-    "AS": {"port":9515,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":1381,"kills":0,"shots":1381,"violent":true,"hunting":true,"last_seal":"b9d27560564cb4e3","endpoint":"71.86.190.73:9515","protect":"WORLD_INTERNET"},
-    "CA": {"port":9511,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":1381,"kills":0,"shots":1381,"violent":true,"hunting":true,"last_seal":"151664149e8ba06b","endpoint":"71.86.190.73:9511","protect":"WORLD_INTERNET"},
-    "CARIB": {"port":9517,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":1381,"kills":0,"shots":1381,"violent":true,"hunting":true,"last_seal":"0b919dd0edbd8cfc","endpoint":"71.86.190.73:9517","protect":"WORLD_INTERNET"},
-    "EU": {"port":9513,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":1381,"kills":0,"shots":1381,"violent":true,"hunting":true,"last_seal":"2c9e6338e1a92fd5","endpoint":"71.86.190.73:9513","protect":"WORLD_INTERNET"},
-    "NA": {"port":9510,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":1381,"kills":0,"shots":1381,"violent":true,"hunting":true,"last_seal":"30f4789bcebf628e","endpoint":"71.86.190.73:9510","protect":"WORLD_INTERNET"},
-    "OC": {"port":9516,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":1381,"kills":0,"shots":1381,"violent":true,"hunting":true,"last_seal":"dd8815a1b22ee571","endpoint":"71.86.190.73:9516","protect":"WORLD_INTERNET"},
-    "SA": {"port":9512,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":1381,"kills":0,"shots":1381,"violent":true,"hunting":true,"last_seal":"e5919851740d80db","endpoint":"71.86.190.73:9512","protect":"WORLD_INTERNET"}
+    "AF": {"port":9514,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":2114,"kills":0,"shots":2114,"violent":true,"hunting":true,"last_seal":"35d6496c07d1f295","endpoint":"71.86.190.73:9514","protect":"WORLD_INTERNET"},
+    "AS": {"port":9515,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":2114,"kills":0,"shots":2114,"violent":true,"hunting":true,"last_seal":"0c46a64022bc1bfa","endpoint":"71.86.190.73:9515","protect":"WORLD_INTERNET"},
+    "CA": {"port":9511,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":2114,"kills":0,"shots":2114,"violent":true,"hunting":true,"last_seal":"4eb805474ac57c75","endpoint":"71.86.190.73:9511","protect":"WORLD_INTERNET"},
+    "CARIB": {"port":9517,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":2114,"kills":0,"shots":2114,"violent":true,"hunting":true,"last_seal":"1e7a07e8394d3d43","endpoint":"71.86.190.73:9517","protect":"WORLD_INTERNET"},
+    "EU": {"port":9513,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":2114,"kills":0,"shots":2114,"violent":true,"hunting":true,"last_seal":"0fabe7107a1164d4","endpoint":"71.86.190.73:9513","protect":"WORLD_INTERNET"},
+    "NA": {"port":9510,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":2114,"kills":0,"shots":2114,"violent":true,"hunting":true,"last_seal":"3df8b83a38c37a27","endpoint":"71.86.190.73:9510","protect":"WORLD_INTERNET"},
+    "OC": {"port":9516,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":2114,"kills":0,"shots":2114,"violent":true,"hunting":true,"last_seal":"74e47f7e1c06273c","endpoint":"71.86.190.73:9516","protect":"WORLD_INTERNET"},
+    "SA": {"port":9512,"status":"up","rtt_ms":0.000000,"hits":0,"hunts":2114,"kills":0,"shots":2114,"violent":true,"hunting":true,"last_seal":"3aa1c4e56d725eee","endpoint":"71.86.190.73:9512","protect":"WORLD_INTERNET"}
   }
 }
